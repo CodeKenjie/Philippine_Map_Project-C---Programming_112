@@ -1,7 +1,12 @@
 # Philippine_Map_Project-C--Programming_112
 this is a c++ Philippine Map for our school project as an BSIT student at JRCC Manila
 
-## Members
+
+# Read Me first
+Log in muna kayo dito edit nyo to if may gumagawa para alam ng iba kung may nag eedit, tapos remove nyo din after kung di na kayo mag rerequez;
+- kenjie : editing
+
+### Members
 - Maraasin, Francis Kenjie, R. - edit
 - Adrias, Tim
 - Torres, Jochelle
@@ -10,8 +15,5 @@ this is a c++ Philippine Map for our school project as an BSIT student at JRCC M
 - Rapinian, Vin Laurence
 - Lavente, Raizen ken,
 - Caniopa, Jake
-# Read Me first
-Log in muna kayo dito edit nyo to if may gumagawa para alam ng iba kung may nag eedit, tapos remove nyo din after kung di na kayo mag rerequez;
-- kenjie : editing
 
 
