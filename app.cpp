@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-// 149 cities ((void)Functionalities==================================
+#include <iomanip>
+// ================================================== 149 cities ((void)Functionalities) ==================================
 
 // Occidental Mindoro cities =========================================
 void san_j() {
@@ -8,7 +9,7 @@ void san_j() {
     std::string act;
     std::cout << "The Municipality of San Jose is a first class municipality in the province of Occidental Mindoro Philippines.\n According to the 2020 census, it has a population of 153,267 in 37,331 households.\n"; 
     //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
-    std::string baranggays[13][3] = {
+    std::string barangays[13][3] = {
         {"Ambulance", "Shake Properly", "Ansiray"},
         {"Inasak", "New Popular", "Ipil"},
         {"Bangkal", "The Curve", "Barangay 1 (Pob.)"},
@@ -23,10 +24,10 @@ void san_j() {
         {"Catayungan", "San Roque 1", ""},
         {"Central", "San Roque 2", ""}
     };
-        std::cout << "\n======= San Jose (Baranggays) =======\n";
-        for (int i = 0; i < 12; i++) {
+        std::cout << "\n======= San Jose (Barangays) =======\n";
+        for (int i = 0; i < 13; i++) {
             for (int j = 0; j < 3; j++){
-                std::cout << baranggays[i][j] << '\t';
+                std::cout << barangays[i][j] << '\t';
             }
     }
 
@@ -50,17 +51,17 @@ void mamburao() {
     std::string act;
     std::cout << "Mamburao is the capital of Occidental Mindoro, a province in the MIMAROPA region of the Philippines.\nIt’s a coastal municipality that serves as the political, economic, and administrative center of the province.\n-Population: Around 47,000+ (2020 Census)\n"; 
     //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
-    std::string baranggays[5][3] = {
+    std::string barangays[5][3] = {
         {"Poblacion 1", "Poblacion 6", "Talabaan"},
         {"Poblacion 2", "Poblacion 7", "Tangkalan"},
         {"Poblacion 3", "Poblacion 8", "Tayamaan"},
         {"Poblacion 4", "Balansay", "San Luis (Ligang)"},
         {"Poblacion 5", "Payompon", "Fatima (also known as Tii)"},
     };
-    std::cout << "\n======= San Jose (Baranggays) =======\n";
+    std::cout << "\n======= Mamburao(Barangays) =======\n";
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 3; j++){
-            std::cout << baranggays[i][j] << '\t';
+            std::cout << barangays[i][j] << '\t';
         }
     }
     while(true) {
@@ -83,16 +84,16 @@ void magsaysay() {
     std::string act;
     std::cout << "Magsaysay, officially the Municipality of Magsaysay,\n is a municipality in the province of Occidental Mindoro,\n Philippines. According to the 2020 census,\npopulation of 39,767 people\n"; 
     //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
-    std::string baranggays[4][3] = {
+    std::string barangays[4][3] = {
         {"Alibog", "Laste", "Purnaga"},
         {"Caguray", "Lourdes", "Santa Teresa"},
         {"Calawag", "Nicolas (Bulo)", "Sibalat"},
         {"Gapasan", "Paclolo", ""},
     };
-    std::cout << "\n======= San Jose (Baranggays) =======\n";
+    std::cout << "\n======= Magsaysay (Barangays) =======\n";
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 3; j++){
-            std::cout << baranggays[i][j] << '\t';
+            std::cout << barangays[i][j] << '\t';
         }
     }
     while(true) {
@@ -111,53 +112,433 @@ void magsaysay() {
 }
 void calintaan() {
     std::cout << "\n======= Calintaan (City) =======\n";
+    std::string act;
+    std::cout << "Calintaan, officially the Municipality of Calintaan,\n is a municipality in the province of Occidental Mindoro, Philippines.\n According to the 2020 census, it has a population of 30,190 people.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[4][2] = {
+        {"Poblacion (urban center)", "Iriron"},
+        {"Concepcion", "Malpalon"},
+        {"Poypoy", "Tanyag"},
+        {"Purnaga", "New Dagupan"},
+    };
+    std::cout << "\n======= Calintaan (Barangays) =======\n";
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 2; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void sablayan() {
     std::cout << "\n======= Sablayan (City) =======\n";
+    std::string act;
+    std::cout << "Calintaan, officially the Municipality of Calintaan,\n is a municipality in the province of Occidental Mindoro, Philippines.\n According to the 2020 census, it has a population of 30,190 people.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[6][4] = {
+        {"Poblacion (urban center)", "Batong Buhay", "Buenavista", "Burgos "},
+        {"Claudio Salgado", "General Emilio Aguinaldo", "Ibud ", "Ilvita"},
+        {"Lagnas ", "Ligaya ", "Malisbong", "Paetan "},
+        {"Pag‑asa", "San Agustin", "San Francisco", "San Nicolas"},
+        {"San Vicente ", "Santa Lucia", "Santo Niño", "Tagumpay"},
+        {"Tuban", "Victoria", "", ""},
+    };
+    std::cout << "\n======= Sablayan (Barangays) =======\n";
+    for (int i = 0; i < 6; i++) {
+        for (int j = 0; j < 4; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void looc() {
     std::cout << "\n======= Looc (City) =======\n";
+    std::string act;
+    std::cout << "Looc, officially the Municipality of Looc, is a municipality in the province of Occidental Mindoro,\nPhilippines. According to the 2020 census, it has a population of 7,802 people,\nmaking it the least populated municipality in the province.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[3][3] = {
+        {"Ambil", "Balikyas", "Agkawayan"},
+        {"Bonbon (Poblacion)", "Bulacan", "Burol "},
+        {"Guitna (Poblacion) ", "Kanluran (Poblacion)", "Talaotao"}
+    };
+    std::cout << "\n======= Looc (Barangays) =======\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void paluan() {
     std::cout << "\n======= Paluan (City) =======\n";
+    std::string act;
+    std::cout << "Paluan, officially the Municipality of Paluan, is a municipality in the province of Occidental Mindoro,\n Philippines. According to the 2020 census, it has a population of 18,566 people.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[4][3] = {
+        {"Alipaoy", "Harrison", "Lumangbayan"},
+        {"Mananao", "Marikit", "Mapalad Poblacion (Brgy 1)"},
+        {"Handang Tumulong Poblacion (Brgy 2)", "Silahis ng Pag-Asa Poblacion (Brgy 3)", "Pag-Asa ng Bayan Poblacion (Brgy 4)"},
+        {"Bagong Silang Poblacion (Brgy 5)", "San Jose Poblacion (Brgy 6)", "Tubili"}
+    };
+    std::cout << "\n======= Paluan (Barangays) =======\n";
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 3; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void adi() {
     std::cout << "\n======= Abra De Ilog (City) =======\n";
+    std::string act;
+    std::cout << "Abra de Ilog, officially the Municipality of Abra de Ilog, is a municipality in the province of Occidental Mindoro,\n Philippines. According to the 2020 census, it has a population of 35,176 people. Abra de Ilog is classified as partially urban.\n It is 32 kilometers from Mamburao.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[5][2] = {
+        {"Armado", "Balao"},
+        {"Cabacao", "Lumangbayan"},
+        {"Poblacion", "San Vicente"},
+        {"Santa Maria", "Tibag"},
+        {"Udalo", "Wawa"}
+    };
+    std::cout << "\n======= Abra De Ilog (Barangays) =======\n";
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 2; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void lubang() {
     std::cout << "\n======= Lubang (City) =======\n";
+    std::string act;
+    std::cout << "Lubang Island is the largest among the seven islands in the Lubang Group of Islands,\n an archipelago situated to the northwest of the northern tip of the island of Mindoro in the Philippines.\n It is positioned approximately 40 kilometers west of Calatagan, Batangas, or 117 kilometers southwest of Manila.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[4][4] = {
+        {"Binakas", "Cabra (Cabra Island)", "Araw At Bituin", "Bagong Sikat"},
+        {"Maligaya (formerly Bonbon)", "Maliig", "Banaag Ng Pag‑Asa", "Likas Ng Silangan"},
+        {"Tagbac", "Tangal", "Maginhawa", "Ninikat Ng Pag‑Asa"},
+        {"Tilik", "Vigo", "Paraiso", "Surville (formerly Ambulong)"}
+    };
+    std::cout << "\n======= Lubang (Barangays) =======\n";
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void riz() {
     std::cout << "\n======= Rizal (City) =======\n";
+    std::string act;
+    std::cout << "Rizal, officially the Municipality of Rizal, is a municipality in the province of Occidental Mindoro, Philippines.\nAccording to the 2020 census, it has a population of 40,429 people. Rizal is 153 kilometres from Mamburao.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[4][3] = {
+        {"Adela", "Aguas", "Magsikap"},
+        {"Malawaan", "Manoot", "Pitogo"},
+        {"Rizal (Poblacion)", "Rumbang", "Salvacion"},
+        {"San Pedro", "Santo Niño", ""}
+    };
+    std::cout << "\n======= Rizal (Barangays) =======\n";
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 3; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void santa_cruz() {
     std::cout << "\n======= Santa Cruz (City) =======\n";
+    std::string act;
+    std::cout << "Santa Cruz, officially the Municipality of Santa Cruz, is a municipality in the province of Occidental Mindoro, Philippines.\nAccording to the 2020 census, it has a population of 42,417 people. Santa Cruz was formerly known as Talabasi during the precolonial era.\n It is 25 kilometres from Mamburao. \n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[4][3] = {
+        {"Alacaak", "Barahan", "Casague"},
+        {"Dayap", "Kurtinganan", "Lumangbayan"},
+        {"Mulawin ", "Pinagturilan (San Pedro)", "Poblacion I (Brgy 1)"},
+        {"Poblacion II (Brgy 2)", "San Vicente", ""}
+    };
+    std::cout << "\n======= Rizal (Barangays) =======\n";
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 3; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void baco() {
     std::cout << "\n======= Baco (City) =======\n";
+    std::string act;
+    std::cout << "Baco, officially the Municipality of Baco, is a municipality in the province of Oriental Mindoro, Philippines.\n According to the 2020 census, it has a population of 39,817 people.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[9][3] = {
+        {"Alag", "Bangkatan", "Baras"},
+        {"Bayanan", "Burbuli", "Catwiran I"},
+        {"Catwiran II", "Dulangan I", "Dulangan II"},
+        {"Lantuyang", "Lumang Bayan", "Malapad"},
+        {"Mangangan I", "Mangangan II", "Mayabig"},
+        {"Pambisan", "Poblacion", "Pulang-Tubig"},
+        {"Putican–Cabulo", "San Andres", "San Ignacio "},
+        {"Santa Cruz", "Santa Rosa I", "Santa Rosa II"},
+        {"Tabon-Tabon", "Tagumpay", "Water"}
+    };
+    std::cout << "\n======= Baco (Barangays) =======\n";
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 3; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void naujan() {
+    std::cout << "\n======= Naujan (City) =======\n";
+    std::string act;
+    std::cout << "Baco, officially the Municipality of Baco, is a municipality in the province of Oriental Mindoro, Philippines.\n According to the 2020 census, it has a population of 39,817 people.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string barangays[14][5] = {
+        {"Adrialuna", "Andres Ylagan", "Antipolo ", "Apitong", "Arangin"},
+        {"Aurora", "Bacungan", "Bagong Buhay", "Balite", "Bancuro"},
+        {"Banuton", "Dulangan I", "Barcenaga ", "Bayani", "Buhangin"},
+        {"Caburo", "Concepcion ", "Dao", "Del Pilar", "Estrella"},
+        {"Evangelista", "Gamao ", "General Esco", "Herrera", "Inarawan"},
+        {"Kalinisan ", "Laguna ", "Mabini", "Mahabang Parang", "Malaya"},
+        {"Malinao", "Malvar", "Masagana", "Masaguing", "Melgar A"},
+        {"Melgar B", "SMetolza", "Montelago", "Montemayor", "Motoderazo"},
+        {"Mulawin", "Nag‑Iba I", "Nag‑Iba II", "Pagkakaisa", "Paniquian"},
+        {"Pinagsabangan I", "Pinagsabangan II", "Pinahan", "Poblacion II (Barangay II)", "Poblacion II (Barangay II)"},
+        {"Poblacion III (Barangay III)", "Sampaguita", "San Agustin I", "San Agustin II", "San Andres"},
+        {"San Antonio", "San Carlos", "San Isidro", "San Jose", "San Luis"},
+        {"San Nicolas", "San Pedro", "Santa Cruz ", "Santa Isabel", "Santa Maria"},
+        {"Santiago", "Santo Niño", "Tagumpay", "Tigkan", ""}
+    };
+    std::cout << "\n======= Naujan (Barangays) =======\n";
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 3; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 
 }
-// more info page
-void more_info(){
+
+// Oriental Mindoro Cities =========================================================================================================================
+void calapan_CAP() {
+    std::cout << "\n======= Calapan (Capital City) =======\n";
+    std::string act;
+    std::cout << "Baco, officially the Municipality of Baco, is a municipality in the province of Oriental Mindoro, Philippines.\n According to the 2020 census, it has a population of 39,817 people.\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    // todo barrangays
+    std::string barangays[12][5] = {
+        {"Adrialuna", "Andres Ylagan", "Antipolo ", "Apitong", "Arangin"},
+        {"Aurora", "Bacungan", "Bagong Buhay", "Balite", "Bancuro"},
+        {"Banuton", "Dulangan I", "Barcenaga ", "Bayani", "Buhangin"},
+        {"Caburo", "Concepcion ", "Dao", "Del Pilar", "Estrella"},
+        {"Evangelista", "Gamao ", "General Esco", "Herrera", "Inarawan"},
+        {"Kalinisan ", "Laguna ", "Mabini", "Mahabang Parang", "Malaya"},
+        {"Malinao", "Malvar", "Masagana", "Masaguing", "Melgar A"},
+        {"Melgar B", "SMetolza", "Montelago", "Montemayor", "Motoderazo"},
+        {"Mulawin", "Nag‑Iba I", "Nag‑Iba II", "Pagkakaisa", "Paniquian"},
+        {"Pinagsabangan I", "Pinagsabangan II", "Pinahan", "Poblacion II (Barangay II)", "Poblacion II (Barangay II)"},
+        {"Poblacion III (Barangay III)", "Sampaguita", "San Agustin I", "San Agustin II", "San Andres"}
+    };
+    std::cout << "\n======= Naujan (Barangays) =======\n";
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 3; j++){
+            std::cout << barangays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void baco() {
+
+}
+void bongabong() {
+
+}
+void bulalacao() {
+
+}
+void gloria(){
+    
+}
+void mansalay() {
+
+}
+void naujan_orm() {
+
+}
+void pinamalayan() {
+
+}
+void pola() {
+
+}
+void puerto_gal() {
+
+}
+void roxy() {
+
+}
+void san_tdr() {
+
+}
+void socorro() {
+
+}
+void victoria() {
+
+}
+
+
+// Occidental mindoro more info
+void more_info_occm(){
         std::string act;  
         std::cout << "-------------------- more info about the city --------------------\n";
         std::cout << "\n==Places you need to visit in Occidental Mindoro (Province) ==\n";
         // mga baya na nakuha ko lang sa google
         std::cout << "-------------------- Natural & Wild Life --------------------\n";
-        std::cout << "\tAmbulong Island (3.8): A large island near San Jose with fine white sand beaches.\n";
-        std::cout << "\tIlin Island (4.2): Known for its calm seas and beautiful scenery. \n";
-        std::cout << "\tWhite Island (Manadi) (4.5): Another island with white sand beaches,\n\tpopular for its proximity to San Jose. \n";
-        std::cout << "\tInasakan Beach (4.5): A popular beach with opportunities for swimming and snorkeling. \n";
-        std::cout << "\tApo Reef Natural Park (N.R): A world-class diving and snorkeling destination,\n\tone of the largest contiguous coral reefs globally. \n";
-        std::cout << "\tPandurucan River (N.R): A salt-water lake with beautiful views.\n";
-        std::cout << "\tAroma Beach (4.3): Offers a panoramic view of the sunset and is a good spot for jet skiing.\n";
+        std::cout << "\tAmbulong Island (3.8): "<< std::right << std::setw(10) << "A large island near San Jose with fine white sand beaches.\n";
+        std::cout << "\tIlin Island (4.2): "<< std::right << std::setw(10) << "Known for its calm seas and beautiful scenery. \n";
+        std::cout << "\tWhite Island (Manadi) (4.5): "<< std::right << std::setw(10) << "Another island with white sand beaches, popular for its proximity to San Jose. \n";
+        std::cout << "\tInasakan Beach (4.5): "<< std::right << std::setw(10) << "A popular beach with opportunities for swimming and snorkeling. \n";
+        std::cout << "\tApo Reef Natural Park (N.R): "<< std::right << std::setw(10) << "A world-class diving and snorkeling destination, one of the largest contiguous coral reefs globally. \n";
+        std::cout << "\tPandurucan River (N.R): "<< std::right << std::setw(10) << "A salt-water lake with beautiful views.\n";
+        std::cout << "\tAroma Beach (4.3): "<< std::right << std::setw(10) << "Offers a panoramic view of the sunset and is a good spot for jet skiing.\n";
         std::cout << "-------------------- Cultural & Historical Sites --------------------\n";
-        std::cout << "\tHanging Bridge of San Agustin: A unique landmark and a great spot for photos. \n";
-        std::cout << "\tSablayan Museum: Explore the local culture and history through exhibits and artifacts. \n";
-        std::cout << "\tSt. Joseph Cathedral: A beautiful church and a place of worship. \n";
-        std::cout << "\tSan Jose Archeological Site: Discover the rich history of the area. \n";
+        std::cout << "\tHanging Bridge of San Agustin: "<< std::right << std::setw(10) << "A unique landmark and a great spot for photos. \n";
+        std::cout << "\tSablayan Museum: "<< std::right << std::setw(10) << "Explore the local culture and history through exhibits and artifacts. \n";
+        std::cout << "\tSt. Joseph Cathedral: "<< std::right << std::setw(10) << "A beautiful church and a place of worship. \n";
+        std::cout << "\tSan Jose Archeological Site: "<< std::right << std::setw(10) << "Discover the rich history of the area. \n";
 
         // leave more info
         while (true){
@@ -180,7 +561,7 @@ void more_info(){
 // Luzon Provinces ===================================================
 void occid_mind() {
     std::cout << "\n======= Occidental Mindoro (Province) =======\n";
-    std::cout << "Known as the \"Marine Wonderland\"\n";
+    std::cout << "Occidental Mindoro, officially the Province of Occidental Mindoro, is a province in the Philippines located in the Mimaropa region.\nThe province occupies the western half of the island of Mindoro. Its capital is Mamburao,\nbut the most populous municipality is San Jose.\n";
     std::string cities[] = {"San Jose = 1", "Mamburao = 2", "Magsaysay = 3", "Calintaan = 4", 
         "Sablayan = 5", "Looc = 6", "Paluan = 7", "Abra De Ilog = 8", "Lubang = 9", "Rizal = 10", 
         "Santa Cruz = 11", "Baco = 12", "Naujan = 13"};
@@ -227,7 +608,7 @@ void occid_mind() {
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info();
+            more_info_occm();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -236,7 +617,98 @@ void occid_mind() {
         
     }
 }
+// Oriental mindoro More info
+void more_info_orm(){
+        std::string act;  
+        std::cout << "-------------------- more info about the city --------------------\n";
+        std::cout << "\n==Places you need to visit in Oriental Mindoro (Province) ==\n";
+        // mga baya na nakuha ko lang sa google
+        std::cout << "-------------------- Beaches and Coastal Areas --------------------\n";
+        std::cout << "\tWhite Beach: "<< std::right << std::setw(10) << " A popular destination in Puerto Galera, known for its white sand and various water sports activities. \n";
+        std::cout << "\tSabang: A beach area with diving and snorkeling opportunities, including Small and Big La Laguna beaches. \n";
+        std::cout << "\tAninuan Beach: A quieter beach with a more remote feel, walkable from White Beach. \n";
+        std::cout << "\tTalipanan Beach: A small beach with a few bars and a more laid-back atmosphere. \n";
+        std::cout << "\tHaligi Beach: A great spot for a day out.";
+        std::cout << "-------------------- Waterfalls --------------------\n";
+        std::cout << "\tTamaraw Falls: A twin-tiered waterfall easily accessible from the highway, offering a refreshing stop. \n";
+        std::cout << "\tTukuran Falls: A scenic waterfall, perfect for a visit. \n";
+        std::cout << "\tManihala Waterfalls: Requires a short trek to reach, but offers a captivating cascade. \n";
+
+        // leave more info
+        while (true){
+            std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
 void orin_mind() {
+    std::cout << "\n======= Oriental Mindoro (Province) =======\n";
+    std::cout << "Oriental Mindoro, officially the Province of Oriental Mindoro, is a province in the Philippines located on the island\n of Mindoro under Mimaropa region in Luzon, about 140 kilometres southwest of Manila.\n";
+    std::string cities[] = {"Calapan City (Capital) = 1", "Baco = 2", "Bongabong = 3", "Bulalacao = 4", 
+        "Gloria = 5", "Mansalay = 6", "Naujan = 7", "Pinamalayan = 8", "Pola = 9", "Puerto Galera = 10", 
+        "Roxas = 11", "San Teodoro", "Socorro = 13", "Victoria = 14"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities Oriental Mindoro -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            calapan_CAP();
+        } else if (city == "2") {
+            baco();
+        } else if (city == "3") {
+            bongabong();
+        } else if (city == "4") {
+            bulalacao();
+        } else if (city == "5") {
+            gloria();
+        } else if (city == "6") {
+            mansalay();
+        } else if (city == "7") {
+            naujan_orm();
+        } else if (city == "8") {
+            pinamalayan();
+        } else if (city == "9") {
+            pola();
+        } else if (city == "10") {
+            puerto_gal();
+        } else if (city == "11") {
+            roxy();
+        } else if (city == "12") {
+            san_tdr();
+        }  else if (city == "13") {
+            socorro();
+        }  else if (city == "14") {
+            victoria();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_orm();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
     
 }
 void mrndq() {
@@ -248,6 +720,9 @@ void rombl() {
 void palwn() {
     
 }
+
+
+
  /* ========== Philippine Map Project ================== */
 // Luzon Regions ===================================================
 void reg_i() {
@@ -350,7 +825,7 @@ void reg_barmm() {
 void luzon_reg() {
     std::cout << "\n======= Luzon Regions =======\n";
     std::string reg;
-    std::string regions[] = {"Ilocos Region (Region I)", "Cagayan Valley (Region II)", "Central Luzon (Region III)", "CALABARZON (Region IV-A)", "MIMAROPA (Region IV-B): [4b]", "Bicol Region (Region V)", "National Capital Region (NCR)", "Cordillera Administrative Region (CAR)"
+    std::string regions[] = {"Ilocos Region (Region I)", "Cagayan Valley (Region II)", "Central Luzon (Region III)", "CALABARZON (Region IV-A)", "MIMAROPA (Region IV-B): ===================>[4b]", "Bicol Region (Region V)", "National Capital Region (NCR)", "Cordillera Administrative Region (CAR)"
     };
     int size = sizeof(regions) / sizeof(regions[0]);
     
