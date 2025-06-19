@@ -4,7 +4,7 @@ this is a c++ Philippine Map for our school project as an BSIT student at JRCC M
 
 # Read Me first
 Log in muna kayo dito edit nyo to if may gumagawa para alam ng iba kung may nag eedit, tapos remove nyo din after kung di na kayo mag rerequez;
-- kenjie : editing
+- kenjie : offline
 
 ### Members
 - Maraasin, Francis Kenjie, R. - edit
