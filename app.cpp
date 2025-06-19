@@ -26,7 +26,7 @@ void san_j() {
         std::cout << "\n======= San Jose (Baranggays) =======\n";
         for (int i = 0; i < 12; i++) {
             for (int j = 0; j < 3; j++){
-                std::cout << baranggays[i][j] << std::endl;
+                std::cout << baranggays[i][j] << '\t';
             }
     }
 
@@ -60,7 +60,7 @@ void mamburao() {
     std::cout << "\n======= San Jose (Baranggays) =======\n";
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 3; j++){
-            std::cout << baranggays[i][j] << std::endl;
+            std::cout << baranggays[i][j] << '\t';
         }
     }
     while(true) {
@@ -80,6 +80,34 @@ void mamburao() {
 }
 void magsaysay() {
     std::cout << "\n======= Magsaysay (City) =======\n";
+    std::string act;
+    std::cout << "Magsaysay, officially the Municipality of Magsaysay,\n is a municipality in the province of Occidental Mindoro,\n Philippines. According to the 2020 census,\npopulation of 39,767 people\n"; 
+    //table this is still under examination: iniisip ko pa kung bakit di gumagana yung theory ko;
+    std::string baranggays[4][3] = {
+        {"Alibog", "Laste", "Purnaga"},
+        {"Caguray", "Lourdes", "Santa Teresa"},
+        {"Calawag", "Nicolas (Bulo)", "Sibalat"},
+        {"Gapasan", "Paclolo", ""},
+    };
+    std::cout << "\n======= San Jose (Baranggays) =======\n";
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 3; j++){
+            std::cout << baranggays[i][j] << '\t';
+        }
+    }
+    while(true) {
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+        if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
 }
 void calintaan() {
     std::cout << "\n======= Calintaan (City) =======\n";
