@@ -8,7 +8,7 @@ Log in muna kayo dito edit nyo to if may gumagawa para alam ko kung may nag eedi
 - kenjie - editing
 
 ##### Members:
-- Maraasin, Francis Kenjie, R. - edit
+- Maraasin, Francis Kenjie
 - Adrias, Tim
 - Torres, Jochelle
 - Valeciano, Ashley
