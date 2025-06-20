@@ -479,9 +479,7 @@ void calapan_CAP() {
         }
     }
 }
-void baco() {
 
-}
 void bongabong() {
 
 }
@@ -672,30 +670,28 @@ void orin_mind() {
         if (city == "1") {
             calapan_CAP();
         } else if (city == "2") {
-            baco();
-        } else if (city == "3") {
             bongabong();
-        } else if (city == "4") {
+        } else if (city == "3") {
             bulalacao();
-        } else if (city == "5") {
+        } else if (city == "4") {
             gloria();
-        } else if (city == "6") {
+        } else if (city == "5") {
             mansalay();
-        } else if (city == "7") {
+        } else if (city == "6") {
             naujan_orm();
-        } else if (city == "8") {
+        } else if (city == "7") {
             pinamalayan();
-        } else if (city == "9") {
+        } else if (city == "8") {
             pola();
-        } else if (city == "10") {
+        } else if (city == "9") {
             puerto_gal();
-        } else if (city == "11") {
+        } else if (city == "10") {
             roxy();
-        } else if (city == "12") {
+        } else if (city == "11") {
             san_tdr();
-        }  else if (city == "13") {
+        }  else if (city == "12") {
             socorro();
-        }  else if (city == "14") {
+        }  else if (city == "13") {
             victoria();
         } else if (city == "back" || city == "Back" || city == "BACK") {
             std::cout << "\n===========================\n";
