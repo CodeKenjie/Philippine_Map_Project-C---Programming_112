@@ -1,12 +1,13 @@
-# Philippine_Map_Project-C--Programming_112
-this is a c++ Philippine Map for our school project as an BSIT student at JRCC Manila
-
+### Philippine_Map_Project-C--Programming_112
+This is a C++ (.cpp) language app of the Philippine Map for our school project as a BSIT student at JRCC Manila
 
 # Read Me first
-Log in muna kayo dito edit nyo to if may gumagawa para alam ng iba kung may nag eedit, tapos remove nyo din after kung di na kayo mag rerequez;
-- kenjie : offline
+Log in muna kayo dito edit nyo to if may gumagawa para alam ko kung may nag eedit na naiba, para di tayo magkalituhan sa pag gawa;
 
-### Members
+### [Login]
+- kenjie - editing
+
+##### Members:
 - Maraasin, Francis Kenjie, R. - edit
 - Adrias, Tim
 - Torres, Jochelle
@@ -15,5 +16,18 @@ Log in muna kayo dito edit nyo to if may gumagawa para alam ng iba kung may nag 
 - Rapinian, Vin Laurence
 - Lavente, Raizen ken,
 - Caniopa, Jake
+
+##### This Project Contains :
+- app.cpp
+- app.exe
+- regions.h
+- provinces.h
+- cities.h
+- more_info.h
+- tempcoderunner.cpp
+- tempcoderunner.h
+
+# Preview
+>>insert Pictures here when finished
 
 
