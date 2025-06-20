@@ -18,14 +18,15 @@ Log in muna kayo dito edit nyo to if may gumagawa para alam ko kung may nag eedi
 - Caniopa, Jake
 
 ##### This Project Contains :
+- README FILE
 - app.cpp
 - app.exe
 - regions.h
 - provinces.h
 - cities.h
 - more_info.h
-- tempcoderunner.cpp
-- tempcoderunner.h
+- tempCodeRunnerFile.cpp
+- tempCodeRunnerFile.h
 
 # Preview
 >>insert Pictures here when finished
