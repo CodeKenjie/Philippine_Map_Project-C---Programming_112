@@ -32,7 +32,7 @@ void san_j() {
     }
 
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -65,7 +65,7 @@ void mamburao() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -97,7 +97,7 @@ void magsaysay() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -128,7 +128,7 @@ void calintaan() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -161,7 +161,7 @@ void sablayan() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -191,7 +191,7 @@ void looc() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -222,7 +222,7 @@ void paluan() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -254,7 +254,7 @@ void adi() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -285,7 +285,7 @@ void lubang() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -316,7 +316,7 @@ void riz() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -347,7 +347,7 @@ void santa_cruz() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -383,7 +383,7 @@ void baco() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -424,7 +424,7 @@ void naujan() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -466,7 +466,7 @@ void calapan_CAP() {
         }
     }
     while(true) {
-        std::cout << "[type] back - leave the [more info];\n";
+        std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -540,7 +540,7 @@ void more_info_occm(){
 
         // leave more info
         while (true){
-            std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -571,7 +571,7 @@ void occid_mind() {
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
-        std::cout << "[type]: back - Previous;\n";
+        std::cout << "\n[type]: back - Previous;\n";
         std::cout << "[type]: more info = for more info about the city;\n";
         std::cout << "[Select] City: ";
         std::getline(std::cin >> std::ws, city);
@@ -634,7 +634,7 @@ void more_info_orm(){
 
         // leave more info
         while (true){
-            std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "\n[type] back - leave the [more info];\n";
             std::cout << "[type]: ";
             std::cin >> act;
 
@@ -662,7 +662,7 @@ void orin_mind() {
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
-        std::cout << "[type]: back - Previous;\n";
+        std::cout << "\n[type]: back - Previous;\n";
         std::cout << "[type]: more info = for more info about the city;\n";
         std::cout << "[Select] City: ";
         std::getline(std::cin >> std::ws, city);
@@ -747,7 +747,7 @@ void reg_ivB() {
         for (int i = 0; i < size; i++) {
         std::cout << provinces[i] << std::endl;
         }
-        std::cout << "[type]: back - Previous;\n";
+        std::cout << "\n[type]: back - Previous;\n";
         std::cout << "[Select] Provice: ";
         std::getline(std::cin >> std::ws, prov);
     
@@ -830,7 +830,7 @@ void luzon_reg() {
         for (int i = 0; i < size; i++) {
         std::cout << regions[i] << std::endl;
         }
-        std::cout << "[type]: back - Previous;\n";
+        std::cout << "\n[type]: back - Previous;\n";
         std::cout << "[SELECT]Region in Luzon: ";
         std::cin >> reg;
         
@@ -876,7 +876,7 @@ void visayas_reg() {
         for (int i = 0; i < size; i++) {
         std::cout << regions[i] << std::endl;
         }
-        std::cout << "[type]: back - Previous;\n";
+        std::cout << "\n[type]: back - Previous;\n";
         std::cout << "[SELECT]Region in Visayas: ";
         std::cin >> reg;
         
@@ -949,7 +949,7 @@ int main() {
         for (int i = 0; i < size; i++) {
         std::cout << islands[i] << std::endl;
         }
-        std::cout << "[type]: Exit - to leave;\n";
+        std::cout << "\n[type]: Exit - to leave;\n";
         std::cout << "[Enter] Island in the Philippines: ";
         std::cin >> isl;
         
