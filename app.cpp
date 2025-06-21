@@ -1,9 +1,8 @@
 #include <iostream>
 #include <string>
-#include <iomanip>
 #include "regions.h"
 
- /* ========== Philippine Map Project ================== */
+ /* ========== Philippine Map Project  Programming 112 ================== */
 
 // Luzon ==========================================================
 void luzon_reg() {
