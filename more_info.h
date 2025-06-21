@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <string>
 
 /* THIS IS A MORE INFO FILE - pakilagyan po ng comment "//" yung every more info ng bawat city*/
 
