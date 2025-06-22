@@ -4,7 +4,7 @@
 
 /* [Reminder] THIS IS A PROVINCES FILE - palagi po maglagay ng comments para alam ng mga nag eedit */
 
-// LUZON PROVINCES ===================================================
+// LUZON PROVINCES =============================================================================================================================
 
 
 // Region 4 - B Provinces -- 
@@ -19,7 +19,7 @@ void occid_mind() {
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities Occidental Mindoro -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Occidental Mindoro -------------\n";
 
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
@@ -81,7 +81,7 @@ void orin_mind() {
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities Oriental Mindoro -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Oriental Mindoro -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -137,7 +137,7 @@ void mrndq() {
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities Marinduque -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Marinduque -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -186,7 +186,7 @@ void rombl() {
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Municipalities Marinduque -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Romblon -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
