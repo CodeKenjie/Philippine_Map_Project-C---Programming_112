@@ -1,0 +1,66 @@
+======= Bulan (Barangays) ================
+A. Bonifacio (Tinurilan)
+Abad Santos (Kambal)
+Aguinaldo (Lipata Dako)
+Antipolo
+Aquino (Imelda / Benigno S. Aquino)
+Bical
+Beguin
+Bonga
+Butag
+Cadandanan
+Calomagon
+Calpi
+Cocok‑Cabitan
+Daganas
+Danao
+Dolos
+E. Quirino (Pinangomhan)
+Fabrica
+G. Del Pilar (Tanga)
+Gate
+Inararan
+J. Gerona (Biton)
+J.P. Laurel (Pon‑od)
+Jamorawon
+Libertad (Calle Putol)
+Lajong
+Magsaysay (Bongog)
+Managanaga
+Marinab
+Nasuje
+Montecalvario
+N. Roque (Calayugan / Rizal)
+Namo
+Obrero
+Osmeña (Lipata Saday)
+Otavi
+Padre Diaz
+Palale
+Quezon (Cabarawan)
+R. Gerona
+Recto
+M. Roxas
+Sagrada
+San Francisco (Polot)
+San Isidro (Cabugaan)
+San Juan Bag-o
+San Juan Daan
+San Rafael (Togbongon)
+San Ramon
+San Vicente
+Santa Remedios
+Santa Teresita (Trece)
+Sigad
+Somagongsong
+Taromata
+
+Poblacion Zones -----------------------------------------
+Zone 1 Poblacion (Brgy. 1 – South Ilawod)
+Zone 2 Poblacion (Brgy. 2 – West Ilawod)
+Zone 3 Poblacion (Brgy. 3 – East Ilawod)
+Zone 4 Poblacion (Brgy. 4 – West Central/Central)
+Zone 5 Poblacion (Lanipan)
+Zone 6 Poblacion (Baybay)
+Zone 7 Poblacion (Iraya)
+Zone 8 Poblacion (Loyo)
