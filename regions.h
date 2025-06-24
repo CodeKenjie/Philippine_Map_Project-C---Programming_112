@@ -56,7 +56,43 @@ void reg_ivB() {
 
 }
 void reg_v() {
-    std::cout << "\n======= Region V (Bicol Region) =======\n";    
+    std::cout << "\n======= Region V (Bicol Region) =======\n";
+    std::string prov;
+    std::string provinces[] = {"Albay", "Camarines Norte", "Camarines Sur", "Masbate", "Sorsogon"
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+    
+    
+    while (true) {
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+    
+        if (prov == "albay" || prov == "Albay"|| prov == "ALBAY") {
+            aby();
+        } else if (prov == "camarines norte" || prov == "Camarines Norte"|| prov == "CAMARINES NORTE") {
+            cmrns_nrt();
+        } else if (prov == "camarines sur" || prov == "Camarines Sur"|| prov == "CAMARINES SUR") {
+            cmrns_sr();
+        } else if (prov == "catanduanes" || prov == "Catanduanes"|| prov == "CATANDUANES") {
+            ctndns();
+        } else if (prov == "masbate" || prov == "Masbate"|| prov == "MASBATE") {
+            msbt();
+        }  else if(prov == "sorsogon" || prov == "Sorsogon"|| prov == "SORSOGON") {
+            srsgn();
+        } else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    
+    }
 }
 void reg_ncr() {
         

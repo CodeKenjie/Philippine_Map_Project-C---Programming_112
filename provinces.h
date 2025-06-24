@@ -326,3 +326,439 @@ void palwn() {
         
     }
 }
+
+// Region 5 Provinces --
+
+// Albay =========================================================================================================================
+void aby(){
+    std::cout << "\n======= Albay (Province) =======\n";
+    
+    std::string cities[] = {
+        "Legazpi City (Capital City) = 1", "Bacacay = 2", "Camalig = 3", "Daraga = 4", "Guinobatan = 5", "Jovellar = 6", 
+        "Libon = 7", "Ligao (City) = 8", "Malilipot = 9", "Malinao = 10", "Manito = 11", "Oas = 12", "Pio Duran = 13",
+        "Polangui = 14", "Rapu-Rapu = 15", "Santo Domingo = 16", "Tabaco (City) = 17", "Tiwi = 18"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Albay -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            lgzpi();
+        } else if (city == "2") {
+            bccy();
+        } else if (city == "3") {
+            cmlg();
+        } else if (city == "4") {
+            drg();
+        } else if (city == "5") {
+            ginbtn();
+        } else if (city == "6") {
+            jvllr();
+        } else if (city == "7") {
+            lbn();
+        } else if (city == "8") {
+            lgao();
+        } else if (city == "9") {
+            mllpt();
+        } else if (city == "10") {
+            mlnao();
+        } else if (city == "11") {
+            mnto();
+        } else if (city == "12") {
+            oas();
+        } else if (city == "13") {
+            pi_drn();
+        } else if (city == "14") {
+            plngui();
+        } else if (city == "15") {
+            rp_rp();
+        } else if (city == "16") {
+            snt_dmg();
+        } else if (city == "17") {
+            tbc();
+        } else if (city == "18") {
+            tw();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_orm();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+}
+void cmrns_nrt(){
+    std::cout << "\n======= Camarines Norte (Province) =======\n";
+    
+    std::string cities[] = {
+        "Daet(Capital) = 1", "Basud = 2", "Capalonga = 3", "Jose Panganiban = 4", "Labo = 5", "Mercedes = 6", 
+        "Paracale = 7", "San Lorenzo Ruiz = 8", "San Vicente = 9", "Santa Elena = 10", "Talisay = 11", "Vinzons = 12"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Municipalities Camarines Norte -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            daet();
+        } else if (city == "2") {
+            bsd();
+        } else if (city == "3") {
+            cplga();
+        } else if (city == "4") {
+            js_pngnbn();
+        } else if (city == "5") {
+            lbo();
+        } else if (city == "6") {
+            mrcds();
+        } else if (city == "7") {
+            prcl();
+        } else if (city == "8") {
+            san_lrnz_riz();
+        } else if (city == "9") {
+            san_vnte();
+        } else if (city == "10") {
+            snt_elna();
+        } else if (city == "11") {
+            tlsy();
+        } else if (city == "12") {
+            vzons();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_orm();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+}
+void cmrns_sr(){
+    std::cout << "\n======= Camarines Sur (Province) =======\n";
+    
+    std::string cities[] = {
+        "Naga City (City) = 1", "Iriga City (City) = 2", "Baao = 3", "Balatan = 4", "Bato = 5", "Bombon = 6", 
+        "Buhi = 7", "Bula = 8", "Cabusao = 9", "Calabanga = 10", "Camaligan = 11", "Canaman = 12", "Caramoan = 13",
+        "Del Gallego = 14", "Gainza = 15", "Garchitorena = 16", "Goa = 17", "Lagonoy = 18", "Libmanan = 19", "Lupi = 20", "Magarao = 21", 
+        "Milaor = 22", "Minalabac = 23", "Nabua = 24", "Ocampo = 25", "Pamplona = 26", "Pasacao = 27", "Pili = 28", "Presentacion = 29", "Ragay = 30",
+        "Sagñay = 31", "San Fernando = 32", "San Jose = 33", "Sipocot = 34", "Siruma = 35", "Tigaon = 36", "Tinambac = 37"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Camarines Sur -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            ng_city();
+        } else if (city == "2") {
+            irga_city();
+        } else if (city == "3") {
+            bao();
+        } else if (city == "4") {
+            bltn();
+        } else if (city == "5") {
+            stone();
+        } else if (city == "6") {
+            bomb();
+        } else if (city == "7") {
+            bhi();
+        } else if (city == "8") {
+            bla();
+        } else if (city == "9") {
+            cbsao();
+        } else if (city == "10") {
+            clbnga();
+        } else if (city == "11") {
+            camlgn();
+        } else if (city == "12") {
+            toys();
+        } else if (city == "13") {
+            crmoan();
+        } else if (city == "14") {
+            dl_glgo();
+        } else if (city == "15") {
+            ginza();
+        } else if (city == "16") {
+            grchtrn();
+        } else if (city == "17") {
+            gogogo();
+        } else if (city == "18") {
+            lgny();
+        } else if (city == "19") {
+            lbmnan();
+        } else if (city == "20") {
+            lpi();
+        } else if (city == "21") {
+            mgrao();
+        } else if (city == "22") {
+            mlaor();
+        } else if (city == "23") {
+            mnlbc();
+        } else if (city == "24") {
+            nbu();
+        } else if (city == "25") {
+            ocmp();
+        } else if (city == "26") {
+            pmpln();
+        } else if (city == "27") {
+            pcscao();
+        } else if (city == "28") {
+            pli();
+        } else if (city == "29") {
+            reprt();
+        } else if (city == "30") {
+            rgy();
+        } else if (city == "31") {
+            sgny();
+        } else if (city == "32") {
+            san_frfr();
+        } else if (city == "33") {
+            san_jse();
+        } else if (city == "34") {
+            sipct();
+        } else if (city == "35") {
+            sirm();
+        } else if (city == "36") {
+            tgaon();
+        } else if (city == "37") {
+            timbac();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_orm();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+}
+void ctndns(){
+    std::cout << "\n======= Catanduanes (Province) =======\n";
+    
+    std::string cities[] = {
+        "Virac (City) = 1", "Bagamanoc = 2", "Baras = 3", "Bato = 4", "Caramoran = 5", "Gigmoto = 6", 
+        "Pandan = 7", "Panganiban = 8", "San Andres = 9", "San Miguel = 10", "Viga = 11"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Catanduanes -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            vrc_city();
+        } else if (city == "2") {
+            bgmanc();
+        } else if (city == "3") {
+            brs();
+        } else if (city == "4") {
+            bto();
+        } else if (city == "5") {
+            crmorn();
+        } else if (city == "6") {
+            ggmt();
+        } else if (city == "7") {
+            buko_pndn();
+        } else if (city == "8") {
+            dnger();
+        } else if (city == "9") {
+            san_ads();
+        } else if (city == "10") {
+            pilsen();
+        } else if (city == "11") {
+            vga();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_orm();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+}
+void msbt(){
+    std::cout << "\n======= Masbate (Province) =======\n";
+    
+    std::string cities[] = {
+        "Masbate City (Capital City) = 1", "Aroroy = 2", "Baleno = 3", "Balud = 4", "Batuan = 5", "Cataingan = 6", 
+        "Cawayan = 7", "Claveria = 8", "Dimasalang = 9", "Esperanza = 10", "Mandaon = 11", "Milagros = 12", "Mobo = 13",
+        "Monreal = 14", "Palanas = 15", "Pio V. Corpus = 16", "Placer = 17", "San Fernando = 18", "San Jacinto = 19", "San Pascual = 20", "Uson = 21"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            msbt_city();
+        } else if (city == "2") {
+            array();
+        } else if (city == "3") {
+            bln();
+        } else if (city == "4") {
+            blud();
+        } else if (city == "5") {
+            btuan();
+        } else if (city == "6") {
+            ctingan();
+        } else if (city == "7") {
+            cwyan();
+        } else if (city == "8") {
+            clvria();
+        } else if (city == "9") {
+            dmslng();
+        } else if (city == "10") {
+            esprnza();
+        } else if (city == "11") {
+            mndon();
+        } else if (city == "12") {
+            mlgros();
+        } else if (city == "13") {
+            mobpscho();
+        } else if (city == "14") {
+            mnrel();
+        } else if (city == "15") {
+            plns();
+        } else if (city == "16") {
+            pvc_pipe();
+        } else if (city == "17") {
+            plcer();
+        } else if (city == "18") {
+            san_frnndo();
+        } else if (city == "19") {
+            san_jcnto();
+        } else if (city == "20") {
+            san_papa_p();
+        } else if (city == "21") {
+            usn();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_orm();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+}
+void srsgn(){
+    std::cout << "\n======= Sorsogon (Province) =======\n";
+    
+    std::string cities[] = {
+        "Sorsogon City (City) = 1", "Barcelona = 2", "Bulan = 3", "Bulusan = 4", "Casiguran = 5", "Castilla = 6", 
+        "Donsol = 7", "Gubat = 8", "Irosin = 9", "Juban = 10", "Magallanes = 11", "Matnog = 12", "Pilar = 13",
+        "Prieto Diaz = 14", "Santa Magdalena = 15"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Sorsogon -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            srsgon_city();
+        } else if (city == "2") {
+            brcln();
+        } else if (city == "3") {
+            blan();
+        } else if (city == "4") {
+            blsan();
+        } else if (city == "5") {
+            csgran();
+        } else if (city == "6") {
+            cstlla();
+        } else if (city == "7") {
+            dnsl();
+        } else if (city == "8") {
+            forst();
+        } else if (city == "9") {
+            irsn();
+        } else if (city == "10") {
+            jojo();
+        } else if (city == "11") {
+            mgllnes();
+        } else if (city == "12") {
+            mtnog();
+        } else if (city == "13") {
+            plar();
+        } else if (city == "14") {
+            prito_diz();
+        } else if (city == "15") {
+            snt_mgdlna();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_orm();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+}
