@@ -108,9 +108,45 @@ void reg_vi() {
 void reg_vii() {
         
 }
-//kenjie the great 
+//kenjie the great -------------------------------------------------
 void reg_viii() {
     std::cout << "\n====== Region VIII (Eastern Visayas) =======\n";
+    std::string prov;
+    std::string provinces[] = {"Biliran", "Eastern Samar", "Leyte", "Northern Samar", "Samar", "Southern Leyte"
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+    
+    
+    while (true) {
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+    
+        if (prov == "biliran" || prov == "Biliran"|| prov == "BILIRAN") {
+            blran();
+        } else if (prov == "eastern samar" || prov == "Eastern Samar"|| prov == "EASTERN SAMAR") {
+            east_smr();
+        } else if (prov == "layete" || prov == "Leyte"|| prov == "LEYTE") {
+            lyte();
+        } else if (prov == "northern samar" || prov == "Norther Samar"|| prov == "NORTHERN SAMAR") {
+            north_smr();
+        } else if (prov == "samar" || prov == "Samar"|| prov == "SAMAR") {
+            smr();
+        }  else if(prov == "southern samar" || prov == "Southern Samar"|| prov == "SAUTHERN SAMAR") {
+            south_smr();
+        } else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    
+    }
     
 }
 
@@ -122,7 +158,7 @@ void reg_x() {
         
 }
 void reg_xi() {
-        
+
 }
 void reg_xii() {
         
