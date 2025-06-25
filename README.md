@@ -4,10 +4,6 @@ This is a C++ (.cpp) language app of the Philippine Map for our school project a
 # Read Me first
 Log in muna kayo dito edit nyo to if may gumagawa para alam ko kung may nag eedit na naiba, para di tayo magkalituhan sa pag gawa;
 
-### [Login]
-- kenjie - editing
-
-
 ##### Members:
 - Maraasin, Francis Kenjie
 - Adrias, Tim
