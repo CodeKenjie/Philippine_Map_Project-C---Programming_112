@@ -1187,21 +1187,19 @@ void smr(){
         
     }
 }
-void south_smr(){
-    std::cout << "\n======= Southern Samar (Province) =======\n";
+void south_lyte(){
+    std::cout << "\n======= Southern Leyte (Province) =======\n";
     
     std::string cities[] = {
-        "Naga City (City) = 1", "Iriga City (City) = 2", "Baao = 3", "Balatan = 4", "Bato = 5", "Bombon = 6", 
-        "Buhi = 7", "Bula = 8", "Cabusao = 9", "Calabanga = 10", "Camaligan = 11", "Canaman = 12", "Caramoan = 13",
-        "Del Gallego = 14", "Gainza = 15", "Garchitorena = 16", "Goa = 17", "Lagonoy = 18", "Libmanan = 19", "Lupi = 20", "Magarao = 21", 
-        "Milaor = 22", "Minalabac = 23", "Nabua = 24", "Ocampo = 25", "Pamplona = 26", "Pasacao = 27", "Pili = 28", "Presentacion = 29", "Ragay = 30",
-        "Sagñay = 31", "San Fernando = 32", "San Jose = 33", "Sipocot = 34", "Siruma = 35", "Tigaon = 36", "Tinambac = 37"
+        "Maasin City (Capital City) = 1", "Anahawan = 2", "Bontoc = 3", "Hinunangan = 4", "Hinundayan = 5", "Libagon = 6", 
+        "Liloan = 7", "Limasawa = 8", "Malitbog = 9", "Padre Burgos = 10", "Pintuyan = 11", "Saint Bernard = 12", "San Francisco = 13",
+        "San Juan = 14", "San Ricardo = 15", "Silago = 16", "Sogod = 17", "Tomas Oppus = 18", "Macrohon = 19"
         };
     int size = sizeof(cities) / sizeof(cities[0]);
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Southern Samar -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Southern Leyte -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1211,79 +1209,43 @@ void south_smr(){
         std::getline(std::cin >> std::ws, city);
         
         if (city == "1") {
-            ng_city();
+            kenjie_city();
         } else if (city == "2") {
-            irga_city();
+            anhw();
         } else if (city == "3") {
-            bao();
+            bntoc();
         } else if (city == "4") {
-            bltn();
+            hnnngan();
         } else if (city == "5") {
-            stone();
+            hnndyn();
         } else if (city == "6") {
-            bomb();
+            dirty();
         } else if (city == "7") {
-            bhi();
+            llon();
         } else if (city == "8") {
-            bla();
+            f_mass();
         } else if (city == "9") {
-            cbsao();
+            mltbog();
         } else if (city == "10") {
-            clbnga();
+            pdr_bur();
         } else if (city == "11") {
-            camlgn();
+            thts_a_door();
         } else if (city == "12") {
-            toys();
+            snt_brnrd();
         } else if (city == "13") {
-            crmoan();
+            sn_frncsco();
         } else if (city == "14") {
-            dl_glgo();
+            sn_jan();
         } else if (city == "15") {
-            ginza();
+            sn_rchrd();
         } else if (city == "16") {
-            grchtrn();
+            slgo();
         } else if (city == "17") {
-            gogogo();
+            sgod();
         } else if (city == "18") {
-            lgny();
+            tms_ops();
         } else if (city == "19") {
-            lbmnan();
-        } else if (city == "20") {
-            lpi();
-        } else if (city == "21") {
-            mgrao();
-        } else if (city == "22") {
-            mlaor();
-        } else if (city == "23") {
-            mnlbc();
-        } else if (city == "24") {
-            nbu();
-        } else if (city == "25") {
-            ocmp();
-        } else if (city == "26") {
-            pmpln();
-        } else if (city == "27") {
-            pcscao();
-        } else if (city == "28") {
-            pli();
-        } else if (city == "29") {
-            reprt();
-        } else if (city == "30") {
-            rgy();
-        } else if (city == "31") {
-            sgny();
-        } else if (city == "32") {
-            san_frfr();
-        } else if (city == "33") {
-            san_jse();
-        } else if (city == "34") {
-            sipct();
-        } else if (city == "35") {
-            sirm();
-        } else if (city == "36") {
-            tgaon();
-        } else if (city == "37") {
-            timbac();
+            mcrhn();
         } else if (city == "back" || city == "Back" || city == "BACK") {
             std::cout << "\n===========================\n";
             break;

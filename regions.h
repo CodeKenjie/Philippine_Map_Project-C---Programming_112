@@ -135,8 +135,8 @@ void reg_viii() {
             north_smr();
         } else if (prov == "samar" || prov == "Samar"|| prov == "SAMAR") {
             smr();
-        }  else if(prov == "southern samar" || prov == "Southern Samar"|| prov == "SAUTHERN SAMAR") {
-            south_smr();
+        }  else if(prov == "southern leyte" || prov == "Southern Leyte"|| prov == "SAUTHERN LEYTE") {
+            south_lyte();
         } else if (prov == "back" || prov == "Back" || prov == "BACK") {
             std::cout << "\n===========================\n";
             break;
