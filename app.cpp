@@ -55,7 +55,7 @@ void visayas_reg() {
     std::cout << "\n======= Visayas Regions =======\n";
     std::string reg;
     std::string regions[] = {
-        "Western Visayas (Region VI)", "Central Visayas (Region VII)", "Eastern Visayas (Region VIII)"
+        "Western Visayas (Region VI)", "Central Visayas (Region VII)", "Eastern Visayas (Region VIII) ====================> [8]"
     };
     int size = sizeof(regions) / sizeof(regions[0]);
     

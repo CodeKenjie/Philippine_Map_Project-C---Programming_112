@@ -957,7 +957,7 @@ void lyte(){
         } else if (city == "17") {
             clubian();
         } else if (city == "18") {
-            lyte();
+            lyte_2();
         } else if (city == "19") {
             san_isro();
         } else if (city == "20") {
@@ -1023,11 +1023,10 @@ void north_smr(){
     std::cout << "\n======= Northern Samar (Province) =======\n";
     
     std::string cities[] = {
-        "Naga City (City) = 1", "Iriga City (City) = 2", "Baao = 3", "Balatan = 4", "Bato = 5", "Bombon = 6", 
-        "Buhi = 7", "Bula = 8", "Cabusao = 9", "Calabanga = 10", "Camaligan = 11", "Canaman = 12", "Caramoan = 13",
-        "Del Gallego = 14", "Gainza = 15", "Garchitorena = 16", "Goa = 17", "Lagonoy = 18", "Libmanan = 19", "Lupi = 20", "Magarao = 21", 
-        "Milaor = 22", "Minalabac = 23", "Nabua = 24", "Ocampo = 25", "Pamplona = 26", "Pasacao = 27", "Pili = 28", "Presentacion = 29", "Ragay = 30",
-        "Sagñay = 31", "San Fernando = 32", "San Jose = 33", "Sipocot = 34", "Siruma = 35", "Tigaon = 36", "Tinambac = 37"
+        "Catarman (Capital) = 1", "Allen = 2", "Biri = 3", "Bobon = 4", "Capul = 5", "Catubig = 6", 
+        "Gamay = 7", "Laoang = 8", "Lapinig = 9", "Las Navas = 10", "Lavezares = 11", "Lope de Vega = 12", "Mapanas = 13",
+        "Mondragon = 14", "Palapag = 15", "Pambujan = 16", "Rosario = 17", "San Antonio = 18", "San Isidro = 19", "San Jose = 20", "San Roque = 21", 
+        "San Vicente = 22", "Silvino Lobos = 23", "Victoria = 24"
         };
     int size = sizeof(cities) / sizeof(cities[0]);
     std::string city;
@@ -1043,79 +1042,53 @@ void north_smr(){
         std::getline(std::cin >> std::ws, city);
         
         if (city == "1") {
-            ng_city();
+            ctrman();
         } else if (city == "2") {
-            irga_city();
+            alln();
         } else if (city == "3") {
-            bao();
+            bri();
         } else if (city == "4") {
-            bltn();
+            bbn();
         } else if (city == "5") {
-            stone();
+            cpl();
         } else if (city == "6") {
-            bomb();
+            ctbig();
         } else if (city == "7") {
-            bhi();
+            gmy();
         } else if (city == "8") {
-            bla();
+            loang();
         } else if (city == "9") {
-            cbsao();
+            lpng();
         } else if (city == "10") {
-            clbnga();
+            ls_nvs();
         } else if (city == "11") {
-            camlgn();
+            lvzrs();
         } else if (city == "12") {
-            toys();
+            lp_d_vg();
         } else if (city == "13") {
-            crmoan();
+            mpns();
         } else if (city == "14") {
-            dl_glgo();
+            mndrgon();
         } else if (city == "15") {
-            ginza();
+            plpg();
         } else if (city == "16") {
-            grchtrn();
+            pmbjan();
         } else if (city == "17") {
-            gogogo();
+            rsrio();
         } else if (city == "18") {
-            lgny();
+            san_atnio();
         } else if (city == "19") {
-            lbmnan();
+            sn_isdo();
         } else if (city == "20") {
-            lpi();
+            sn_js();
         } else if (city == "21") {
-            mgrao();
+            sn_rq();
         } else if (city == "22") {
-            mlaor();
+            sn_vcnt();
         } else if (city == "23") {
-            mnlbc();
+            slvn_lbs();
         } else if (city == "24") {
-            nbu();
-        } else if (city == "25") {
-            ocmp();
-        } else if (city == "26") {
-            pmpln();
-        } else if (city == "27") {
-            pcscao();
-        } else if (city == "28") {
-            pli();
-        } else if (city == "29") {
-            reprt();
-        } else if (city == "30") {
-            rgy();
-        } else if (city == "31") {
-            sgny();
-        } else if (city == "32") {
-            san_frfr();
-        } else if (city == "33") {
-            san_jse();
-        } else if (city == "34") {
-            sipct();
-        } else if (city == "35") {
-            sirm();
-        } else if (city == "36") {
-            tgaon();
-        } else if (city == "37") {
-            timbac();
+            victria();
         } else if (city == "back" || city == "Back" || city == "BACK") {
             std::cout << "\n===========================\n";
             break;
@@ -1133,11 +1106,10 @@ void smr(){
     std::cout << "\n======= Samar (Province) =======\n";
     
     std::string cities[] = {
-        "Naga City (City) = 1", "Iriga City (City) = 2", "Baao = 3", "Balatan = 4", "Bato = 5", "Bombon = 6", 
-        "Buhi = 7", "Bula = 8", "Cabusao = 9", "Calabanga = 10", "Camaligan = 11", "Canaman = 12", "Caramoan = 13",
-        "Del Gallego = 14", "Gainza = 15", "Garchitorena = 16", "Goa = 17", "Lagonoy = 18", "Libmanan = 19", "Lupi = 20", "Magarao = 21", 
-        "Milaor = 22", "Minalabac = 23", "Nabua = 24", "Ocampo = 25", "Pamplona = 26", "Pasacao = 27", "Pili = 28", "Presentacion = 29", "Ragay = 30",
-        "Sagñay = 31", "San Fernando = 32", "San Jose = 33", "Sipocot = 34", "Siruma = 35", "Tigaon = 36", "Tinambac = 37"
+        "Calbayog City (City) = 1", "Almagro = 2", "Basey = 3", "Calbiga = 4", "Daram = 5", "Gandara = 6", 
+        "Hinabangan = 7", "Jiabong = 8", "Marabut = 9", "Matuguinao = 10", "Motiong = 11", "Pagsanghan = 12", "Paranas = 13",
+        "Pinabacdao = 14", "San Jorge = 15", "San Jose de Buan = 16", "San Sebastian = 17", "Santa Margarita = 18", "Santa Rita = 19", "Santo Nino = 20", "Talalora = 21", 
+        "Tarangnan = 22", "Villareal = 23", "Zumarraga = 24", "Catbalogan City (City) = 25"
         };
     int size = sizeof(cities) / sizeof(cities[0]);
     std::string city;
@@ -1153,79 +1125,55 @@ void smr(){
         std::getline(std::cin >> std::ws, city);
         
         if (city == "1") {
-            ng_city();
+            clbyg_city();
         } else if (city == "2") {
-            irga_city();
+            almgro();
         } else if (city == "3") {
-            bao();
+            bsey();
         } else if (city == "4") {
-            bltn();
+            clbga();
         } else if (city == "5") {
-            stone();
+            dram();
         } else if (city == "6") {
-            bomb();
+            gndara();
         } else if (city == "7") {
-            bhi();
+            hnbngan();
         } else if (city == "8") {
-            bla();
+            jabong();
         } else if (city == "9") {
-            cbsao();
+            mrbt();
         } else if (city == "10") {
-            clbnga();
+            mtginao();
         } else if (city == "11") {
-            camlgn();
+            mtong();
         } else if (city == "12") {
-            toys();
+            pgsnghan();
         } else if (city == "13") {
-            crmoan();
+            prnas();
         } else if (city == "14") {
-            dl_glgo();
+            pnbcdao();
         } else if (city == "15") {
-            ginza();
+            sn_jrge();
         } else if (city == "16") {
-            grchtrn();
+            sn_js_d_ban();
         } else if (city == "17") {
-            gogogo();
+            sn_sbstan();
         } else if (city == "18") {
-            lgny();
+            snt_mrgrta();
         } else if (city == "19") {
-            lbmnan();
+            snt_rt();
         } else if (city == "20") {
-            lpi();
+            snto_nno();
         } else if (city == "21") {
-            mgrao();
+            tllra();
         } else if (city == "22") {
-            mlaor();
+            trngnn();
         } else if (city == "23") {
-            mnlbc();
+            vllreal();
         } else if (city == "24") {
-            nbu();
+            zmrrga();
         } else if (city == "25") {
-            ocmp();
-        } else if (city == "26") {
-            pmpln();
-        } else if (city == "27") {
-            pcscao();
-        } else if (city == "28") {
-            pli();
-        } else if (city == "29") {
-            reprt();
-        } else if (city == "30") {
-            rgy();
-        } else if (city == "31") {
-            sgny();
-        } else if (city == "32") {
-            san_frfr();
-        } else if (city == "33") {
-            san_jse();
-        } else if (city == "34") {
-            sipct();
-        } else if (city == "35") {
-            sirm();
-        } else if (city == "36") {
-            tgaon();
-        } else if (city == "37") {
-            timbac();
+            ctblgan_city();
         } else if (city == "back" || city == "Back" || city == "BACK") {
             std::cout << "\n===========================\n";
             break;

@@ -83,7 +83,7 @@ void reg_v() {
             msbt();
         }  else if(prov == "sorsogon" || prov == "Sorsogon"|| prov == "SORSOGON") {
             srsgn();
-        } else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+        } else if (prov == "back" || prov == "Back" || prov == "BACK") {
             std::cout << "\n===========================\n";
             break;
         }else {
@@ -129,7 +129,7 @@ void reg_viii() {
             blran();
         } else if (prov == "eastern samar" || prov == "Eastern Samar"|| prov == "EASTERN SAMAR") {
             east_smr();
-        } else if (prov == "layete" || prov == "Leyte"|| prov == "LEYTE") {
+        } else if (prov == "leyte" || prov == "Leyte"|| prov == "LEYTE") {
             lyte();
         } else if (prov == "northern samar" || prov == "Norther Samar"|| prov == "NORTHERN SAMAR") {
             north_smr();
@@ -137,7 +137,7 @@ void reg_viii() {
             smr();
         }  else if(prov == "southern samar" || prov == "Southern Samar"|| prov == "SAUTHERN SAMAR") {
             south_smr();
-        } else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+        } else if (prov == "back" || prov == "Back" || prov == "BACK") {
             std::cout << "\n===========================\n";
             break;
         }else {
