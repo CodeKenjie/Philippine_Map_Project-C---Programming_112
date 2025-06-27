@@ -18,7 +18,8 @@ void reg_ivA() {
 
 // Kenjie the great
 void reg_ivB() {
-    std::cout << "\n======= Region IV-B (MIMAROPA) =======\n";
+    std::cout << "\n==================== Region IV-B (MIMAROPA) ====================\n";
+    std::cout << "Capital: Calapan City (Oriental Mindoro)\n" << "Info: \n\tEco-tourism hub, Puerto Princesa Underground River\n\tand biodiversity-rich islands.\n" << "Population: 3,228,558 (as of 2020 Census)\n" << "Land Area: Approximately 29,620.90 km (11,436.69 sq mi)\n";
     std::string prov;
     std::string provinces[] = {"Occidental Mindoro", "Oriental Mindoro", "Marinduque", "Romblon", "Palawan"
     };
@@ -26,6 +27,7 @@ void reg_ivB() {
     
     
     while (true) {
+        std::cout << "\n==================== MIMAROPA (Provinces) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << provinces[i] << std::endl;
         }
@@ -56,7 +58,8 @@ void reg_ivB() {
 
 }
 void reg_v() {
-    std::cout << "\n======= Region V (Bicol Region) =======\n";
+    std::cout << "\n==================== Region V (Bicol Region) ====================\n";
+    std::cout << "Capital: Legazpi City (Albay)\n" << "Info: \n\tMayon Volcano, spicy cuisine, Pili nuts\n\tand Caramoan islands.\n" << "Population: 6,082,165 (as of 2020 Census)\n" << "Land Area: Approximately 18,114.47 km (6,994.04 sq mi)\n";
     std::string prov;
     std::string provinces[] = {"Albay", "Camarines Norte", "Camarines Sur", "Masbate", "Sorsogon"
     };
@@ -64,6 +67,7 @@ void reg_v() {
     
     
     while (true) {
+        std::cout << "\n==================== Bicol Region (Provinces) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << provinces[i] << std::endl;
         }
@@ -110,7 +114,8 @@ void reg_vii() {
 }
 //kenjie the great -------------------------------------------------
 void reg_viii() {
-    std::cout << "\n====== Region VIII (Eastern Visayas) =======\n";
+    std::cout << "\n==================== Region VIII (Eastern Visayas) ====================\n";
+    std::cout << "Capital: Tacloban City (Leyte)\n" << "Key Info: \n\tKnown for San Juanico Bridge, resilience\n\tpost-Yolanda and Waray culture.\n"<< "Population: 4,547,150 (as of 2020 Census)\n" << "Land Area: Approximately 21,562.9 km² (8,325.48 sq mi)\n";
     std::string prov;
     std::string provinces[] = {"Biliran", "Eastern Samar", "Leyte", "Northern Samar", "Samar", "Southern Leyte"
     };
@@ -118,6 +123,7 @@ void reg_viii() {
     
     
     while (true) {
+        std::cout << "\n==================== Eastern Visayas (Provinces) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << provinces[i] << std::endl;
         }

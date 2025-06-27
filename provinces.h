@@ -11,7 +11,7 @@
 
 // Occidental Mindoro =========================================================================================================================
 void occid_mind() {
-    std::cout << "\n======= Occidental Mindoro (Province) =======\n";
+    std::cout << "\n=============== Occidental Mindoro (Province) ===============\n";
     std::string cities[] = {"San Jose = 1", "Mamburao = 2", "Magsaysay = 3", "Calintaan = 4", 
         "Sablayan = 5", "Looc = 6", "Paluan = 7", "Abra De Ilog = 8", "Lubang = 9", "Rizal = 10", 
         "Santa Cruz = 11", "Baco = 12", "Naujan = 13"};
@@ -73,7 +73,8 @@ void occid_mind() {
 
 // Oriental Mindoro =========================================================================================================================================================================================================================
 void orin_mind() {
-    std::cout << "\n======= Oriental Mindoro (Province) =======\n";
+    std::cout << "\n=============== Oriental Mindoro (Province) ===============\n";
+    std::cout << "Location: Western part of Mindoro Island.\n" << "Capital: Mamburao\n";
     std::string cities[] = {"Calapan City (Capital) = 1", "Bongabong = 2", "Bulalacao = 3", 
         "Gloria = 4", "Mansalay = 5", "Pinamalayan = 6", "Pola = 7", "Puerto Galera = 8", 
         "Roxas = 9", "San Teodoro = 10", "Socorro = 11", "Victoria = 12"};
@@ -130,7 +131,7 @@ void orin_mind() {
 }
 // Marinduque =====================================================================================================================
 void mrndq() {
-    std::cout << "\n======= Marinduque (Province) =======\n";
+    std::cout << "\n=============== Marinduque (Province) ===============\n";
     
     std::string cities[] = {"Boac = 1", "Buenavista = 2", "Gasan = 3", "Mogpog = 4", "Santa Cruz = 5", "Torrijos = 6"};
     int size = sizeof(cities) / sizeof(cities[0]);
@@ -162,7 +163,7 @@ void mrndq() {
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_mrndque();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -175,7 +176,7 @@ void mrndq() {
 
 // Romblon ==================================================================================================================================================
 void rombl() {
-    std::cout << "\n======= Romblon (Province) =======\n";
+    std::cout << "\n==================== Romblon (Province) ====================\n";
     
     std::string cities[] = {
         "Alcantara = 1", "Banton = 2", "Cajidiocan = 3", "Calatrava = 4", "Concepcion = 5", "Corcuera = 6", 
@@ -233,7 +234,7 @@ void rombl() {
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_rmble();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -245,7 +246,7 @@ void rombl() {
 
 // Palawan ==========================================================================================
 void palwn() {
-    std::cout << "\n======= Palawan (Province) =======\n";
+    std::cout << "\n==================== Palawan (Province) ====================\n";
     
     std::string cities[] = {
         "Puerto Princesa(City) = 1", "Aborlan = 2", "Agutaya = 3", "Araceli = 4", "Balabac = 5", "Bataraza = 6", 
@@ -318,7 +319,7 @@ void palwn() {
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_plwn();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -332,7 +333,7 @@ void palwn() {
 
 // Albay =========================================================================================================================
 void aby(){
-    std::cout << "\n======= Albay (Province) =======\n";
+    std::cout << "\n==================== Albay (Province) ====================\n";
     
     std::string cities[] = {
         "Legazpi City (Capital City) = 1", "Bacacay = 2", "Camalig = 3", "Daraga = 4", "Guinobatan = 5", "Jovellar = 6", 
@@ -392,7 +393,7 @@ void aby(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_alby();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -402,7 +403,7 @@ void aby(){
     }
 }
 void cmrns_nrt(){
-    std::cout << "\n======= Camarines Norte (Province) =======\n";
+    std::cout << "\n==================== Camarines Norte (Province) ====================\n";
     
     std::string cities[] = {
         "Daet(Capital) = 1", "Basud = 2", "Capalonga = 3", "Jose Panganiban = 4", "Labo = 5", "Mercedes = 6", 
@@ -449,7 +450,7 @@ void cmrns_nrt(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_CN();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -459,7 +460,7 @@ void cmrns_nrt(){
     }
 }
 void cmrns_sr(){
-    std::cout << "\n======= Camarines Sur (Province) =======\n";
+    std::cout << "\n==================== Camarines Sur (Province) ====================\n";
     
     std::string cities[] = {
         "Naga City (City) = 1", "Iriga City (City) = 2", "Baao = 3", "Balatan = 4", "Bato = 5", "Bombon = 6", 
@@ -559,7 +560,7 @@ void cmrns_sr(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_CS();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -569,7 +570,7 @@ void cmrns_sr(){
     }
 }
 void ctndns(){
-    std::cout << "\n======= Catanduanes (Province) =======\n";
+    std::cout << "\n==================== Catanduanes (Province) ====================\n";
     
     std::string cities[] = {
         "Virac (City) = 1", "Bagamanoc = 2", "Baras = 3", "Bato = 4", "Caramoran = 5", "Gigmoto = 6", 
@@ -614,7 +615,7 @@ void ctndns(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_ctndanes();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -624,7 +625,7 @@ void ctndns(){
     }
 }
 void msbt(){
-    std::cout << "\n======= Masbate (Province) =======\n";
+    std::cout << "\n==================== Masbate (Province) ====================\n";
     
     std::string cities[] = {
         "Masbate City (Capital City) = 1", "Aroroy = 2", "Baleno = 3", "Balud = 4", "Batuan = 5", "Cataingan = 6", 
@@ -690,7 +691,7 @@ void msbt(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_msbt();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -700,7 +701,7 @@ void msbt(){
     }
 }
 void srsgn(){
-    std::cout << "\n======= Sorsogon (Province) =======\n";
+    std::cout << "\n==================== Sorsogon (Province) ====================\n";
     
     std::string cities[] = {
         "Sorsogon City (City) = 1", "Barcelona = 2", "Bulan = 3", "Bulusan = 4", "Casiguran = 5", "Castilla = 6", 
@@ -754,7 +755,7 @@ void srsgn(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_srsgon();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -767,7 +768,7 @@ void srsgn(){
 // Region 8 Provinces Eastern Visyas ===========================================================================================================
 
 void blran(){
-    std::cout << "\n======= Biliran (Province) =======\n";
+    std::cout << "\n==================== Biliran (Province) ====================\n";
     
     std::string cities[] = {
         "Almeria = 1", "Biliran = 2", "Cabucgayan = 3", "Caibiran = 4", "Culaba = 5", "Kawayan = 6", 
@@ -806,7 +807,7 @@ void blran(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_blrn();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -816,7 +817,7 @@ void blran(){
     }
 }
 void east_smr(){
-    std::cout << "\n======= Eastern Samar (Province) =======\n";
+    std::cout << "\n==================== Eastern Samar (Province) ====================\n";
     
     std::string cities[] = {
         "Borongan (Capital City) = 1", "Arteche = 2", "Balangiga = 3", "Balangkayan = 4", "Can-Avid = 5", "Dolores = 6", 
@@ -887,7 +888,7 @@ void east_smr(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_est_smr();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -899,7 +900,7 @@ void east_smr(){
 
 // ---  napapagod na ko ----
 void lyte(){
-    std::cout << "\n======= Leyte (Province) =======\n";
+    std::cout << "\n==================== Leyte (Province) ====================\n";
     
     std::string cities[] = {
         "Tacloban City (City) = 1", "Ormoc City (City) = 2", "Baybay City (City) = 3", "Abuyog (1st Distric) = 4", "Alangalang (1st Distric)  = 5", "Babatngon (1st Distric) = 6", 
@@ -1010,7 +1011,7 @@ void lyte(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_lyte();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -1020,7 +1021,7 @@ void lyte(){
     }
 }
 void north_smr(){
-    std::cout << "\n======= Northern Samar (Province) =======\n";
+    std::cout << "\n==================== Northern Samar (Province) ====================\n";
     
     std::string cities[] = {
         "Catarman (Capital) = 1", "Allen = 2", "Biri = 3", "Bobon = 4", "Capul = 5", "Catubig = 6", 
@@ -1093,7 +1094,7 @@ void north_smr(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_nrth_srm();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -1103,7 +1104,7 @@ void north_smr(){
     }
 }
 void smr(){
-    std::cout << "\n======= Samar (Province) =======\n";
+    std::cout << "\n==================== Samar (Province) ====================\n";
     
     std::string cities[] = {
         "Calbayog City (City) = 1", "Almagro = 2", "Basey = 3", "Calbiga = 4", "Daram = 5", "Gandara = 6", 
@@ -1178,7 +1179,7 @@ void smr(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_smr();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
@@ -1188,7 +1189,7 @@ void smr(){
     }
 }
 void south_lyte(){
-    std::cout << "\n======= Southern Leyte (Province) =======\n";
+    std::cout << "\n==================== Southern Leyte (Province) ====================\n";
     
     std::string cities[] = {
         "Maasin City (Capital City) = 1", "Anahawan = 2", "Bontoc = 3", "Hinunangan = 4", "Hinundayan = 5", "Libagon = 6", 
@@ -1250,7 +1251,7 @@ void south_lyte(){
             std::cout << "\n===========================\n";
             break;
         } else if (city == "more info"){
-            more_info_orm();
+            more_info_srth_lyte();
         } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] city dont exist";
