@@ -3,17 +3,38 @@
 #include "regions.h"
 
  /* ========== Philippine Map Project  Programming 112 ================== */
+ 
+void intro(){
+
+    std::string act;
+    std::cout << "\n==================== Phillipine Map ====================\n";
+    std::cout << "Welcome User this is a Philippine Map Project designed\n to help you navigate through the Philippines and give you\nbasic informations about different places in the Philippines\n" << std::endl;
+
+    while (true) {
+        std::cout << "\tWould you like to continue?[Y/N]: ";
+        std::cin >> act;
+        if (act == "y" || act == "Y") {
+            break;
+        } else if (act == "n" || act == "N"){
+            exit(0);
+        }
+    }
+    
+}
 
 // Luzon ==========================================================
 void luzon_reg() {
-    std::cout << "\n======= Luzon Regions =======\n";
+    std::cout << "\n==================== LUZON ISLAND ====================\n";
+    std::cout << "Description: Luzon is the largest and most populous \nisland in the Philippines, serving as the nation's economic\nand political center.\n";
     std::string reg;
-    std::string regions[] = {"Ilocos Region (Region I)", "Cagayan Valley (Region II)", "Central Luzon (Region III)", "CALABARZON (Region IV-A)", "MIMAROPA (Region IV-B): ===================>[4b]", "Bicol Region (Region V) =======================> [5]", "National Capital Region (NCR)", "Cordillera Administrative Region (CAR)"
+    std::string regions[] = {"Ilocos Region (Region I)", "Cagayan Valley (Region II)", "Central Luzon (Region III)", "CALABARZON (Region IV-A)", 
+        "MIMAROPA (Region IV-B):=========================> [4b]", "Bicol Region (Region V):=========================> [5]",
+        "National Capital Region (NCR)", "Cordillera Administrative Region (CAR)"
     };
     int size = sizeof(regions) / sizeof(regions[0]);
     
     while (true) {
-        
+        std::cout << "\n==================== Luzon (Regions) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << regions[i] << std::endl;
         }
@@ -52,14 +73,16 @@ void luzon_reg() {
 // Visayas =========================================================
 
 void visayas_reg() {
-    std::cout << "\n======= Visayas Regions =======\n";
+    std::cout << "\n==================== VISAYAS ISLAND ====================\n";
+    std::cout << "Description: The Visayas is a major island group and cultural region\n in the central Philippines, known for its diverse landscapes,\nvibrant culture, and numerous tourist destinations\n";
     std::string reg;
     std::string regions[] = {
-        "Western Visayas (Region VI)", "Central Visayas (Region VII)", "Eastern Visayas (Region VIII) ====================> [8]"
+        "Western Visayas (Region VI)", "Central Visayas (Region VII)", "Eastern Visayas (Region VIII):=========================> [8]"
     };
     int size = sizeof(regions) / sizeof(regions[0]);
     
     while (true) {
+        std::cout << "\n==================== Visayas (Regions) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << regions[i] << std::endl;
         }
@@ -87,7 +110,8 @@ void visayas_reg() {
 
 // Mindanao ========================================================
 void mindanao_reg() {
-    std::cout << "\n======= Mindanao Regions =======\n";
+    std::cout << "\n==================== MINDANAO ISLAND ====================\n";
+    std::cout << "Description: Mindanao is the second-largest island in the Philippines,\nlocated in the southern part of the archipelago.\n";
     std::string reg;
     std::string regions[] = {
         "Zamboanga Peninsula (Region IX)", "Northern Mindanao (Region X)", "Davao Region (Region XI)", "SOCCSKSARGEN (Region XII)", "Caraga (Region XIII)", "Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)"
@@ -95,6 +119,7 @@ void mindanao_reg() {
     int size = sizeof(regions) / sizeof(regions[0]);
     
     while (true) {
+        std::cout << "\n==================== Mindanao (Regions) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << regions[i] << std::endl;
         }
@@ -127,12 +152,13 @@ void mindanao_reg() {
 
 // Main Function ===================================================
 int main() {
-    std::cout << "\n======= Philippines Map =======\n";
+    intro();
     std::string isl;
-    std::string islands[] = {"Luzon", "Visayas", "Mindanao"};
+    std::string islands[] = {"\tLuzon", "\tVisayas", "\tMindanao"};
     int size = sizeof(islands) / sizeof(islands[0]);
     
     while (true){
+        std::cout << "\n========== Philippine (Islands) ==========\n";
         for (int i = 0; i < size; i++) {
         std::cout << islands[i] << std::endl;
         }
