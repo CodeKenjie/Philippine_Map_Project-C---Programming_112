@@ -1,5 +1,7 @@
 #pragma once
-#include "cities.h"
+#include "luzon_cities.h"
+#include "visayas_cities.h"
+#include "mindanao_cities.h"
 #include "more_info.h"
 
 /* [Reminder] THIS IS A PROVINCES FILE - palagi po maglagay ng comments para alam ng mga nag eedit */

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 #include "regions.h"
 
  /* ========== Philippine Map Project  Programming 112 ================== */
