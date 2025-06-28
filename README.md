@@ -50,7 +50,7 @@ This is a C++ (.cpp) language app of the Philippine Map for our school project a
 - provinces.h
 - luzon_cities.h
 - visayas_cities.h
-- mindanao.h
+- mindanao_cities.h
 - more_info.h
 
 # Preview
