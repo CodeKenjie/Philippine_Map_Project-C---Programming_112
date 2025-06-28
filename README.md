@@ -15,15 +15,20 @@ Log in muna kayo dito edit nyo to if may gumagawa para alam ko kung may nag eedi
 - Caniopa, Jake
 
 ##### This Project Contains :
+- Barangays (which contain all the region code brangay Folders)
+  - Region 4b Barangay (which contain all the b#.txt files of every barangay)
+  - Region 5 Barangay (which contain all the b#.txt files of every barangay)
+  - Region 8 Barangay (which contain all the b#.txt files of every barangay)
+- more_info (which contain all the *province name*_mi.txt files) 
 - README FILE
 - app.cpp
 - app.exe
 - regions.h
 - provinces.h
-- cities.h
+- luzon_cities.h
+- visayas_cities.h
+- mindanao.h
 - more_info.h
-- tempCodeRunnerFile.cpp
-- tempCodeRunnerFile.h
 
 # Preview
 >>insert Pictures here when finished
