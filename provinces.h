@@ -1190,6 +1190,7 @@ void smr(){
         
     }
 }
+
 void south_lyte(){
     std::cout << "\n==================== Southern Leyte (Province) ====================\n";
     
@@ -1262,3 +1263,512 @@ void south_lyte(){
         
     }
 }
+
+// Davao Region Provinces =====================================================================================================================================================
+
+void dvodeoro() {
+    std::cout << "\n==================== Davao De Oro (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Compostela = 1", "Laak = 2", "Mabini = 3", "Maco = 4", "Maragusan = 5", "Mawab = 6", 
+        "Montevista = 7", "Nabunturan = 8", "New Bataan = 9", "Pantukan = 10",};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            compos();
+        } else if (city == "2") {
+            laak();
+        } else if (city == "3") {
+            mabini();
+        } else if (city == "4") {
+            maco();
+        } else if (city == "5") {
+            mrgsan();
+        } else if (city == "6") {
+            mawab();
+        } else if (city == "7") {
+            mntvsta();
+        } else if (city == "8") {
+            nbnturan();
+        } else if (city == "9") {
+            nwbtaan();
+        } else if (city == "10") {
+            pntukan();
+        }  else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_dvo_de_oro();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+}
+}
+
+
+
+
+void dvodelsur() {
+    std::cout << "\n==================== Davao Del Sur (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Digos (City) = 1", "Hagonoy = 2", "Kiblawan = 3", "Magsaysay = 4", "Malalag = 5", "Matanao = 6", 
+        "Padada = 7", "Santa Cruz = 8", "Sulop = 9"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            digos();
+        } else if (city == "2") {
+            hgnoy();
+        } else if (city == "3") {
+            kblawan();
+        } else if (city == "4") {
+            magsaysayy();
+        } else if (city == "5") {
+            mlalag();
+        } else if (city == "6") {
+            mtnao();
+        } else if (city == "7") {
+            pdd();
+        } else if (city == "8") {
+            sntcruz();
+        } else if (city == "9") {
+            sulop();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_dvo_del_sur();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+}
+}
+
+
+
+
+void dvodelnorte(){
+    std::cout << "\n==================== Davao Del Norte (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Panobo City = 1", "Island Garden City of Samal = 2", "Tagum City = 3", "Asuncion = 4", "Carmen = 5", "Kapalong = 6", 
+        "New Correla = 7", "Santo Tomas = 8", "Talaingod = 9", "Braul E. Dujali = 10", "San Isidro  = 11"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            panobo();
+        } else if (city == "2") {
+            samal();
+        } else if (city == "3") {
+            tagum();
+        } else if (city == "4") {
+            asuncion();
+        } else if (city == "5") {
+            carmen();
+        } else if (city == "6") {
+            kplong();
+        } else if (city == "7") {
+            nwcrlla();
+        } else if (city == "8") {
+            snttomas();
+        } else if (city == "9") {
+            talaingod();
+        } else if (city == "10") {
+            braulio();
+        } else if (city == "11") {
+            snisidro();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_dvo_del_norte();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+
+
+
+void dvoocci(){
+    std::cout << "\n==================== Davao Occidental (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Don Marcelino = 1", "Jose Abad Santos = 2", "Malita = 3", "Santa Maria = 4", "Sarangani = 5"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            donmarcelino();
+        } else if (city == "2") {
+            joseabdsntos();
+        } else if (city == "3") {
+            malita();
+        } else if (city == "4") {
+            sntamaria();
+        } else if (city == "5") {
+            sarangani();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_dvo_occidental();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+    
+
+
+void dvoori(){
+    std::cout << "\n==================== Davao Oriental (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Mati City = 1", "Baganga = 2", "Banaybanay = 3", "Boston = 4", "Caraga = 5", "Cateel = 6", "Governor Generoso = 7", "Lupon = 8", "Manay = 9", 
+        "San Isidro = 10", "Tarragona = 11"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            mati();
+        } else if (city == "2") {
+            baganga();
+        } else if (city == "3") {
+            banaybanay();
+        } else if (city == "4") {
+            boston();
+        } else if (city == "5") {
+            caraga();
+        } else if (city == "6") {
+            cateel();
+        } else if (city == "7") {
+            govgenroso();
+        } else if (city == "8") {
+            lupon();
+        } else if (city == "9") {
+            manay();
+        } else if (city == "10") {
+            snisidro2();
+        } else if (city == "11") {
+            tarragona();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_dvo_oriental();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+// SOCCSKSARGEN Provinces ====================================================================================================================================================
+
+void cotabato(){
+    std::cout << "\n==================== Cotabato City (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Kidapawan City = 1", "Alamada = 2", "Aleosan = 3", "Antipas = 4", "Arakan = 5", "Banisilan = 6", "Carmen = 7", "Kabacan = 8", "Libungan = 9", 
+        "Magpet = 10", "Makilala = 11", "Matalam = 12", "M'lang = 13", "Pigcawayan = 14", "Pikit = 15", "President Roxas = 16", "Tulunan = 17", "Midsayap = 18"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            kidapawan();
+        } else if (city == "2") {
+            alamada();
+        } else if (city == "3") {
+            aleosan();
+        } else if (city == "4") {
+            antipas();
+        } else if (city == "5") {
+            arakan();
+        } else if (city == "6") {
+            banisilan();
+        } else if (city == "7") {
+            carmen2();
+        } else if (city == "8") {
+            kabacan();
+        } else if (city == "9") {
+            libungan();
+        } else if (city == "10") {
+            magpet();
+        } else if (city == "11") {
+            makilala();
+        } else if (city == "12") {
+            matalam();
+        } else if (city == "13") {
+            mlang();
+        } else if (city == "14") {
+            pigcawayan();
+        } else if (city == "15") {
+            pikit();
+        } else if (city == "16") {
+            presidentroxas();
+        } else if (city == "17") {
+            tulunan();
+        } else if (city == "18") {
+            midsayap();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_cotabato();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+// Cotabato done ============================================================================================================================================================
+
+void southcotabato(){
+    std::cout << "\n==================== South Cotabato (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Koronodal City = 1", "Banga = 2", "Lake Sebu = 3", "Norala = 4", "Polomok  = 5", "Santo Niño = 6", "Surallah = 7", "Tampakan = 8", "Tantangan = 9", 
+        "T'boli = 10", "Tupi = 11"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            koronodal();
+        } else if (city == "2") {
+            banga();
+        } else if (city == "3") {
+            lakesebu();
+        } else if (city == "4") {
+            norala();
+        } else if (city == "5") {
+            polomok();
+        } else if (city == "6") {
+            sntnino();
+        } else if (city == "7") {
+            surallah();
+        } else if (city == "8") {
+            tampakan();
+        } else if (city == "9") {
+            tantangan();
+        } else if (city == "10") {
+            tboli();
+        } else if (city == "11") {
+            tupi();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_south_cotabato();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+
+
+void sultankudarat(){
+    std::cout << "\n==================== Sultan Kudarat (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Tacurong City = 1", "Bagumbayan = 2", "Columbio = 3", "Esperanza = 4", "Kalamansig  = 5", "Lambayong = 6", "Lebak = 7", "Lutayan = 8", "Palimbang = 9", 
+        "President Quirino = 10", "Senator Ninoy Aquino = 11", "Isulan = 12"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            tacurong();
+        } else if (city == "2") {
+            bagumbayan2();
+        } else if (city == "3") {
+            columbio();
+        } else if (city == "4") {
+            esperanza2();
+        } else if (city == "5") {
+            kalamansig();
+        } else if (city == "6") {
+            lambayong();
+        } else if (city == "7") {
+            lebak();
+        } else if (city == "8") {
+            lutayan();
+        } else if (city == "9") {
+            palimbang();
+        } else if (city == "10") {
+            presidentquirino();
+        } else if (city == "11") {
+            sntorninoy();
+        } else if (city == "12") {
+            isulan();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_sultan_kudarat();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void sarangani2(){
+    std::cout << "\n==================== Sarangani (Province) ====================\n";
+    
+    std::string cities[] = {
+        "Alabel = 1", "Glan = 2", "Kiamba = 3", "Maasim = 4", "Maitum = 5", "Malapatan = 6", "Malungon = 7"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            alabel();
+        } else if (city == "2") {
+            glan();
+        } else if (city == "3") {
+            kiamba();
+        } else if (city == "4") {
+            maasim();
+        } else if (city == "5") {
+            maitum();
+        } else if (city == "6") {
+            malapatan();
+        } else if (city == "7") {
+            malungon();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_sarangani();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+
