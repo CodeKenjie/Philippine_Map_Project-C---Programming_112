@@ -163,10 +163,82 @@ void reg_ix() {
 void reg_x() {
         
 }
-void reg_xi() {
+
+// Tim Ame's Personal Slave ========================================
+void reg_xi() { 
+    
+    std::cout << "\n==================== Region XI (MIMAROPA) ====================\n";
+    std::string prov;
+    std::string provinces[] = {"Davao De Oro", "Davao Del Norte", "Davao Del Sur", "Davao Occidental", "Davao Oriental"   
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+
+    
+    while (true) {
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+    
+        if (prov == "Davao De Oro" || prov == "davao de oro"|| prov == "DAVAO DE ORO") {
+            dvodeoro();
+        } else if (prov == "Davao Del Sur" || prov == "davao del sur"|| prov == "DAVAO DEL SUR") {
+            dvodelsur();
+        } else if (prov == "Davao Del Norte" || prov == "davao del norte"|| prov == "DAVAO DEL NORTE") {
+            dvodelnorte();
+        } else if (prov == "Davao Occidental" || prov == "davao occidental"|| prov == "DAVAO OCCIDENTAL") {
+            dvoocci();
+        } else if (prov == "Davao Oriental" || prov == "davao oriental"|| prov == "DAVAO ORIENTAL") {
+            dvoori();
+        } else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    
+    }
 
 }
-void reg_xii() {
+
+void reg_xii() {  
+
+    std::cout << "\n==================== Region XII (SOCCSKSARGEN Region) ====================\n";
+    std::string prov;
+    std::string provinces[] = {"Cotabato", "South Cotabato", "Sultan Kudarat", "Sarangani"   };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+
+    
+    while (true) {
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+    
+        if (prov == "Cotabato" || prov == "cotabato"|| prov == "COTABATO") {
+            cotabato();
+        } else if (prov == "South Cotabato" || prov == "south cotabato"|| prov == "SOUTH COTABATO") {
+            southcotabato();
+        } else if (prov == "Sultan Kudarat" || prov == "sultan kudarat"|| prov == "SULTAN KUDARAT") {
+            sultankudarat();
+        } else if (prov == "Sarangani" || prov == "sarangani"|| prov == "SARANGANI") {
+            sarangani2();
+        }  else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    
+    }       
         
 }
 void reg_xiii() {
