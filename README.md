@@ -36,12 +36,26 @@ This is a C++ (.cpp) language app of the Philippine Map for our school project a
   - more info
     - cities
       -barangays
+- region 11
+  - provinces
+  - more info
+    - cities
+      -barangays
+
+- region 12
+  - provinces
+  - more info
+    - cities
+      -barangays
       
 ##### This Project Contains :
 - Barangays (which contain all the region code brangay Folders)
   - Region 4b Barangay (which contain all the b#.txt files of every barangay)
   - Region 5 Barangay (which contain all the b#.txt files of every barangay)
   - Region 8 Barangay (which contain all the b#.txt files of every barangay)
+  - Region 11 Barangay (which contain all the b#.txt files of every barangay)
+  - Region 12 Barangay (which contain all the b#.txt files of every barangay)
+    
 - more_info (which contain all the *province name*_mi.txt files) 
 - README.md
 - app.cpp
