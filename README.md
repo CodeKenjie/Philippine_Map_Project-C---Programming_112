@@ -38,7 +38,8 @@ This is a C++ (.cpp) language app of the Philippine Map for our school project a
     - barangays
 - region 11
   - provinces
-  - cities 
+  - more info
+  - cities
     - barangays
 - region 12
   - provinces
