@@ -192,7 +192,7 @@ void reg_xi() {
             dvoocci();
         } else if (prov == "Davao Oriental" || prov == "davao oriental"|| prov == "DAVAO ORIENTAL") {
             dvoori();
-        } else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+        } else if (prov == "back" || prov == "Back" || prov == "BACK") {
             std::cout << "\n===========================\n";
             break;
         }else {
@@ -229,7 +229,7 @@ void reg_xii() {
             sultankudarat();
         } else if (prov == "Sarangani" || prov == "sarangani"|| prov == "SARANGANI") {
             sarangani2();
-        }  else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+        }  else if (prov == "back" || prov == "Back" || prov == "BACK") {
             std::cout << "\n===========================\n";
             break;
         }else {
