@@ -1,0 +1,37 @@
+======= Lasam (Barangays) =======
+
+Urban
+
+Centro I (Poblacion)
+Centro II (Poblacion)
+Centro III (Poblacion)
+
+Rural
+
+Aggunetan
+Alannay
+Battalan
+Cabatacan East (Duldugan)
+Cabatacan West
+Calapangan Norte
+Calapangan Sur
+Callao Norte
+Callao Sur
+Cataliganan
+Finugo Norte
+Gabun
+Ignacio B. Jurado (Finugu Sur)
+Magsaysay
+Malinta
+Minanga Norte
+Minanga Sur
+Nabannagan East
+Nabannagan West
+New Orlins
+Nicolas Agatep
+Peru
+San Pedro
+Sicalao
+Tagao
+Tucalan Passing
+Viga

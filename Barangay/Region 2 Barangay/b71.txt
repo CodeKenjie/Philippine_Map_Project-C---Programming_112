@@ -1,0 +1,54 @@
+======= Tumauini (Barangays) =======
+
+Urban (Poblacion)
+
+Barangay District 1 (Poblacion)
+Barangay District 2 (Poblacion)
+Barangay District 3 (Poblacion)
+Barangay District 4 (Poblacion)
+Lingaling
+San Pedro
+
+Rural
+
+Annafunan
+Antagan I
+Antagan II
+Arcon
+Balug
+Banig
+Bantug
+Bayabo East
+Caligayan
+Camasi
+Carpentero
+Compania
+Cumabao
+Fermeldy (Hcda. San Francisco)
+Fugu Abajo
+Fugu Norte
+Fugu Sur
+Lalauanan
+Lanna
+Lapogan
+Liwanag
+Santa
+Santa Catalina
+Santa Visitacion (Maggayu)
+Malamag East
+Malamag West
+Maligaya
+Minanga
+Moldero
+Namnama
+Paragu
+Pilitan
+San Mateo
+San Vicente
+Santo Niño
+Sinippil
+Sisim Abajo
+Sisim Alto
+Tunggui
+Ugad
+

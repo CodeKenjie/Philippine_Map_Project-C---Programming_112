@@ -1,0 +1,72 @@
+======= Cauayan City (Barangays) =======
+
+Urban
+
+Cabaruan
+District I (Poblacion)
+District II (Poblacion)
+District III (Poblacion)
+Minante I
+Minante II
+San Fermin (Poblacion)
+Sillawit
+Tagaran
+Turayong
+
+Rural
+
+Alicaocao
+Alinam
+Amobocan
+Andarayan
+Bacolod
+Baringin Norte
+Baringin Sur
+Buena Suerte
+Bugallon
+Buyon
+Cabugao
+Carabatan Chica
+Carabatan Grande
+Carabatan Punta
+Carabatan Bacareno
+Casalatan
+Cassap Fuera
+Catalina
+Culalabat
+Dabburab
+De Vera
+Dianao
+Dissimuray
+Duminit
+Faustino (Sipay)
+Gagabutan
+Gappal
+Guayabal
+Labinab
+Linglingay
+Mabantad
+Maligaya
+Manaoag
+Marabulig I
+Marabulig II
+Nagcampegan
+Naganacan
+Nagrumbuan
+Nungnungan I
+Nungnungan II
+Pinoma
+Rizal
+Rogus
+San Antonio
+San Francisco
+San Isidro
+San Luis
+San Pablo
+Santa Luciana
+Santa Maria
+Sinippil
+Union
+Villa Concepcion
+Villa Luna
+Villaflor
