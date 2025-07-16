@@ -1,0 +1,28 @@
+======= Tayug (Barangays) =======
+
+Urban 
+
+Barangobong
+Magallanes
+Barangay A (Poblacion)
+Barangay B (Poblacion)
+Barangay C (Poblacion)
+Barangay D (Poblacion)
+
+Rural 
+
+Agno
+Amistad
+Carriedo
+C. Lichauco
+Evangelista
+Guzon
+Lawak
+Legaspi
+Libertad
+Panganiban
+Saleng
+Santo Domingo
+Toketec
+Trenchera
+Zamora

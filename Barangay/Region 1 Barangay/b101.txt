@@ -1,0 +1,40 @@
+======= Lingayen (Barangays) =======
+
+Urban
+
+Baay
+Libsong East
+Libsong West
+Maniboc
+Matalava
+Pangapisan North
+Poblacion
+
+Rural
+
+Aliwekwek
+Balangobong
+Balococ
+Bantayan
+Basing
+Capandanan
+Domalandan Center
+Domalandan East
+Domalandan West
+Dorongan
+Dulag
+Estanza
+Lasip
+Malawa
+Malimpuec
+Naguelguel
+Namolan
+Pangapisan Sur
+Quibaol
+Rosario
+Sabangan
+Talogtog
+Tonton
+Tumbar
+Wawa
+
