@@ -9,15 +9,24 @@
 /////// ALL CITIES IN MINDANAO ONLY
 
 
+<<<<<<< HEAD
 // Region 12 Cities / Municipalities
+=======
+// Region 11 Cities / Municipalities
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
 
 // Davao De Oro Barangays
 
 void compos(){
     std::string act;
     std::cout << "\n======= Compostela (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8803";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -52,8 +61,13 @@ void compos(){
 void laak(){
     std::string act;
     std::cout << "\n======= Laak (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8810";
+    std::cout << "\n===================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -88,8 +102,13 @@ void laak(){
 void mabini(){
     std::string act;
     std::cout << "\n======= Mabini (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8807";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -124,8 +143,13 @@ void mabini(){
 void maco(){
     std::string act;
     std::cout << "\n======= Maco (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8806";
+    std::cout << "\n===================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -161,8 +185,13 @@ void maco(){
 void mrgsan(){
     std::string act;
     std::cout << "\n======= Maragusan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8808";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -197,8 +226,13 @@ void mrgsan(){
 void mawab(){
     std::string act;
     std::cout << "\n======= Mawab (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8802";
+    std::cout << "\n====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -233,8 +267,13 @@ void mawab(){
 void mntvsta(){
     std::string act;
     std::cout << "\n======= Montevista (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8801";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -269,8 +308,13 @@ void mntvsta(){
 void nbnturan(){
     std::string act;
     std::cout << "\n======= Nabunturan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8800";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -305,8 +349,13 @@ void nbnturan(){
 void nwbtaan(){
     std::string act;
     std::cout << "\n======= New Bataan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8804";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -341,8 +390,13 @@ void nwbtaan(){
 void pntukan(){
     std::string act;
     std::cout << "\n======= Pantukan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8809";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -378,8 +432,13 @@ void pntukan(){
 void digos(){
     std::string act;
     std::cout << "\n======= Digos (Capital City) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8002";
+    std::cout << "\n====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -414,8 +473,13 @@ void digos(){
 void hgnoy(){
     std::string act;
     std::cout << "\n======= Hagonoy (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8006";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -450,8 +514,13 @@ void hgnoy(){
 void kblawan(){
     std::string act;
     std::cout << "\n======= Kiblawan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8008";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -486,8 +555,13 @@ void kblawan(){
 void magsaysayy(){
     std::string act;
     std::cout << "\n======= Magsaysay (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8004";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -522,8 +596,13 @@ void magsaysayy(){
 void mlalag(){
     std::string act;
     std::cout << "\n======= Malalag (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8010";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -558,8 +637,13 @@ void mlalag(){
 void mtnao(){
     std::string act;
     std::cout << "\n======= Matanao (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8003";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -594,8 +678,13 @@ void mtnao(){
 void pdd(){
     std::string act;
     std::cout << "\n======= Padada (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8007";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -630,8 +719,13 @@ void pdd(){
 void sntcruz(){
     std::string act;
     std::cout << "\n======= Santa Cruz (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8001";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -666,8 +760,13 @@ void sntcruz(){
 void sulop(){
     std::string act;
     std::cout << "\n======= Sulop (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8009";
+    std::cout << "\n====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -704,8 +803,13 @@ void sulop(){
 void panobo(){
     std::string act;
     std::cout << "\n======= Panobo City (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8105";
+    std::cout << "\n==========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -740,8 +844,13 @@ void panobo(){
 void samal(){
     std::string act;
     std::cout << "\n======= Island Garden City of Samal (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8119";
+    std::cout << "\n==========================================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -776,8 +885,13 @@ void samal(){
 void tagum(){
     std::string act;
     std::cout << "\n======= Tagum (Capital City) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8100";
+    std::cout << "\n====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -812,8 +926,13 @@ void tagum(){
 void asuncion(){
     std::string act;
     std::cout << "\n======= Asuncion (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8102";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -848,8 +967,13 @@ void asuncion(){
 void carmen(){
     std::string act;
     std::cout << "\n======= Carmen (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8101";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -884,8 +1008,13 @@ void carmen(){
 void kplong(){
     std::string act;
     std::cout << "\n======= Kapalong (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8113";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -920,8 +1049,13 @@ void kplong(){
 void nwcrlla(){
     std::string act;
     std::cout << "\n======= New Corella (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8104";
+    std::cout << "\n==========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -956,8 +1090,13 @@ void nwcrlla(){
 void snttomas(){
     std::string act;
     std::cout << "\n======= Santo Tomas (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8112";
+    std::cout << "\n==========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -992,8 +1131,13 @@ void snttomas(){
 void talaingod(){
     std::string act;
     std::cout << "\n======= Talaingod (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8107";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1028,8 +1172,13 @@ void talaingod(){
 void braulio(){
     std::string act;
     std::cout << "\n======= Braulio E. Dujali (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8106";
+    std::cout << "\n================================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1064,8 +1213,13 @@ void braulio(){
 void snisidro(){
     std::string act;
     std::cout << "\n======= San Isidro (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8121";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1102,8 +1256,13 @@ void snisidro(){
 void donmarcelino(){
     std::string act;
     std::cout << "\n======= Don Marcelino (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8013";
+    std::cout << "\n============================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1138,8 +1297,13 @@ void donmarcelino(){
 void joseabdsntos(){
     std::string act;
     std::cout << "\n======= Jose Abad Santos (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8014";
+    std::cout << "\n===============================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1174,8 +1338,13 @@ void joseabdsntos(){
 void malita(){
     std::string act;
     std::cout << "\n======= Malita (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8012";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1210,8 +1379,13 @@ void malita(){
 void sntamaria(){
     std::string act;
     std::cout << "\n======= Santa Maria (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8011";
+    std::cout << "\n==========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1246,8 +1420,13 @@ void sntamaria(){
 void sarangani(){
     std::string act;
     std::cout << "\n======= Sarangani (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8015";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1284,8 +1463,13 @@ void sarangani(){
 void mati(){
     std::string act;
     std::cout << "\n======= Mati City (Capital City) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8200";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1320,8 +1504,13 @@ void mati(){
 void baganga(){
     std::string act;
     std::cout << "\n======= Baganga (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8204";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1356,8 +1545,13 @@ void baganga(){
 void banaybanay(){
     std::string act;
     std::cout << "\n======= Banaybanay (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8208";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1391,8 +1585,13 @@ void banaybanay(){
 void boston(){
     std::string act;
     std::cout << "\n======= Boston (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8206";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1427,8 +1626,13 @@ void boston(){
 void caraga(){
     std::string act;
     std::cout << "\n======= Caraga (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8203";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1463,8 +1667,13 @@ void caraga(){
 void cateel(){
     std::string act;
     std::cout << "\n======= Cateel (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8205";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1500,7 +1709,11 @@ void cateel(){
 void govgenroso(){
     std::string act;
     std::cout << "\n======= Governor Generoso (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
+=======
+    std::cout << "Zip Code: 8210";
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1537,7 +1750,11 @@ void govgenroso(){
 void lupon(){
     std::string act;
     std::cout << "\n======= Lupon (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
+=======
+    std::cout << "Zip Code: 8207";
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1573,8 +1790,13 @@ void lupon(){
 void manay(){
     std::string act;
     std::cout << "\n======= Manay (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8202";
+    std::cout << "\n====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1609,8 +1831,13 @@ void manay(){
 void snisidro2(){
     std::string act;
     std::cout << "\n======= San Isidro (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8209";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1645,8 +1872,13 @@ void snisidro2(){
 void tarragona(){
     std::string act;
     std::cout << "\n======= Tarragona (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 8201";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1690,8 +1922,13 @@ void tarragona(){
 void kidapawan(){
     std::string act;
     std::cout << "\n======= Kidapawan (Capital City) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9400";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1726,8 +1963,13 @@ void kidapawan(){
 void alamada(){
     std::string act;
     std::cout << "\n======= Alamada (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9413";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1762,8 +2004,13 @@ void alamada(){
 void aleosan(){
     std::string act;
     std::cout << "\n======= Aleosan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9415";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1798,8 +2045,13 @@ void aleosan(){
 void antipas(){
     std::string act;
     std::cout << "\n======= Antipas (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9414";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1834,8 +2086,13 @@ void antipas(){
 void arakan(){
     std::string act;
     std::cout << "\n======= Arakan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9417";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1870,8 +2127,13 @@ void arakan(){
 void banisilan(){
     std::string act;
     std::cout << "\n======= Banisilan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9416";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1906,7 +2168,11 @@ void banisilan(){
 void carmen2(){
     std::string act;
     std::cout << "\n======= Carmen (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
+=======
+    std::cout << "Zip Code: 9408";
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1942,8 +2208,13 @@ void carmen2(){
 void kabacan(){
     std::string act;
     std::cout << "\n======= Kabacan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9407";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -1974,8 +2245,13 @@ void kabacan(){
 void libungan(){
     std::string act;
     std::cout << "\n======= Libungan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9411";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2007,8 +2283,13 @@ void libungan(){
     void magpet(){
     std::string act;
     std::cout << "\n======= Magpet (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9404";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2040,8 +2321,13 @@ void libungan(){
     void makilala(){
     std::string act;
     std::cout << "\n======= Makilala (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9401";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2073,8 +2359,13 @@ void libungan(){
     void matalam(){
     std::string act;
     std::cout << "\n======= Matalam (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9406";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2106,8 +2397,13 @@ void libungan(){
     void mlang(){
     std::string act;
     std::cout << "\n======= M'lang (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9402";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2139,8 +2435,13 @@ void libungan(){
     void pigcawayan(){
     std::string act;
     std::cout << "\n======= Pigcawayan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9412";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2172,8 +2473,13 @@ void libungan(){
     void pikit(){
     std::string act;
     std::cout << "\n======= Pikit (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9409";
+    std::cout << "\n====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2206,8 +2512,13 @@ void libungan(){
 void presidentroxas(){
     std::string act;
     std::cout << "\n======= President Roxas (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9405";
+    std::cout << "\n==============================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2240,8 +2551,13 @@ void presidentroxas(){
     void tulunan(){
     std::string act;
     std::cout << "\n======= Tulunan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9403";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2273,8 +2589,13 @@ void presidentroxas(){
     void midsayap(){
     std::string act;
     std::cout << "\n======= Midsayap (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9410";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2309,8 +2630,13 @@ void presidentroxas(){
     void koronodal(){
     std::string act;
     std::cout << "\n======= Koronodal (Capital City) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9506";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2342,8 +2668,13 @@ void presidentroxas(){
     void banga(){
     std::string act;
     std::cout << "\n======= Banga (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9511";
+    std::cout << "\n====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2375,8 +2706,13 @@ void presidentroxas(){
     void lakesebu(){
     std::string act;
     std::cout << "\n======= Lake Sebu (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9514";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2408,7 +2744,11 @@ void presidentroxas(){
     void norala(){
     std::string act;
     std::cout << "\n======= Norala (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
+=======
+     std::cout << "Zip Code: 9508";
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2448,7 +2788,11 @@ void presidentroxas(){
      void polomok(){
     std::string act;
     std::cout << "\n======= Polomok (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
+=======
+    std::cout << "Zip Code: 9504";
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2481,8 +2825,13 @@ void presidentroxas(){
      void sntnino(){
     std::string act;
     std::cout << "\n======= Santo Niño (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9509";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2514,8 +2863,13 @@ void presidentroxas(){
     void surallah(){
     std::string act;
     std::cout << "\n======= Surallah (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9512";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2547,8 +2901,13 @@ void presidentroxas(){
     void tampakan(){
     std::string act;
     std::cout << "\n======= Tampakan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9507";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2580,8 +2939,13 @@ void presidentroxas(){
     void tantangan(){
     std::string act;
     std::cout << "\n======= Tantangan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9510";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2613,8 +2977,13 @@ void presidentroxas(){
     void tboli(){
     std::string act;
     std::cout << "\n======= T'boli (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9513";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2646,7 +3015,11 @@ void presidentroxas(){
     void tupi(){
     std::string act;
     std::cout << "\n======= Tupi (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
+=======
+    std::cout << "Zip Code: 9505";
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2681,8 +3054,13 @@ void presidentroxas(){
     void tacurong(){
     std::string act;
     std::cout << "\n======= Tacurong (Capital City) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9800";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2714,8 +3092,13 @@ void presidentroxas(){
     void bagumbayan2(){
     std::string act;
     std::cout << "\n======= Bagumbayan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9810";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2747,8 +3130,13 @@ void presidentroxas(){
     void columbio(){
     std::string act;
     std::cout << "\n======= Columbio (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9801";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2780,8 +3168,13 @@ void presidentroxas(){
     void esperanza2(){
     std::string act;
     std::cout << "\n======= Esperanza (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9806";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2813,8 +3206,13 @@ void presidentroxas(){
     void kalamansig(){
     std::string act;
     std::cout << "\n======= Kalamansig (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9808";
+    std::cout << "\n=========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2846,8 +3244,13 @@ void presidentroxas(){
     void lambayong(){
     std::string act;
     std::cout << "\n======= Lambayong (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9802";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2879,8 +3282,13 @@ void presidentroxas(){
     void lebak(){
     std::string act;
     std::cout << "\n======= Lebak (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9807";
+    std::cout << "\n====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2913,8 +3321,13 @@ void presidentroxas(){
     void lutayan(){
     std::string act;
     std::cout << "\n======= Lutayan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9803";
+    std::cout << "\n======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2947,8 +3360,13 @@ void presidentroxas(){
     void palimbang(){
     std::string act;
     std::cout << "\n======= Palimbang (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9809";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -2981,8 +3399,13 @@ void presidentroxas(){
     void presidentquirino(){
     std::string act;
     std::cout << "\n======= President Quirino (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9804";
+    std::cout << "\n================================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3014,8 +3437,13 @@ void presidentroxas(){
     void sntorninoy(){
     std::string act;
     std::cout << "\n======= Senator Ninoy Aquino (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9811";
+    std::cout << "\n===================================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3047,8 +3475,13 @@ void presidentroxas(){
 void isulan(){
     std::string act;
     std::cout << "\n======= Isulan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9805";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3082,8 +3515,13 @@ void isulan(){
 void alabel(){
     std::string act;
     std::cout << "\n======= Alabel (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9501";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3115,8 +3553,13 @@ void alabel(){
     void glan(){
     std::string act;
     std::cout << "\n======= Glan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9517";
+    std::cout << "\n===================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3148,8 +3591,13 @@ void alabel(){
     void kiamba(){
     std::string act;
     std::cout << "\n======= Kiamba (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9514";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3181,8 +3629,13 @@ void alabel(){
     void maasim(){
     std::string act;
     std::cout << "\n======= Maasim (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9502";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3214,8 +3667,13 @@ void alabel(){
 void maitum(){
     std::string act;
     std::cout << "\n======= Maitum (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9515";
+    std::cout << "\n=====================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3247,8 +3705,13 @@ void maitum(){
     void malapatan(){
     std::string act;
     std::cout << "\n======= Malapatan (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9516";
+    std::cout << "\n========================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
@@ -3280,8 +3743,13 @@ void maitum(){
     void malungon(){
     std::string act;
     std::cout << "\n======= Malungon (Municipality) =======\n" << std::endl;
+<<<<<<< HEAD
     
     std::cout << "\n===============================\n" << std::endl;
+=======
+    std::cout << "Zip Code: 9503";
+    std::cout << "\n=======================================\n" << std::endl;
+>>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
