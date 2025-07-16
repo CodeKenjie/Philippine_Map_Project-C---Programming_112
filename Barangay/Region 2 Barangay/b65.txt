@@ -1,0 +1,25 @@
+======= San Manuel (Barangays) =======
+
+Urban (Poblacion)
+District 1
+District 2
+District 3
+District 4
+
+Rural
+
+Agliam
+Babanuang
+Cabaritan
+Caraniogan
+Eden
+Malalinta
+Mararigue
+Nueva Era
+Pisang
+San Francisco
+Sandiat Centro
+Sandiat East
+Sandiat West
+Santa Cruz
+Villanueva

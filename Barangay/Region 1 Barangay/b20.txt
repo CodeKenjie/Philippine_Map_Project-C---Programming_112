@@ -1,0 +1,29 @@
+======= San Nicolas (Barangays) =======
+
+Urban (Población)
+
+San Francisco
+San Baltazar
+San Ildefonso
+San Bartolome
+San Silvestre
+San Juan Bautista
+San Miguel
+San Rufino
+San Lucas
+San Paulo
+San Fernando
+San Cayetano
+San Eugenio
+San Gregorio
+San Jose
+
+Rural 
+
+San Agustin
+San Lorenzo
+San Marcos (Payas)
+San Pedro (Bingao)
+Santa Asuncion (Samac)
+Santa Cecilia (Barabar)
+Santa Monica (Nagrebcan)

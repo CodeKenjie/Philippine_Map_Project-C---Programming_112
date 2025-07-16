@@ -1,0 +1,25 @@
+======= Natividad (Barangays) =======
+
+Urban
+
+Poblacion East
+Poblacion West
+
+Rural
+
+Barangobong
+Batchelor East
+Batchelor West
+Burgos (San Narciso)
+Cacandungan
+Calapugan
+Canarem
+Luna
+Rizal
+Salud
+San Eugenio
+San Macario Norte
+San Macario Sur
+San Maximo
+San Miguel
+Silag

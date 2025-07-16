@@ -1,0 +1,47 @@
+======= Claveria (Barangays) =======
+
+Urban (Poblacion)
+Centro I
+Centro II
+Centro III
+Centro IV (Nangasangan)
+Centro V (Mina)
+Centro VI (Minanga)
+Centro VII (Malasin East)
+Centro VIII (Malasin West)
+
+Rural
+
+Alimoan
+Bacsay Cataraoan Norte
+Bacsay Cataraoan Sur
+Bacsay Mapulapula
+Bilibigao
+Buenavista
+Cadcadir East
+Cadcadir West
+Camalagaoan (D. Leaño)
+Capannikian
+Culao
+Dibalio
+Kilkiling
+Lablabig
+Luzon
+Mabnang
+Magdalena
+Malilitao
+Nagsabaran
+Pata East
+Pata West
+Pinas
+Santiago
+San Antonio (Sayad/Bimmokel)
+San Isidro
+San Vicente
+Santa Maria
+Santo Niño (Barbarnis)
+Santo Tomas
+Tabbugan
+Taggat Norte
+Taggat Sur
+Union

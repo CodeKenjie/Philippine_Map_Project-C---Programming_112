@@ -1,0 +1,87 @@
+======= Laoag (Barangays) =======
+
+Urban Barangays (Poblacion)
+
+San Lorenzo
+Santa Joaquina
+Nuestra Señora del Rosario
+San Guillermo
+San Pedro
+San Agustin
+Nuestra Señora del Natividad (7-A)
+Nuestra Señora del Natividad (7-B)
+San Vicente
+Santa Angela
+San Jose
+Santa Balbina
+San Isidro
+Nuestra Señora de Visitacion
+Santo Tomas
+San Guillermo (duplicate)
+San Jacinto
+San Francisco
+San Quirino
+Santa Marcela
+San Miguel
+San Pedro (duplicate)
+San Andres
+San Matias
+Nuestra Señora de Consolacion
+Santa Cayetana
+San Marcelino
+Nuestra Señora de Soledad
+San Bernardo
+Santo Tomas (duplicate)
+
+Rural Barangays
+
+Suyo
+Santa Maria
+Talingaan
+La Paz East
+La Paz West
+La Paz East (duplicate)
+La Paz Proper (A)
+La Paz Proper (B)
+Gabu Norte West
+Gabu Norte East
+Gabu Sur
+Araniw
+Calayab
+Mangato East
+Mangato West
+Santa Rosa
+Balatong
+Balacad
+Apaya
+Cavit
+Zamboanga
+Tangid
+Nalbo
+Bengcag
+Cabungaan North
+Cabungaan South
+Darayday
+Raraburan
+Buttong
+Nangalisan East
+Nangalisan West
+San Mateo
+Lataag
+Rioeng
+Camangaan
+Lagui-Sail
+Barit-Pandan
+Salet-Bulangon
+Vira
+Bacsil North
+Bacsil South
+Pila
+Casili
+Dibua South
+Dibua North
+Caaoacan
+Madiladig
+Cataban
+Navotas North
+Navotas South

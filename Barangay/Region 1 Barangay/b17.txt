@@ -1,0 +1,47 @@
+======= Pasuquin (Barangays) =======
+
+Urban (Poblacion)
+
+Poblacion 1
+Poblacion 2
+Poblacion 3
+Poblacion 4
+
+
+Coastal
+
+Davila
+Dilavo
+Caruan
+Sulongan
+Estancia
+Susugaen
+Nalvo
+Pragata
+Puyupuyan
+Naglicuan
+Binsan
+
+Lowland 
+
+Carusipan
+Dadaeman
+Darupidip
+Nagsanga
+Ngabangab
+Pangil
+Salpad
+San Juan
+Sulbec
+Surong
+
+Upland
+
+Tadao
+Tabungao
+Sapat
+Sta. Matilde
+Sta. Catalina
+San Juan (appears in lowland also)
+Dilanis
+Carusikis

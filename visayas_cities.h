@@ -15,7 +15,7 @@
 void almria(){
     std::string act;
     std::cout << "\n======= Almeria (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6544";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -50,7 +50,7 @@ void almria(){
 void blirn(){
     std::string act;
     std::cout << "\n======= Biliran (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6549";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -85,7 +85,7 @@ void blirn(){
 void cbcgyn(){
     std::string act;
     std::cout << "\n======= Cabucgayan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6550";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -120,7 +120,7 @@ void cbcgyn(){
 void cbran(){
     std::string act;
     std::cout << "\n======= Caibiran (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6548";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -155,7 +155,7 @@ void cbran(){
 void clba(){
     std::string act;
     std::cout << "\n======= Culaba (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6547";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -190,7 +190,7 @@ void clba(){
 void kwyan(){
     std::string act;
     std::cout << "\n======= Kawayan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6545";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -225,7 +225,7 @@ void kwyan(){
 void mrpipi(){
     std::string act;
     std::cout << "\n======= Maripipi (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6546";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -260,7 +260,7 @@ void mrpipi(){
 void nval(){
     std::string act;
     std::cout << "\n======= Naval (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6543";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -297,7 +297,7 @@ void nval(){
 void brngn(){
     std::string act;
     std::cout << "\n======= Borongan (Provincial Capital Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6800";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -332,7 +332,7 @@ void brngn(){
 void artch(){
     std::string act;
     std::cout << "\n======= Arteche (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6822";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -367,7 +367,7 @@ void artch(){
 void blngga(){
     std::string act;
     std::cout << "\n======= Balangiga (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6812";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -402,7 +402,7 @@ void blngga(){
 void blngkyan(){
     std::string act;
     std::cout << "\n======= Balangkayan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6801";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -437,7 +437,7 @@ void blngkyan(){
 void cnavd(){
     std::string act;
     std::cout << "\n======= Can-Avid (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6806";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -472,7 +472,7 @@ void cnavd(){
 void dlrs(){
     std::string act;
     std::cout << "\n======= Dolores (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6817";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -507,7 +507,7 @@ void dlrs(){
 void ishllrtrn(){
     std::string act;
     std::cout << "\n======= General MacArthur (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6805";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -542,7 +542,7 @@ void ishllrtrn(){
 void gprls(){
     std::string act;
     std::cout << "\n======= Giporlos (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6811";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -577,7 +577,7 @@ void gprls(){
 void giuan(){
     std::string act;
     std::cout << "\n======= Guiuan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6809";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -612,7 +612,7 @@ void giuan(){
 void hrnani(){
     std::string act;
     std::cout << "\n======= Hernani (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6804";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -647,7 +647,7 @@ void hrnani(){
 void jppd(){
     std::string act;
     std::cout << "\n======= Jipapad (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6819";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -682,7 +682,7 @@ void jppd(){
 void lwan(){
     std::string act;
     std::cout << "\n======= Lawaan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6819";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -717,7 +717,7 @@ void lwan(){
 void llrnte(){
     std::string act;
     std::cout << "\n======= Llorente (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6803";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -752,7 +752,7 @@ void llrnte(){
 void mslg(){
     std::string act;
     std::cout << "\n======= Maslog (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6818";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -787,7 +787,7 @@ void mslg(){
 void mydlng(){
     std::string act;
     std::cout << "\n======= Maydolong (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6802";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -822,7 +822,7 @@ void mydlng(){
 void mrcds_benz(){
     std::string act;
     std::cout << "\n======= Mercedes (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 4709";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -857,7 +857,7 @@ void mrcds_benz(){
 void btqtroras(){
     std::string act;
     std::cout << "\n======= Oras (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6814";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -892,7 +892,7 @@ void btqtroras(){
 void qnpndn(){
     std::string act;
     std::cout << "\n======= Quinapondan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6810";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -927,7 +927,7 @@ void qnpndn(){
 void jero(){
     std::string act;
     std::cout << "\n======= Salcedo (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6808";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -962,7 +962,7 @@ void jero(){
 void san_jlan(){
     std::string act;
     std::cout << "\n======= San Julian (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6815";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -997,7 +997,7 @@ void san_jlan(){
 void san_plcrpo(){
     std::string act;
     std::cout << "\n======= San Policarpo (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6821";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1032,7 +1032,7 @@ void san_plcrpo(){
 void write(){
     std::string act;
     std::cout << "\n======= Sulat (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6816";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1067,7 +1067,7 @@ void write(){
 void tftp(){
     std::string act;
     std::cout << "\n======= Taft (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6807";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1104,7 +1104,7 @@ void tftp(){
 void tclban_city() {
     std::string act;
     std::cout << "\n======= Leyte (City) =======\n" << std::endl;
-    std::cout << "Zip Code: 6510";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1139,7 +1139,7 @@ void tclban_city() {
 void ormc_city() {
     std::string act;
     std::cout << "\n======= Ormoc (City) =======\n" << std::endl;
-    std::cout << "Zip Code: 6541";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1174,7 +1174,7 @@ void ormc_city() {
 void byebye_city() {
     std::string act;
     std::cout << "\n======= Baybay (City) =======\n" << std::endl;
-    std::cout << "Zip Code: 6521";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1210,7 +1210,7 @@ void abyg() {
     std::string act;
     std::cout << "\n=========== 1st District =============\n" << std::endl;
     std::cout << "\n======= Abuyog (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6510";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1246,7 +1246,7 @@ void alngln() {
     std::string act;
     std::cout << "\n=========== 1st District =============\n" << std::endl;
     std::cout << "\n======= Alangalang (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6517";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1282,7 +1282,7 @@ void bbtngon() {
     std::string act;
     std::cout << "\n=========== 1st District =============\n" << std::endl;
     std::cout << "\n======= Babatngon (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 4709";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1318,7 +1318,7 @@ void plo() {
     std::string act;
     std::cout << "\n=========== 1st District =============\n" << std::endl;
     std::cout << "\n======= Palo (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6501";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1354,7 +1354,7 @@ void san_migcz() {
     std::string act;
     std::cout << "\n=========== 1st District =============\n" << std::endl;
     std::cout << "\n======= San Miguel (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6518";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1390,7 +1390,7 @@ void tnuan() {
     std::string act;
     std::cout << "\n=========== 1st District =============\n" << std::endl;
     std::cout << "\n======= Tanauan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6502";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1426,7 +1426,7 @@ void bruen() {
     std::string act;
     std::cout << "\n=========== 2nd District =============\n" << std::endl;
     std::cout << "\n======= Burauen (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6516";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1462,7 +1462,7 @@ void dgam() {
     std::string act;
     std::cout << "\n=========== 2nd District =============\n" << std::endl;
     std::cout << "\n======= Dagami (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6515";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1498,7 +1498,7 @@ void dlg() {
     std::string act;
     std::cout << "\n=========== 2nd District =============\n" << std::endl;
     std::cout << "\n======= Dulag (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6505";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1534,7 +1534,7 @@ void jlita() {
     std::string act;
     std::cout << "\n=========== 2nd District =============\n" << std::endl;
     std::cout << "\n======= Julita (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6506";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1570,7 +1570,7 @@ void lola_paz() {
     std::string act;
     std::cout << "\n=========== 2nd District =============\n" << std::endl;
     std::cout << "\n======= La Paz (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6508";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1606,7 +1606,7 @@ void myrga() {
     std::string act;
     std::cout << "\n=========== 2nd District =============\n" << std::endl;
     std::cout << "\n======= Mayorga (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6507";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1642,7 +1642,7 @@ void brbck() {
     std::string act;
     std::cout << "\n=========== 2nd District =============\n" << std::endl;
     std::cout << "\n======= MacArthur (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6509";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1678,7 +1678,7 @@ void clubian() {
     std::string act;
     std::cout << "\n=========== 3rd District =============\n" << std::endl;
     std::cout << "\n======= Calubian (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6534";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1714,7 +1714,7 @@ void lyte_2() {
     std::string act;
     std::cout << "\n=========== 3rd District =============\n" << std::endl;
     std::cout << "\n======= Leyte (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6533";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1750,7 +1750,7 @@ void san_isro() {
     std::string act;
     std::cout << "\n=========== 3rd District =============\n" << std::endl;
     std::cout << "\n======= San Isidro (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6535";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1786,7 +1786,7 @@ void tbng() {
     std::string act;
     std::cout << "\n=========== 3rd District =============\n" << std::endl;
     std::cout << "\n======= Tabango (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6536";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1822,7 +1822,7 @@ void tbntbn() {
     std::string act;
     std::cout << "\n=========== 3rd District =============\n" << std::endl;
     std::cout << "\n======= Tabontabon (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6504";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1858,7 +1858,7 @@ void albera() {
     std::string act;
     std::cout << "\n=========== 3rd District =============\n" << std::endl;
     std::cout << "\n======= Albuera (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6542";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1894,7 +1894,7 @@ void vllba() {
     std::string act;
     std::cout << "\n=========== 3rd District =============\n" << std::endl;
     std::cout << "\n======= Villaba (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6537";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1930,7 +1930,7 @@ void byebye() {
     std::string act;
     std::cout << "\n=========== 4th District =============\n" << std::endl;
     std::cout << "\n======= Baybay (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6521";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -1966,7 +1966,7 @@ void hlongs() {
     std::string act;
     std::cout << "\n=========== 4th District =============\n" << std::endl;
     std::cout << "\n======= Hilongos (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6524";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2002,7 +2002,7 @@ void inpacn() {
     std::string act;
     std::cout << "\n=========== 4th District =============\n" << std::endl;
     std::cout << "\n======= Inopacan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6522";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2038,7 +2038,7 @@ void isbl() {
     std::string act;
     std::cout << "\n=========== 4th District =============\n" << std::endl;
     std::cout << "\n======= Isabel (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6539";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2074,7 +2074,7 @@ void knngan() {
     std::string act;
     std::cout << "\n=========== 4th District =============\n" << std::endl;
     std::cout << "\n======= Kananga (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6531";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2110,7 +2110,7 @@ void mrda() {
     std::string act;
     std::cout << "\n=========== 4th District =============\n" << std::endl;
     std::cout << "\n======= Merida (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6540";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2146,7 +2146,7 @@ void plmpln() {
     std::string act;
     std::cout << "\n=========== 4th District =============\n" << std::endl;
     std::cout << "\n======= Palompon (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6538";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2183,7 +2183,7 @@ void gn_bato() {
     std::string act;
     std::cout << "\n=========== 5th District =============\n" << std::endl;
     std::cout << "\n======= Bato (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6525";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2219,7 +2219,7 @@ void hndang() {
     std::string act;
     std::cout << "\n=========== 5th District =============\n" << std::endl;
     std::cout << "\n======= Hindang (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6523";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2255,7 +2255,7 @@ void mhplg() {
     std::string act;
     std::cout << "\n=========== 5th District =============\n" << std::endl;
     std::cout << "\n======= Mahaplag (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6512";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2291,7 +2291,7 @@ void mtlm(){
     std::string act;
     std::cout << "\n=========== 5th District =============\n" << std::endl;
     std::cout << "\n======= Matalom (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6526";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2327,7 +2327,7 @@ void mtgob() {
     std::string act;
     std::cout << "\n=========== 5th District =============\n" << std::endl;
     std::cout << "\n======= Matag-ob (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6532";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2363,7 +2363,7 @@ void brgo() {
     std::string act;
     std::cout << "\n=========== 6th District =============\n" << std::endl;
     std::cout << "\n======= Barugo (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6521";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2399,7 +2399,7 @@ void cpocan() {
     std::string act;
     std::cout << "\n=========== 6th District =============\n" << std::endl;
     std::cout << "\n======= Capoocan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6530";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2435,7 +2435,7 @@ void crgra() {
     std::string act;
     std::cout << "\n=========== 6th District =============\n" << std::endl;
     std::cout << "\n======= Carigara (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6529";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2471,7 +2471,7 @@ void jro() {
     std::string act;
     std::cout << "\n=========== 6th District =============\n" << std::endl;
     std::cout << "\n======= Jaro (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6527";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2507,7 +2507,7 @@ void pstrna() {
     std::string act;
     std::cout << "\n=========== 6th District =============\n" << std::endl;
     std::cout << "\n======= Pastrana (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6514";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2543,7 +2543,7 @@ void tlsa() {
     std::string act;
     std::cout << "\n=========== 6th District =============\n" << std::endl;
     std::cout << "\n======= Tolosa (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6503";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2579,7 +2579,7 @@ void tnga() {
     std::string act;
     std::cout << "\n=========== 6th District =============\n" << std::endl;
     std::cout << "\n======= Tunga (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6528";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2616,7 +2616,7 @@ void tnga() {
 void ctrman(){
     std::string act;
     std::cout << "\n======= Catarman (Capital Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6400";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2651,7 +2651,7 @@ void ctrman(){
 void alln(){
     std::string act;
     std::cout << "\n======= Allen (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6405";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2686,7 +2686,7 @@ void alln(){
 void bri(){
     std::string act;
     std::cout << "\n======= Biri (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6410";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2721,7 +2721,7 @@ void bri(){
 void bbn(){
     std::string act;
     std::cout << "\n======= Bobon (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6401";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2756,7 +2756,7 @@ void bbn(){
 void cpl(){
     std::string act;
     std::cout << "\n======= Capul (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6408";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2791,7 +2791,7 @@ void cpl(){
 void ctbig(){
     std::string act;
     std::cout << "\n======= Catubig (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6418";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2826,7 +2826,7 @@ void ctbig(){
 void gmy(){
     std::string act;
     std::cout << "\n======= Gamay (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6422";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2861,7 +2861,7 @@ void gmy(){
 void loang(){
     std::string act;
     std::cout << "\n======= Laoang (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6411";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2896,7 +2896,7 @@ void loang(){
 void lpng(){
     std::string act;
     std::cout << "\n======= Lapinig (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6423";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2931,7 +2931,7 @@ void lpng(){
 void ls_nvs(){
     std::string act;
     std::cout << "\n======= Las Navas (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6420";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -2966,7 +2966,7 @@ void ls_nvs(){
 void lvzrs(){
     std::string act;
     std::cout << "\n======= Lavezares (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6404";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3001,7 +3001,7 @@ void lvzrs(){
 void lp_d_vg(){
     std::string act;
     std::cout << "\n======= Lope de Vega (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6403";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3036,7 +3036,7 @@ void lp_d_vg(){
 void mpns(){
     std::string act;
     std::cout << "\n======= Mapanas (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6421";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3071,7 +3071,7 @@ void mpns(){
 void mndrgon(){
     std::string act;
     std::cout << "\n======= Mondragon (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6402";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3106,7 +3106,7 @@ void mndrgon(){
 void plpg(){
     std::string act;
     std::cout << "\n======= Palapag (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6412";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3141,7 +3141,7 @@ void plpg(){
 void pmbjan(){
     std::string act;
     std::cout << "\n======= Pambujan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6413";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3176,7 +3176,7 @@ void pmbjan(){
 void rsrio(){
     std::string act;
     std::cout << "\n======= Rosario (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6416";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3211,7 +3211,7 @@ void rsrio(){
 void san_atnio(){
     std::string act;
     std::cout << "\n======= San Antonio (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6407";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3246,7 +3246,7 @@ void san_atnio(){
 void sn_isdo(){
     std::string act;
     std::cout << "\n======= San Isidro (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6409";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3281,7 +3281,7 @@ void sn_isdo(){
 void sn_js(){
     std::string act;
     std::cout << "\n======= San Jose (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6406";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3316,7 +3316,7 @@ void sn_js(){
 void sn_rq(){
     std::string act;
     std::cout << "\n======= San Roque (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6415";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3351,7 +3351,7 @@ void sn_rq(){
 void sn_vcnt(){
     std::string act;
     std::cout << "\n======= San Vicente (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6419";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3386,7 +3386,7 @@ void sn_vcnt(){
 void slvn_lbs(){
     std::string act;
     std::cout << "\n======= Silvino Lobos (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6417";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3421,7 +3421,7 @@ void slvn_lbs(){
 void victria(){
     std::string act;
     std::cout << "\n======= Victoria (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6414";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3458,7 +3458,7 @@ void victria(){
 void clbyg_city(){
     std::string act;
     std::cout << "\n======= Calbayog City (City) =======\n" << std::endl;
-    std::cout << "Zip Code: 6710";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3494,7 +3494,7 @@ void clbyg_city(){
 void almgro(){
     std::string act;
     std::cout << "\n======= Almagro (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6724";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3529,7 +3529,7 @@ void almgro(){
 void bsey(){
     std::string act;
     std::cout << "\n======= Basey (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6720";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3564,7 +3564,7 @@ void bsey(){
 void clbga(){
     std::string act;
     std::cout << "\n======= Calbiga (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6715";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3599,7 +3599,7 @@ void clbga(){
 void dram(){
     std::string act;
     std::cout << "\n======= Daram (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6722";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3634,7 +3634,7 @@ void dram(){
 void gndara(){
     std::string act;
     std::cout << "\n======= Gandara (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6706";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3669,7 +3669,7 @@ void gndara(){
 void hnbngan(){
     std::string act;
     std::cout << "\n======= Hinabangan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6716";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3704,7 +3704,7 @@ void hnbngan(){
 void jabong(){
     std::string act;
     std::cout << "\n======= Jiabong (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6701";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3739,7 +3739,7 @@ void jabong(){
 void mrbt(){
     std::string act;
     std::cout << "\n======= Marabut (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6721";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3774,7 +3774,7 @@ void mrbt(){
 void mtginao(){
     std::string act;
     std::cout << "\n======= Matuguinao (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6708";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3809,7 +3809,7 @@ void mtginao(){
 void mtong(){
     std::string act;
     std::cout << "\n======= Motiong (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6702";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3844,7 +3844,7 @@ void mtong(){
 void pgsnghan(){
     std::string act;
     std::cout << "\n======= Pagsanghan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6705";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3879,7 +3879,7 @@ void pgsnghan(){
 void prnas(){
     std::string act;
     std::cout << "\n======= Paranas (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6717";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3914,7 +3914,7 @@ void prnas(){
 void pnbcdao(){
     std::string act;
     std::cout << "\n======= Pinabacdao (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6714";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3949,7 +3949,7 @@ void pnbcdao(){
 void sn_jrge(){
     std::string act;
     std::cout << "\n======= San Jorge (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6707";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -3984,7 +3984,7 @@ void sn_jrge(){
 void sn_js_d_ban(){
     std::string act;
     std::cout << "\n======= San Jose de Buan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6718";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4019,7 +4019,7 @@ void sn_js_d_ban(){
 void sn_sbstan(){
     std::string act;
     std::cout << "\n======= San Sebastian (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6704";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4054,7 +4054,7 @@ void sn_sbstan(){
 void snt_mrgrta(){
     std::string act;
     std::cout << "\n======= Santa Margarita (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6703";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4089,7 +4089,7 @@ void snt_mrgrta(){
 void snt_rt(){
     std::string act;
     std::cout << "\n======= Santa Rita (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6719";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4123,8 +4123,8 @@ void snt_rt(){
 }
 void snto_nno(){
     std::string act;
-    std::cout << "\n======= Santo Nino (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6723";
+    std::cout << "\n======= Santo Niño (Municipality) =======\n" << std::endl;
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4159,7 +4159,7 @@ void snto_nno(){
 void tllra(){
     std::string act;
     std::cout << "\n======= Talalora (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6713";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4194,7 +4194,7 @@ void tllra(){
 void trngnn(){
     std::string act;
     std::cout << "\n======= Tarangnan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6709";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4229,7 +4229,7 @@ void trngnn(){
 void vllreal(){
     std::string act;
     std::cout << "\n======= Villareal (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6712";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4264,7 +4264,7 @@ void vllreal(){
 void zmrrga(){
     std::string act;
     std::cout << "\n======= Zumarraga (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6711";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4299,7 +4299,7 @@ void zmrrga(){
 void ctblgan_city(){
     std::string act;
     std::cout << "\n======= Catbalogan City (City) =======\n" << std::endl;
-    std::cout << "Zip Code: 6700";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4337,7 +4337,7 @@ void ctblgan_city(){
 void kenjie_city(){
     std::string act;
     std::cout << "\n======= Maasin City (City) =======\n" << std::endl;
-    std::cout << "Zip Code: 6600";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4372,7 +4372,7 @@ void kenjie_city(){
 void anhw(){
     std::string act;
     std::cout << "\n======= Anahawan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6610";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4407,7 +4407,7 @@ void anhw(){
 void bntoc(){
     std::string act;
     std::cout << "\n======= Bontoc (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6604";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4442,7 +4442,7 @@ void bntoc(){
 void hnnngan(){
     std::string act;
     std::cout << "\n======= Hinunangan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6608";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4477,7 +4477,7 @@ void hnnngan(){
 void hnndyn(){
     std::string act;
     std::cout << "\n======= Hinundayan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6608";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4512,7 +4512,7 @@ void hnndyn(){
 void dirty(){
     std::string act;
     std::cout << "\n======= Libagon (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6615";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4547,7 +4547,7 @@ void dirty(){
 void llon(){
     std::string act;
     std::cout << "\n======= Liloan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6612";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4582,7 +4582,7 @@ void llon(){
 void f_mass(){
     std::string act;
     std::cout << "\n======= Limasawa  (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6618";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4617,7 +4617,7 @@ void f_mass(){
 void mltbog(){
     std::string act;
     std::cout << "\n======= Malitbog (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6603";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4652,7 +4652,7 @@ void mltbog(){
 void pdr_bur(){
     std::string act;
     std::cout << "\n======= Padre Burgos (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6602";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4687,7 +4687,7 @@ void pdr_bur(){
 void thts_a_door(){
     std::string act;
     std::cout << "\n======= Pintuyan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6614";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4722,7 +4722,7 @@ void thts_a_door(){
 void snt_brnrd(){
     std::string act;
     std::cout << "\n======= Saint Bernard (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6616";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4757,7 +4757,7 @@ void snt_brnrd(){
 void sn_frncsco(){
     std::string act;
     std::cout << "\n======= San Francisco (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6613";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4792,7 +4792,7 @@ void sn_frncsco(){
 void sn_jan(){
     std::string act;
     std::cout << "\n======= San Juan (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6611";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4827,7 +4827,7 @@ void sn_jan(){
 void sn_rchrd(){
     std::string act;
     std::cout << "\n======= San Ricardo (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6617";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4862,7 +4862,7 @@ void sn_rchrd(){
 void slgo(){
     std::string act;
     std::cout << "\n======= Silago (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6607";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4897,7 +4897,7 @@ void slgo(){
 void sgod(){
     std::string act;
     std::cout << "\n======= Sogod (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6606";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4932,7 +4932,7 @@ void sgod(){
 void tms_ops(){
     std::string act;
     std::cout << "\n======= Tomas Oppus (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 6605";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
@@ -4967,7 +4967,7 @@ void tms_ops(){
 void mcrhn(){
     std::string act;
     std::cout << "\n======= Macrohon (Municipality) =======\n" << std::endl;
-    std::cout << "Zip Code: 4709";
+    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream

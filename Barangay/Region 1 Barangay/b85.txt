@@ -1,0 +1,29 @@
+======= Asingan (Barangays) =======
+
+Urban (Poblacion)
+
+Poblacion East
+Poblacion West
+
+Rural
+
+Ariston East
+Ariston West
+Bantog
+Baro
+Bobonan
+Cabalitian
+Calepaan
+Carosucan Norte
+Carosucan Sur
+Coldit
+Domanpot
+Dupac
+Macalong
+Palaris
+Sanchez
+Sobol
+Toboy
+San Vicente Este
+San Vicente West
+Sanchez

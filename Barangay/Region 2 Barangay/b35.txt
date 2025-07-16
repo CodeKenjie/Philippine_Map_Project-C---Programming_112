@@ -1,0 +1,106 @@
+======= Ilagan City (Provincial Capital) (Barangays) =======
+
+Urban
+
+Alibagu
+Baculud (Poblacion)
+Bagumbayan (Poblacion)
+Baligatan
+Calamagui 1st
+Calamagui 2nd
+Centro Poblacion
+Guinatan
+Imelda Bliss Village
+Osmeña
+San Vicente
+Santa Barbara
+Santa Isabel Sur
+
+Rural
+
+Poblacion Cluster (Rural)
+Camunatan
+Malalam
+Fugu
+San Felipe
+Santo Tomas
+
+Eastern Cluster
+
+Alinguigan 1st
+Alinguigan 2nd
+Alinguigan 3rd
+Ballacong
+Bangag
+Batong‑Labang
+Cadu
+Capellan
+Capo
+Fuyo
+Manaring
+Marana I
+Marana II
+Marana III
+Minabang
+Morado
+Nanaguan
+Pasa
+Quimalabasa
+Rang‑ayan
+Rugao
+San Andres
+San Isidro
+San Juan
+San Lorenzo
+San Pablo
+San Rodrigo
+Santa Catalina
+Santa Victoria
+Sipay
+Tangcul
+Western Cluster
+Arusip
+Bagong Silang
+Bigao
+Cabannungan 1st
+Cabannungan 2nd
+Carikkikan Norte
+Carikkikan Sur
+Lullutan
+Malasin
+Mangcuram
+Naguilian Norte
+Naguilian Sur
+Pilar
+San Ignacio
+Santa Isabel Norte
+Siffu
+
+San Antonio Cluster
+
+Aggasian
+Cabeseria 2 (Dappat)
+Cabeseria 3 (San Fernando)
+Cabeseria 4 (San Manuel)
+Cabeseria 5 (Baribad)
+Cabeseria 6 & 24 (Villa Marcos)
+Cabeseria 7 (Nangalisan)
+Cabeseria 8 (Santa Maria)
+Cabeseria 9 & 11 (Capogotan)
+Cabeseria 10 (Lupigui)
+Cabeseria 14 & 16 (Casilagan)
+Cabeseria 17 & 21 (San Rafael)
+Cabeseria 19 (Villa Suerte)
+Cabeseria 22 (Sablang)
+Cabeseria 23 (San Francisco)
+Cabeseria 25 (Santa Lucia)
+Cabeseria 27 (Abuan)
+Centro–San Antonio
+Gayong‑gayong Norte
+Gayong‑gayong Sur
+Namnama
+Paliueg
+Salindingan
+Sindon Bayabo
+Sindon Maride
+Villa Imelda

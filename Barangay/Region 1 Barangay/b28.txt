@@ -1,0 +1,41 @@
+======= Bantay (Barangays) =======
+
+Urban (Poblacion)
+
+Barangay 1
+Barangay 2
+Barangay 3
+Barangay 4
+Barangay 5
+Barangay 6
+
+Rural
+
+Aggay
+An‑annam
+Balaleng
+Banaoang
+Bulag
+Buquig
+Cabalanggan
+Cabaroan
+Cabusligan
+Capangdanan
+Guimod
+Lingsat
+Malingeb
+Mira
+Naguiddayan
+Ora
+Paing
+Puspus
+Quimmarayan
+Sagneb
+Sagpat
+San Isidro
+San Julian
+San Mariano (formerly Sallacong)
+Sinabaan
+Taguiporo
+Taleb
+Tay‑ac
