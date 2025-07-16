@@ -168,6 +168,7 @@ void reg_x() {
 void reg_xi() { 
     
     std::cout << "\n==================== Region XI (MIMAROPA) ====================\n";
+    std::cout << "Capital: Davao City (regional center)\n" << "Key Info: \n\tDavao Region (Region XI) is in southeastern Mindanao. \n\tIt's known for Mt. Apo, rich agriculture (especially \n\tbananas and durian), and diverse culture" << "\nPopulation: 5,243,536 (2020 Census)\n" << "Land Area: Approximately 20,357.42 square kilometers\n";
     std::string prov;
     std::string provinces[] = {"Davao De Oro", "Davao Del Norte", "Davao Del Sur", "Davao Occidental", "Davao Oriental"   
     };
@@ -175,6 +176,7 @@ void reg_xi() {
 
     
     while (true) {
+        std::cout << "\n==================== Davao Region (Provinces) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << provinces[i] << std::endl;
         }
@@ -192,7 +194,7 @@ void reg_xi() {
             dvoocci();
         } else if (prov == "Davao Oriental" || prov == "davao oriental"|| prov == "DAVAO ORIENTAL") {
             dvoori();
-        } else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+        } else if (prov == "back" || prov == "Back" || prov == "BACK") {
             std::cout << "\n===========================\n";
             break;
         }else {
@@ -208,12 +210,14 @@ void reg_xi() {
 void reg_xii() {  
 
     std::cout << "\n==================== Region XII (SOCCSKSARGEN Region) ====================\n";
+    std::cout << "Capital: Koronodal City (regional center)\n" << "Key Info: \n\tSOCCSKSARGEN (Region XII) is in south-central Mindanao.\n\tIt is known for agriculture tuna fishing in General Santos \n\tCity, and vibrant indigenous cultures."<< "\nPopulation: 4,545,276 (2020 Census)\n" << "Land Area: Approximately 22,336.26 square kilometers\n";
     std::string prov;
     std::string provinces[] = {"Cotabato", "South Cotabato", "Sultan Kudarat", "Sarangani"   };
     int size = sizeof(provinces) / sizeof(provinces[0]);
 
     
     while (true) {
+        std::cout << "\n==================== SOCCKSARGEN (Provinces) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << provinces[i] << std::endl;
         }
@@ -229,7 +233,7 @@ void reg_xii() {
             sultankudarat();
         } else if (prov == "Sarangani" || prov == "sarangani"|| prov == "SARANGANI") {
             sarangani2();
-        }  else if (prov == "exit" || prov == "Exit" || prov == "EXIT") {
+        }  else if (prov == "back" || prov == "BACK" || prov == "Back") {
             std::cout << "\n===========================\n";
             break;
         }else {
