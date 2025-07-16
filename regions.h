@@ -3,11 +3,81 @@
 /* THIS IS A REGIONS FILE */
 
 // Luzon Regions ===================================================
+// Ashley - Region 1
 void reg_i() {
-        
+     std::cout << "\n==================== Region I (ILOCOS REGION) ====================\n";
+    std::cout << "Capital:  San Fernando City, La Union.\n" << "Info: \n\tKnown for its strong Ilocano culture, delicious local cuisine like bagnet and empanada,\n\tand stunning attractions such as the Hundred Islands, wind farms, and surfing spots\n" << "Population: 5,301,139 (as of 2020 Census)\n" << "Land Area: Approximately 13,012.60 km (5,022.6  sq mi)\n";
+    std::string prov;
+    std::string provinces[] = {"Ilocos Norte", "Ilocos Sur", "La Union", "Pangasinan"
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+    
+    
+    while (true) {
+        std::cout << "\n==================== ILOCOS REGION (Provinces) ====================\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+    
+        if (prov == "ilocos norte" || prov == "Ilocos Norte"|| prov == "ILOCOS NORTE") {
+            ilocsnorth();
+        } else if (prov == "ilocos sur" || prov == "Ilocos Sur"|| prov == "ILOCOS SUR") {
+            ilocssur();
+        } else if (prov == "la union" || prov == "La Union"|| prov == "LA UNION") {
+            la_unionzzz();
+        } else if (prov == "pangasinan" || prov == "Pangasinan"|| prov == "PANGASINAN") {
+            pangasinanz();
+        }  else if (prov == "back" || prov == "Back" || prov == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    }    
 }
+// Ashley 
 void reg_ii() {
-        
+    std::cout << "\n==================== Region 2 (CAGAYAN VALLEY) ====================\n";
+    std::cout << "Capital:  Tuguegarao City, Cagayan.\n" << "Info: \n\trich in agricultural resources, rivers,\n\tand forests, with vast plains bordered by mountain ranges.\n" << "Population: 3,685,744 (as of 2020 Census)\n" << "Land Area: Approximately 29,836.88 km (11,521  sq mi)\n";
+    std::string prov;
+    std::string provinces[] = {"Batanes", "Cagayan", "Isabela", "Nueva Vizcaya", "Quirino"
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+    
+    
+    while (true) {
+        std::cout << "\n==================== CAGAYAN VALLEY (Provinces) ====================\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+    
+        if (prov == "batanes" || prov == "Batanes"|| prov == "BATANES") {
+            batanez();
+        } else if (prov == "cagayan" || prov == "Cagayan"|| prov == "CAGAYAN") {
+            cgynanz();
+        } else if (prov == "isabela" || prov == "Isabela"|| prov == "ISABELA") {
+            izabelssss();
+        } else if (prov == "nueva vizcaya" || prov == "Nueva Vizcaya"|| prov == "NUEVA VIZCAYA") {
+            nuvsvizz();
+        } else if (prov == "quirino" || prov == "Quirino"|| prov == "QUIRINO") {
+            quirinose();
+        }  else if (prov == "back" || prov == "Back" || prov == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    }    
 }
 void reg_iii() {
         
@@ -24,8 +94,8 @@ void reg_ivB() {
     std::string provinces[] = {"Occidental Mindoro", "Oriental Mindoro", "Marinduque", "Romblon", "Palawan"
     };
     int size = sizeof(provinces) / sizeof(provinces[0]);
-    
-    
+
+
     while (true) {
         std::cout << "\n==================== MIMAROPA (Provinces) ====================\n";
         for (int i = 0; i < size; i++) {
@@ -34,7 +104,7 @@ void reg_ivB() {
         std::cout << "\n[type]: back - Previous;\n";
         std::cout << "[Select] Provice: ";
         std::getline(std::cin >> std::ws, prov);
-    
+
         if (prov == "occidental mindoro" || prov == "Occidental Mindoro"|| prov == "OCCIDENTAL MINDORO") {
             occid_mind();
         } else if (prov == "oriental mindoro" || prov == "Oriental Mindoro"|| prov == "ORIENTAL MINDORO") {
@@ -53,9 +123,8 @@ void reg_ivB() {
             std::cout << "[error] Province dont Exist";
             std::cout << "\n===========================\n";
         }
-    
-    }
 
+    }
 }
 void reg_v() {
     std::cout << "\n==================== Region V (Bicol Region) ====================\n";
