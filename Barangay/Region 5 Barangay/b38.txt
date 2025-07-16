@@ -1,0 +1,64 @@
+======= Virac (Barangays) =======
+Antipolo del Norte
+Antipolo del Sur
+Balite
+Batag
+Bigaa
+Buenavista
+Buyo
+Cabihian
+Calabnigan
+Calampong
+Calatagan Proper
+Calatagan Tibang
+Capilihan
+Casoocan
+Cavinitan
+Concepcion (Poblacion)
+Constantino (Poblacion)
+Danicop
+Dugui San Vicente
+Dugui San Isidro
+Dugui Too
+F. Tacorda Village
+Francia (Poblacion)
+Gogon Centro
+Gogon Sirangan
+Hawan Grande
+Hawan Ilaya
+Hicming
+Igang
+Ibong Sapa (San Vicente Sur)
+Juan M. Alberto (Poniton)
+Lanao (Poblacion)
+Magnesia del Norte
+Magnesia del Sur
+Marcelo Alberto (Poblacion)
+Marilima
+Pajo Baguio
+Pajo San Isidro
+Palnab del Norte
+Palnab del Sur
+Palta Big
+Palta Salvacion
+Palta Small
+Rawis (Poblacion)
+Salvacion
+San Isidro Village
+San Jose (Poblacion)
+San Juan (Poblacion)
+San Pablo (Poblacion)
+San Pedro (Poblacion)
+San Roque (Poblacion)
+San Vicente
+Santa Cruz (Poblacion)
+Santa Elena (Poblacion)
+Santo Cristo
+Santo Domingo
+Santo Niño
+Simamla
+Sogod-Simamla
+Sogod-Tibgao
+Talisoy
+Tubaon
+Valencia

@@ -1,0 +1,56 @@
+======= Catarman  (Barangays) =======
+Acacia
+Aguinaldo
+Airport Village
+Bangkerohan
+Baybay
+Biri
+Bocsol
+Cabayhan
+Cag-abaca
+Calachuchi
+Cal-igang
+Casoy
+Cawayan
+Cervantes
+Cularima
+Daganas
+Dalakit
+Doña Pulqueria
+Galutan
+Gebalagnan
+Gibulwangan
+Guba
+Hinatad
+Imelda
+Ipil-ipil
+Jose Abad Santos
+Jose P. Rizal
+Lapu-lapu
+Liberty
+Libjo
+Mabini
+Mabolo
+Macagtas
+Malvar
+McKinley
+Molave
+Narra
+New Rizal
+Old Rizal
+Paticua
+Polangi
+Quezon
+Salvacion
+Sampaguita
+San Julian
+San Pascual
+Santol
+Somoge
+Talisay
+Tinowaran
+Trangue
+UEP Zone I
+UEP Zone II
+UEP Zone III
+Washington

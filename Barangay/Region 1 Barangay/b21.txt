@@ -1,0 +1,32 @@
+======= Sarrat (Barangays) =======
+
+Urban (Poblacion)
+
+San Agustin (Poblacion)
+San Francisco (Poblacion)
+San Joaquin (Poblacion)
+San Leandro (Poblacion)
+San Vicente (Poblacion)
+Santa Barbara (Poblacion)
+
+Rural
+
+San Andres
+San Antonio
+San Bernabe
+San Cristobal
+San Felipe
+San Isidro
+San Jose
+San Juan
+San Lorenzo
+San Manuel
+San Marcos
+San Miguel
+San Nicolas
+San Pedro
+San Roque
+Santa Magdalena
+Santa Rosa
+Santo Santiago
+Santo Tomas

@@ -1,0 +1,28 @@
+======= Santa Maria (Barangays) =======
+
+Urban (Poblacion)
+
+Poblacion 1
+Poblacion 2
+Poblacion 3
+
+
+Rural
+
+Bangad
+Buenavista
+Calamagui East
+Calamagui North
+Calamagui West
+Divisoria
+Lingaling
+Mozzozzin North
+Mozzozzin Sur
+Naganacan
+Quinagabian
+San Antonio
+San Isidro East
+San Isidro West
+San Rafael East
+San Rafael West
+Villabuena

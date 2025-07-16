@@ -1,0 +1,56 @@
+======= Tuguegarao City (Provincial Capital and Regional Center) (Barangays) =======
+
+Urban
+
+Annafunan East
+Annafunan West
+Atulayan Norte
+Atulayan Sur
+Buntun
+Caggay
+Carig Sur
+Caritan Centro
+Caritan Norte
+Caritan Sur
+Cataggaman Nuevo
+Centro 01 (Bagumbayan)
+Centro 02
+Centro 03
+Centro 04
+Centro 05 (Bagumbayan)
+Centro 06
+Centro 07
+Centro 08
+Centro 10 (Riverside)
+Centro 11 (Balzain East)
+Centro 12 (Balzain West)
+Leonarda
+Libag Norte
+Libag Sur
+Linao East
+Pengue-Ruyu
+San Gabriel
+Tanza
+Ugac Norte
+Ugac Sur
+
+Rural
+
+Bagay
+Capatan
+Carig Norte
+Cataggaman Viejo
+Dadda
+Gosi Norte
+Gosi Sur
+Larion Alto
+Larion Bajo
+Linao Norte
+Linao West
+Namabbalan Norte
+Namabbalan Sur
+Pallua Norte
+Pallua Sur
+Tagga
+Annafunan West
+Atulayan Norte

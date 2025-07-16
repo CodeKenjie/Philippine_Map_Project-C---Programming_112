@@ -1,0 +1,35 @@
+======= Bani (Barangays) =======
+
+Urban 
+
+Arwas
+Masidem
+Poblacion
+San Jose
+
+Rural
+
+Ambabaay
+Aporao
+Ballag
+Banog Norte
+Banog Sur
+Calabeng
+Centro Toma
+Colayo
+Dacap Norte
+Dacap Sur
+Garrita
+Luac
+Macabit
+Quinaoayanan
+Ranao
+Ranom Iloco
+San Miguel
+San Simon
+San Vicente
+Tiep
+Tipor
+Tugui Grande
+Tugui Norte
+Ambabaay

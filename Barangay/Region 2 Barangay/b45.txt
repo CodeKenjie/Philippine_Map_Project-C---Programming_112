@@ -1,0 +1,35 @@
+======= Cordon (Barangays) =======
+
+Urban (Poblacion)
+
+Laurel (Centro Norte)
+Magsaysay (Centro Sur Oeste)
+Osmeña (Centro Sur Este)
+Quezon (Centro Norte Este)
+Roxas Poblacion (Centro Sur) 
+
+
+
+Rural
+
+Aguinaldo (Rizaluna Este)
+Anonang (Balitoc)
+Calimaturod
+Capirpiriwan (Ilut)
+Caquilingan (San Luis)
+Camarao
+Dallao
+Gayong
+Malapat
+Quirino (Manasin)
+Rizaluna (Rizaluna Oeste)
+Sagat
+San Juan (San Juan Este)
+Taliktik
+Tanggal
+Tarinsing
+Turod Norte
+Turod Sur
+Villamiemban
+Villamarzo
+Wigan

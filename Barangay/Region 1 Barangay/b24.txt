@@ -1,0 +1,46 @@
+======= Vigan City (Barangays) =======
+
+Urban (Poblacion)
+
+Barangay I
+Barangay II
+Barangay III
+Barangay IV
+Barangay V
+Barangay VI
+Barangay VII
+Barangay VIII
+Barangay IX
+
+Rural
+
+Ayusan Norte
+Ayusan Sur
+Barraca
+Beddeng Laud
+Beddeng Daya
+Bongtolan
+Bulala
+Cabalangegan
+Cabaroan Laud
+Cabaroan Daya
+Camangaan
+Capangpangan
+Mindoro
+Nagsangalan
+Pantay Laud
+Pantay Fatima
+Pantay Daya
+Paoa
+Paratong
+Pong-ol
+Purok-a-bassit
+Purok-a-dakkel
+Raois
+Rugsuanan
+Salindeg
+San Jose
+San Julian Norte
+San Julian Sur
+San Pedro
+Tamag

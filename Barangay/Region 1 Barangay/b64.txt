@@ -1,0 +1,40 @@
+======= Bangar (Barangays) =======
+
+Urban (Poblacion)
+
+Central East No. 1
+Central East No. 2
+Central West No. 1
+Central West No. 2
+Central West No. 3
+
+Rural
+
+Agdeppa
+Alzate
+Bangaoilan East
+Bangaoilan West
+Barraca
+Cadapli
+Caggao
+Consuegra
+General Prim East
+General Prim West
+General Terrero
+Luzong Norte
+Luzong Sur
+Maria Cristina East
+Maria Cristina West
+Mindoro
+Nagsabaran
+Paratong No. 3
+Paratong No. 4
+Paratong Norte
+Quintarong
+Reyna Regente
+Rissing
+San Blas
+San Cristobal
+Sinapangan Norte
+Sinapangan Sur
+Ubbog

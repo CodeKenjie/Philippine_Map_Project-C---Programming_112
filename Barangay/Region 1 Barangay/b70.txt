@@ -1,0 +1,21 @@
+======= Pugo (Barangays) =======
+
+Urban(Poblacion)
+
+Poblacion East
+Poblacion West
+
+Rural
+
+Ambalite
+Ambangonan
+Cares
+Cuenca
+Duplas
+Maoasoas Norte
+Maoasoas Sur
+Palina
+San Luis
+Saytan
+Tavora East
+Tavora Proper

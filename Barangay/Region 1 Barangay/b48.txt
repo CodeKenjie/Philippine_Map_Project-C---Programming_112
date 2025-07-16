@@ -1,0 +1,56 @@
+======= Santa Cruz (Barangays) =======
+
+Urban (Poblacion)
+
+Poblacion Este
+Poblacion Norte
+Poblacion Sur
+Poblacion Oeste
+
+Rural
+
+Amarao
+Babayoan
+Bacsayan
+Banay
+Bayugao Este
+Bayugao Oeste
+Besalan
+Bugbuga
+Calaoaan
+Camanggaan
+Candalican
+Capariaan
+Casilagan
+Coscosnong
+Daligan
+Dili
+Gabor Norte
+Gabor Sur
+Lalong
+Lantag
+Las-ud
+Mambog
+Mantanas
+Nagtengnga
+Padaoil
+Paratong
+Pattiqui
+Pidpid
+Pilar
+Pinipin
+Quinfermin
+Quinsoriano
+Sagat
+San Antonio
+San Jose
+San Pedro
+Saoat
+Sevilla
+Sidaoen
+Suyo
+Tampugo
+Turod
+Villa Garcia
+Villa Hermosa
+Villa Laurencia

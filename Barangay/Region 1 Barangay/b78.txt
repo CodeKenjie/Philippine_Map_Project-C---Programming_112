@@ -1,0 +1,38 @@
+======= Dagupan City (Barangays) =======
+
+Urban
+
+Barangay I (T. Bugallon)
+Barangay II (Nueva)
+Barangay IV (Zamora)
+Bolosan
+Bonuan Binloc
+Bonuan Boquig
+Bonuan Gueset
+Calmay
+Carael
+Caranglaan
+Herrero
+Lucao
+Malued
+Mayombo
+Pantal
+Poblacion Oeste
+Pogo Chico
+Pugaro Suit
+Tambac
+Tapuac
+Tebeng
+
+Rural 
+
+Bacayao Norte
+Bacayao Sur
+Lasip Chico
+Lasip Grande
+Lomboy
+Mamalingling
+Mangin
+Pogo Grande
+Salapingao
+Salisay

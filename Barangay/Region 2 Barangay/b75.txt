@@ -1,0 +1,24 @@
+======= Bagabag (Barangays) =======
+
+Urban (Poblacion)
+
+San Geronimo
+San Pedro
+Villa Coloma
+Villa Quirino
+
+Rural 
+
+Bakir
+Baretbet
+Careb
+Lantap
+Murong
+Nangalisan
+Paniki
+Pogonsino
+Santa Cruz
+Santa Lucia
+Tuao North
+Tuao South
+Villaros

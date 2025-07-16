@@ -1,0 +1,43 @@
+======= Santiago City (Independent Component City) (Barangays) =======
+
+Urban 
+
+Baluarte
+Batal
+Buenavista
+Calao East
+Calao West
+Calaocan
+Centro East
+Centro West
+Dubinan East
+Dubinan West
+Mabini
+Malvar
+Naggasican
+Patul
+Plaridel
+Rizal
+Rosario
+Sagana
+San Andres
+Sinsayon
+Victory Norte
+Victory Sur
+Villasis
+
+Rural
+
+Abra
+Ambalatungan
+Balintocatoc
+Bannawag Norte
+Cabulay
+Divisoria
+Luna
+Nabbuan
+Salvador
+San Isidro
+San Jose
+Sinili
+Santa Rosa
