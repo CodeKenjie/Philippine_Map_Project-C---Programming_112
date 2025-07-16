@@ -1806,7 +1806,7 @@ void sarangani2(){
 
 }
 
-<<<<<<< HEAD
+
 // Region 1
 
 
@@ -2564,6 +2564,3 @@ void quirinose(){
     }
 
 }
-=======
-
->>>>>>> caccc057aee5cd5c7ced3f404b8d3c66f0617b39
