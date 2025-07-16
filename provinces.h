@@ -14,12 +14,9 @@
 // Occidental Mindoro =========================================================================================================================
 void occid_mind() {
     std::cout << "\n=============== Occidental Mindoro (Province) ===============\n";
-    std::cout << "Description: Occidental Mindoro, located in the western part of Mindoro \nIsland in the Philippines, spans rugged mountain ranges, fertile plains, pristine beaches, \nand the world-famous Apo Reef—one of the largest coral systems globally";
-    std::cout << "\n=============================================================\n";
-
     std::string cities[] = {"San Jose = 1", "Mamburao = 2", "Magsaysay = 3", "Calintaan = 4", 
         "Sablayan = 5", "Looc = 6", "Paluan = 7", "Abra De Ilog = 8", "Lubang = 9", "Rizal = 10", 
-        "Santa Cruz = 11", "Tilik = 12", "Naujan = 13"};
+        "Santa Cruz = 11", "Baco = 12", "Naujan = 13"};
     int size = sizeof(cities) / sizeof(cities[0]);
     std::string city;
     
@@ -58,7 +55,7 @@ void occid_mind() {
         } else if (city == "11") {
             santa_cruz();
         } else if (city == "12") {
-            tlik();
+            baco();
         }  else if (city == "13") {
             naujan();
         } else if (city == "back" || city == "Back" || city == "BACK") {
@@ -79,9 +76,6 @@ void occid_mind() {
 // Oriental Mindoro =========================================================================================================================================================================================================================
 void orin_mind() {
     std::cout << "\n=============== Oriental Mindoro (Province) ===============\n";
-    std::cout << "Description: Oriental Mindoro, occupying the eastern half of Mindoro \nIsland in the Philippines' MIMAROPA region, is celebrated \nfor its rugged highlands—including Mount Halcon and \nthe expansive Lake Naujan—as well as vibrant coastal areas like \nPuerto Galera, a UNESCO-recognized marine biodiversity hotspot in the Verde \nIsland Passage.";
-    std::cout << "\n=============================================================\n";
- 
     std::cout << "Location: Western part of Mindoro Island.\n" << "Capital: Mamburao\n";
     std::string cities[] = {"Calapan City (Capital) = 1", "Bongabong = 2", "Bulalacao = 3", 
         "Gloria = 4", "Mansalay = 5", "Pinamalayan = 6", "Pola = 7", "Puerto Galera = 8", 
@@ -140,9 +134,7 @@ void orin_mind() {
 // Marinduque =====================================================================================================================
 void mrndq() {
     std::cout << "\n=============== Marinduque (Province) ===============\n";
-    std::cout << "Description: Marinduque is a heart‑shaped island province in \nthe MIMAROPA region of the Philippines, famed as the geographic \ncenter of the archipelago and celebrated for its \nvibrant Lenten Moriones Festival amid lush landscapes and pristine beaches.";
-    std::cout << "\n=============================================================\n";
- 
+    
     std::string cities[] = {"Boac = 1", "Buenavista = 2", "Gasan = 3", "Mogpog = 4", "Santa Cruz = 5", "Torrijos = 6"};
     int size = sizeof(cities) / sizeof(cities[0]);
     std::string city;
@@ -187,8 +179,6 @@ void mrndq() {
 // Romblon ==================================================================================================================================================
 void rombl() {
     std::cout << "\n==================== Romblon (Province) ====================\n";
-    std::cout << "Description: Romblon is an archipelagic province in the Philippines' \nMIMAROPA region comprising three major islands—Tablas, Sibuyan and \nRomblon—renowned as the “Marble Capital” for its high-quality marble, rich \nmarine biodiversity (often called the “Galápagos of Asia”), Spanish colonial \nheritage, and ecotourism gems like Mount Guiting-Guiting and pristine dive sites.";
-    std::cout << "\n=============================================================\n";
     
     std::string cities[] = {
         "Alcantara = 1", "Banton = 2", "Cajidiocan = 3", "Calatrava = 4", "Concepcion = 5", "Corcuera = 6", 
@@ -259,9 +249,7 @@ void rombl() {
 // Palawan ==========================================================================================
 void palwn() {
     std::cout << "\n==================== Palawan (Province) ====================\n";
-    std::cout << "Description: Palawan is a breathtaking archipelagic province in the \nPhilippines, famed for its dramatic limestone karst cliffs, crystal-clear \nturquoise lagoons, UNESCO-listed natural wonders like the Puerto Princesa \nSubterranean River and Tubbataha Reefs, and remarkable biodiversity often \ndescribed as the country's \"last ecological frontier\"";
-    std::cout << "\n=============================================================\n";
- 
+    
     std::string cities[] = {
         "Puerto Princesa(City) = 1", "Aborlan = 2", "Agutaya = 3", "Araceli = 4", "Balabac = 5", "Bataraza = 6", 
         "Brooke's Point = 7", "Busuanga = 8", "Cagayancillo = 9", "Coron = 10", "Culion = 11", "Cuyo = 12", "Dumaran = 13",
@@ -348,10 +336,8 @@ void palwn() {
 // Albay =========================================================================================================================
 void aby(){
     std::cout << "\n==================== Albay (Province) ====================\n";
-    std::cout << "Description: Albay is a stunning Bicol province in southeastern \nLuzon best known for the iconic, near-perfect cone of Mayon Volcano, rich \nvolcanic landscapes, coastal beauty, historic churches like Cagsawa and Tabaco, \nand a vibrant culinary scene highlighted by spicy Bicolano dishes and pili \nnut delicacies.";
-    std::cout << "\n=============================================================\n";
     
-    std::string cities[] = {    
+    std::string cities[] = {
         "Legazpi City (Capital City) = 1", "Bacacay = 2", "Camalig = 3", "Daraga = 4", "Guinobatan = 5", "Jovellar = 6", 
         "Libon = 7", "Ligao (City) = 8", "Malilipot = 9", "Malinao = 10", "Manito = 11", "Oas = 12", "Pio Duran = 13",
         "Polangui = 14", "Rapu-Rapu = 15", "Santo Domingo = 16", "Tabaco (City) = 17", "Tiwi = 18"
@@ -420,8 +406,6 @@ void aby(){
 }
 void cmrns_nrt(){
     std::cout << "\n==================== Camarines Norte (Province) ====================\n";
-    std::cout << "Description: Camarines Norte, the northernmost province of the Bicol Region \nin Luzon, is famed for its rugged coastline, sweet pineapples, historic \ngold-mining towns like Paracale, and scenic islands including the emerging \nbeach destination of Calaguas Islands.";
-    std::cout << "\n=============================================================\n";
     
     std::string cities[] = {
         "Daet(Capital) = 1", "Basud = 2", "Capalonga = 3", "Jose Panganiban = 4", "Labo = 5", "Mercedes = 6", 
@@ -479,9 +463,7 @@ void cmrns_nrt(){
 }
 void cmrns_sr(){
     std::cout << "\n==================== Camarines Sur (Province) ====================\n";
-    std::cout << "Description: Camarines Sur, the largest and most populous province in \nthe Bicol Region of Luzon, Philippines, is celebrated for its dramatic landscapes\n—from Mount Isarog and the Caramoan Peninsula to the freshwater Lake Buhi \nand vibrant cultural hub of Naga City—making it a leading destination for \nagriculture, eco-adventure, and religious tourism.";
-    std::cout << "\n=============================================================\n";
-
+    
     std::string cities[] = {
         "Naga City (City) = 1", "Iriga City (City) = 2", "Baao = 3", "Balatan = 4", "Bato = 5", "Bombon = 6", 
         "Buhi = 7", "Bula = 8", "Cabusao = 9", "Calabanga = 10", "Camaligan = 11", "Canaman = 12", "Caramoan = 13",
@@ -591,8 +573,6 @@ void cmrns_sr(){
 }
 void ctndns(){
     std::cout << "\n==================== Catanduanes (Province) ====================\n";
-    std::cout << "Description: Catanduanes is an island province in the Bicol Region known as \nthe “Land of the Howling Winds” and “Happy Island,” celebrated for its rugged \ncoastal cliffs, world-class surf at Puraran Beach, lush waterfalls, and its \nstatus as the Abaca Capital of the Philippines.";
-    std::cout << "\n=============================================================\n";   
     
     std::string cities[] = {
         "Virac (City) = 1", "Bagamanoc = 2", "Baras = 3", "Bato = 4", "Caramoran = 5", "Gigmoto = 6", 
@@ -648,9 +628,7 @@ void ctndns(){
 }
 void msbt(){
     std::cout << "\n==================== Masbate (Province) ====================\n";
-    std::cout << "Description: Masbate is a Philippine province known for its rich cattle \nranching heritage, pristine beaches, and vibrant festivals.";
-    std::cout << "\n=============================================================\n";
-
+    
     std::string cities[] = {
         "Masbate City (Capital City) = 1", "Aroroy = 2", "Baleno = 3", "Balud = 4", "Batuan = 5", "Cataingan = 6", 
         "Cawayan = 7", "Claveria = 8", "Dimasalang = 9", "Esperanza = 10", "Mandaon = 11", "Milagros = 12", "Mobo = 13",
@@ -726,9 +704,7 @@ void msbt(){
 }
 void srsgn(){
     std::cout << "\n==================== Sorsogon (Province) ====================\n";
-    std::cout << "Description: Sorsogon is a province in the Bicol Region of the Philippines, \nfamed for its whale shark interactions in Donsol, scenic coastlines, and active \nvolcanoes like Mount Bulusan.";
-    std::cout << "\n=============================================================\n";
-
+    
     std::string cities[] = {
         "Sorsogon City (City) = 1", "Barcelona = 2", "Bulan = 3", "Bulusan = 4", "Casiguran = 5", "Castilla = 6", 
         "Donsol = 7", "Gubat = 8", "Irosin = 9", "Juban = 10", "Magallanes = 11", "Matnog = 12", "Pilar = 13",
@@ -795,9 +771,7 @@ void srsgn(){
 
 void blran(){
     std::cout << "\n==================== Biliran (Province) ====================\n";
-    std::cout << "Description: Biliran is a small island province in the Eastern Visayas of \nthe Philippines, known for its lush mountains, hot springs, and unspoiled \nwaterfalls.";
-    std::cout << "\n=============================================================\n";
-
+    
     std::string cities[] = {
         "Almeria = 1", "Biliran = 2", "Cabucgayan = 3", "Caibiran = 4", "Culaba = 5", "Kawayan = 6", 
         "Maripipi = 7", "Naval = 8"
@@ -846,8 +820,7 @@ void blran(){
 }
 void east_smr(){
     std::cout << "\n==================== Eastern Samar (Province) ====================\n";
-    std::cout << "Description: Eastern Samar is a province in the Eastern Visayas region of \nthe Philippines, known for its rugged coastlines, historical significance in \nWorld War II, and natural attractions like pristine beaches and surf spots \nin Guiuan.";
-    std::cout << "\n=============================================================\n";
+    
     std::string cities[] = {
         "Borongan (Capital City) = 1", "Arteche = 2", "Balangiga = 3", "Balangkayan = 4", "Can-Avid = 5", "Dolores = 6", 
         "General MacArthur = 7", "Giporlos = 8", "Guiuan = 9", "Hernani = 10", "Jipapad = 11", "Lawaan = 12", "Llorente = 13",
@@ -930,9 +903,7 @@ void east_smr(){
 // ---  napapagod na ko ----
 void lyte(){
     std::cout << "\n==================== Leyte (Province) ====================\n";
-    std::cout << "Description: Leyte is a province in the Eastern Visayas of the \nPhilippines, historically significant for the landing of General Douglas MacArthur \nduring World War II and known for its scenic landscapes, waterfalls, and the \nSan Juanico Bridge—the country's longest.";
-    std::cout << "\n=============================================================\n";
-
+    
     std::string cities[] = {
         "Tacloban City (City) = 1", "Ormoc City (City) = 2", "Baybay City (City) = 3", "Abuyog (1st Distric) = 4", "Alangalang (1st Distric)  = 5", "Babatngon (1st Distric) = 6", 
         "Palo (1st Distric) = 7", "San Miguel (1st Distric) = 8", "Tanauan (1st Distric) = 9", "Burauen (2nd Distric) = 10", "Dagami (2nd Distric) = 11", "Dulag (2nd Distric) = 12", "Julita (2nd Distric) = 13",
@@ -1053,9 +1024,7 @@ void lyte(){
 }
 void north_smr(){
     std::cout << "\n==================== Northern Samar (Province) ====================\n";
-    std::cout << "Description: Northern Samar is a province in the Eastern Visayas region of \nthe Philippines, known for its remote natural beauty, centuries-old churches, \nmysterious caves, and unspoiled islands like Biri with its striking rock \nformations.";
-    std::cout << "\n=============================================================\n";
-
+    
     std::string cities[] = {
         "Catarman (Capital) = 1", "Allen = 2", "Biri = 3", "Bobon = 4", "Capul = 5", "Catubig = 6", 
         "Gamay = 7", "Laoang = 8", "Lapinig = 9", "Las Navas = 10", "Lavezares = 11", "Lope de Vega = 12", "Mapanas = 13",
@@ -1138,8 +1107,6 @@ void north_smr(){
 }
 void smr(){
     std::cout << "\n==================== Samar (Province) ====================\n";
-    std::cout << "Description: Samar, the third largest island in the Philippines, \nis known for its dramatic landscapes, including caves, waterfalls, and \ndense forests, as well as being home to the Samar Island Natural Park, one \nof the country's largest protected areas.";
-    std::cout << "\n=============================================================\n";
     
     std::string cities[] = {
         "Calbayog City (City) = 1", "Almagro = 2", "Basey = 3", "Calbiga = 4", "Daram = 5", "Gandara = 6", 
@@ -1226,9 +1193,7 @@ void smr(){
 
 void south_lyte(){
     std::cout << "\n==================== Southern Leyte (Province) ====================\n";
-    std::cout << "Description: Southern Leyte is a province in the Eastern Visayas of the \nPhilippines, known for its pristine dive sites like those in Sogod Bay, \nrich marine biodiversity, and the historic site of the first Catholic mass in \nthe Philippines at Limasawa Island.";
-    std::cout << "\n=============================================================\n";
-
+    
     std::string cities[] = {
         "Maasin City (Capital City) = 1", "Anahawan = 2", "Bontoc = 3", "Hinunangan = 4", "Hinundayan = 5", "Libagon = 6", 
         "Liloan = 7", "Limasawa = 8", "Malitbog = 9", "Padre Burgos = 10", "Pintuyan = 11", "Saint Bernard = 12", "San Francisco = 13",
