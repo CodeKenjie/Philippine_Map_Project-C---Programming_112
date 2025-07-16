@@ -1,0 +1,37 @@
+======= Bolinao (Barangays) =======
+
+Urban
+
+Arnedo
+Concordia
+Germinal
+Goyoden
+Ilogmalino
+Liwa-liwa
+Luciente 1.0
+Patar
+
+Rural
+
+Balingasay
+Binabalian
+Cabuyao
+Catuday
+Catungi
+Culang
+Dewey
+Estanza
+Luna
+Lucero
+Luciente 2.0
+Pilar
+Salud
+Samang Norte
+Samang Sur
+Sampaloc
+San Roque
+Tara
+Tupa
+Victory
+Zaragoza
+

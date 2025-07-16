@@ -1,0 +1,33 @@
+======= Calasiao (Barangays) =======
+
+Urban
+
+Ambonao
+Ambuetel
+Banaoang
+Bued
+Buenlag
+Doyong
+Macabito
+Nagsaing
+Nalsian
+Poblacion East
+Poblacion West
+San Miguel
+
+Rural
+
+Cabilocaan
+Dinalaoan
+Gabon
+Lasip
+Longos
+Lumbang
+Macabito
+Malabago
+Mancup
+Quesban
+San Vicente
+Songkoy
+Talibaew
+

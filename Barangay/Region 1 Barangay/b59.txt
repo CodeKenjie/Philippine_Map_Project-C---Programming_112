@@ -1,0 +1,55 @@
+======= Agoo (Barangays) =======
+
+Urban (Poblacion)
+
+Consolacion
+San Nicolas Central
+San Nicolas Norte
+San Nicolas Sur
+Santa Barbara
+
+Rural
+
+Ambitacay
+Balawarte
+Capas
+Macalva Central
+Macalva Norte
+Macalva Sur
+Nazareno
+Purok
+San Agustin East
+San Agustin Norte
+San Agustin Sur
+San Antonino
+San Antonio
+San Francisco
+San Isidro
+San Joaquin Norte
+San Joaquin Sur
+San Jose Norte
+San Jose Sur
+San Juan
+San Julian Central
+San Julian East
+San Julian Norte
+San Julian West
+San Manuel Norte
+San Manuel Sur
+San Marcos
+San Miguel
+San Nicolas West
+San Pedro
+San Roque East
+San Roque West
+San Vicente Norte
+San Vicente Sur
+Santa Ana
+Santa Fe
+Santa Maria
+Santa Monica
+Santa Rita (Nalinac)
+Santa Rita East
+Santa Rita Norte
+Santa Rita Sur
+Santa Rita West

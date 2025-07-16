@@ -1,0 +1,20 @@
+======= Cervantes (Barangays) =======
+
+Urban (Poblacion)
+
+Concepcion
+Rosario
+
+Rural 
+
+Aluling
+Comillas North
+Comillas South
+Dinwede East
+Dinwede West
+Libang
+Malaya
+Pilipil
+Remedios
+San Juan
+San Luis

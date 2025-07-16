@@ -1,0 +1,84 @@
+======= Bayambang (Barangays) =======
+
+Urban
+
+Poblacion Sur
+Zone I (Poblacion)
+Zone II (Poblacion)
+Zone III (Poblacion)
+Zone IV (Poblacion)
+Zone V (Poblacion)
+Zone VI (Poblacion)
+Zone VII (Poblacion)
+M. H. del Pilar
+San Gabriel 1st
+San Gabriel 2nd
+San Vicente
+
+Rural
+
+Alinggan
+Amamperez
+Amancosiling Norte
+Amancosiling Sur
+Ambayat I
+Ambayat II
+Apalen
+Asin
+Ataynan
+Bacnono
+Balaybuaya
+Banaban
+Bani
+Batangcaoa
+Beleng
+Bical Norte
+Bical Sur
+Bongato East
+Bongato West
+Buayaen
+Buenlag 1st
+Buenlag 2nd
+Cadre Site
+Carungay
+Caturay
+Darawey (Tangal)
+Duera
+Dusoc
+Hermoza
+Idong
+Inanlorenzana
+Inirangan
+Iton
+Langiran
+Ligue
+Macayocayo
+Magsaysay
+Maigpa
+Malimpec
+Malioer
+Managos
+Manambong Norte
+Manambong Parte
+Manambong Sur
+Mangayao
+Nalsian Norte
+Nalsian Sur
+Pangdel
+Pantol
+Paragos
+Pugo
+Reynado
+Sapang
+Sangcagulis
+Sanlibo
+Tamaro
+Tambac
+Tampog
+Tanolong
+Tatarac
+Telbang
+Tococ East
+Tococ West
+Warding
+Wawa
