@@ -1303,7 +1303,8 @@ void south_lyte(){
 
 void dvodeoro() {
     std::cout << "\n==================== Davao De Oro (Province) ====================\n";
-    
+    std::cout << "Davao de Oro is a landlocked province in Davao Region known\nfor its gold mines, mountains, and rich natural resources.";
+    std::cout << "\n=================================================================\n";
     std::string cities[] = {
         "Compostela = 1", "Laak = 2", "Mabini = 3", "Maco = 4", "Maragusan = 5", "Mawab = 6", 
         "Montevista = 7", "Nabunturan = 8", "New Bataan = 9", "Pantukan = 10",};
@@ -1311,7 +1312,7 @@ void dvodeoro() {
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Davao DE Oro -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1358,7 +1359,8 @@ void dvodeoro() {
 
 void dvodelsur() {
     std::cout << "\n==================== Davao Del Sur (Province) ====================\n";
-    
+    std::cout << "Davao del Sur is a province in the Davao Region known for Mt. Apo,\nthe highest peak in the Philippines, and its agricultural lands.";
+    std::cout << "\n==================================================================\n";
     std::string cities[] = {
         "Digos (City) = 1", "Hagonoy = 2", "Kiblawan = 3", "Magsaysay = 4", "Malalag = 5", "Matanao = 6", 
         "Padada = 7", "Santa Cruz = 8", "Sulop = 9"};
@@ -1366,7 +1368,7 @@ void dvodelsur() {
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Davao Del Sur -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1411,7 +1413,8 @@ void dvodelsur() {
 
 void dvodelnorte(){
     std::cout << "\n==================== Davao Del Norte (Province) ====================\n";
-    
+    std::cout << "Davao del Norte is a province in the Davao Region known for banana\nplantations, island beaches like Samal, and growing industries.";
+    std::cout << "\n====================================================================\n";
     std::string cities[] = {
         "Panobo City = 1", "Island Garden City of Samal = 2", "Tagum City = 3", "Asuncion = 4", "Carmen = 5", "Kapalong = 6", 
         "New Correla = 7", "Santo Tomas = 8", "Talaingod = 9", "Braul E. Dujali = 10", "San Isidro  = 11"};
@@ -1419,7 +1422,7 @@ void dvodelnorte(){
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Davao Del Norte -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1470,14 +1473,15 @@ void dvodelnorte(){
 
 void dvoocci(){
     std::cout << "\n==================== Davao Occidental (Province) ====================\n";
-    
+    std::cout << "Davao Occidental is the newest province in the Davao Region, known\nfor fishing, coastal towns, and peaceful natural landscapes.";
+    std::cout << "\n=====================================================================\n";
     std::string cities[] = {
         "Don Marcelino = 1", "Jose Abad Santos = 2", "Malita = 3", "Santa Maria = 4", "Sarangani = 5"};
     int size = sizeof(cities) / sizeof(cities[0]);
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Davao Occidental -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1515,7 +1519,8 @@ void dvoocci(){
 
 void dvoori(){
     std::cout << "\n==================== Davao Oriental (Province) ====================\n";
-    
+    std::cout << "Davao Oriental is a coastal province in the Davao Region known for\nstunning beaches, waterfalls, and the sunrise capital of the Philippines.";
+    std::cout << "\n===================================================================\n";
     std::string cities[] = {
         "Mati City = 1", "Baganga = 2", "Banaybanay = 3", "Boston = 4", "Caraga = 5", "Cateel = 6", "Governor Generoso = 7", "Lupon = 8", "Manay = 9", 
         "San Isidro = 10", "Tarragona = 11"};
@@ -1523,7 +1528,7 @@ void dvoori(){
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Davao Oriental -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1573,7 +1578,8 @@ void dvoori(){
 
 void cotabato(){
     std::cout << "\n==================== Cotabato City (Province) ====================\n";
-    
+    std::cout << "Cotabato City is a highly urbanized city in Mindanao known for its\nrich Muslim heritage, cultural landmarks, and as the former seat of ARMM.";
+    std::cout << "\n==================================================================\n";
     std::string cities[] = {
         "Kidapawan City = 1", "Alamada = 2", "Aleosan = 3", "Antipas = 4", "Arakan = 5", "Banisilan = 6", "Carmen = 7", "Kabacan = 8", "Libungan = 9", 
         "Magpet = 10", "Makilala = 11", "Matalam = 12", "M'lang = 13", "Pigcawayan = 14", "Pikit = 15", "President Roxas = 16", "Tulunan = 17", "Midsayap = 18"};
@@ -1581,7 +1587,7 @@ void cotabato(){
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Cotabato City -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1645,7 +1651,8 @@ void cotabato(){
 
 void southcotabato(){
     std::cout << "\n==================== South Cotabato (Province) ====================\n";
-    
+    std::cout << "South Cotabato is a province in SOCCSKSARGEN known for Lake Sebu,\nT'boli culture, and its cool highland climate.";
+    std::cout << "\n===================================================================\n";
     std::string cities[] = {
         "Koronodal City = 1", "Banga = 2", "Lake Sebu = 3", "Norala = 4", "Polomok  = 5", "Santo Niño = 6", "Surallah = 7", "Tampakan = 8", "Tantangan = 9", 
         "T'boli = 10", "Tupi = 11"};
@@ -1653,7 +1660,7 @@ void southcotabato(){
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities South Cotabato -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1703,7 +1710,8 @@ void southcotabato(){
 
 void sultankudarat(){
     std::cout << "\n==================== Sultan Kudarat (Province) ====================\n";
-    
+    std::cout << "Sultan Kudarat is a province in SOCCSKSARGEN known for its vast\nagricultural lands, cultural diversity, and historical heritage.";
+    std::cout << "\n===================================================================\n";
     std::string cities[] = {
         "Tacurong City = 1", "Bagumbayan = 2", "Columbio = 3", "Esperanza = 4", "Kalamansig  = 5", "Lambayong = 6", "Lebak = 7", "Lutayan = 8", "Palimbang = 9", 
         "President Quirino = 10", "Senator Ninoy Aquino = 11", "Isulan = 12"};
@@ -1711,7 +1719,7 @@ void sultankudarat(){
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Sultan Kudarat -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
@@ -1761,14 +1769,15 @@ void sultankudarat(){
 
 void sarangani2(){
     std::cout << "\n==================== Sarangani (Province) ====================\n";
-    
+    std::cout << "Sarangani is a coastal province in SOCCSKSARGEN known for its\nbeaches, tuna industry, and being the hometown of Manny Pacquiao.";
+    std::cout << "\n===============================================================\n";
     std::string cities[] = {
         "Alabel = 1", "Glan = 2", "Kiamba = 3", "Maasim = 4", "Maitum = 5", "Malapatan = 6", "Malungon = 7"};
     int size = sizeof(cities) / sizeof(cities[0]);
     std::string city;
     
     while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        std::cout << "\n---------------- Cities/Municipalities Sarangani -------------\n";
         for (int i = 0; i < size; i++) {
         std::cout << cities[i] << std::endl;
         }
