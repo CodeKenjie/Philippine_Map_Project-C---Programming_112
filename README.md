@@ -5,7 +5,7 @@ This is a C++ (.cpp) language app of the Philippine Map for our school project a
 - Maraasin, Francis Kenjie
 - Adrias, Tim
 - Torres, Jochelle
-- Valeciano, Ashley
+- Valenciano, Ashley
 - Marquez, Rj
 - Rapinian, Vin Laurence
 - Lavente, Raizen ken,
