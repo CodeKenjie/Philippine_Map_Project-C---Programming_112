@@ -16,7 +16,6 @@ void baler(){
     std::string act;
     std::cout << "\n======= Baler Capital (Municipality) =======\n" << std::endl;
     std::cout << "Zip Code: 3200"
-    
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
