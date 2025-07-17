@@ -5,407 +5,6 @@
 
 /* THIS IS A MORE INFO FILE - pakilagyan po ng comment "//" yung every more info ng bawat city*/
 
-// Aurora more info
-void more_info_ara(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//ara.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-
-void more_info_btan(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//btan.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_blcan(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//blcan.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_nuva_ecja(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//nuva_ecja.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_pamga(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//pamga.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_tlac(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//tlac.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_zmbls(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//zmbls.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-// Cavite more info
-void more_info_cvte(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//cvte.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_lgna(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//lgna.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_btgas(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//btgas.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_rzl(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//rzl.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-void more_info_qzn(){
-        std::string act;
-        std::fstream mrinf;
-
-        mrinf.open("more_info//qzn.txt", std::ios::in);
-        
-        if(mrinf.is_open()){
-            std::string line;
-            while(std::getline(mrinf, line)){
-                std::cout << line << std::endl;
-            }
-            mrinf.close();
-        } else {
-            std::cout << "\n[error] cant trace the file.\n";
-        }
-        
-        // leave more info
-        while (true){
-            std::cout << "\n[type] back - leave the [more info];\n";
-            std::cout << "[type]: ";
-            std::cin >> act;
-
-            if (act == "back" || act == "Back" || act == "BACK") {
-                break;
-            } else {
-                std::cout << "\n===========================\n";
-                std::cout << "[error] action;";
-                std::cout << "\n===========================\n";
-            }
-        }
-
-}
-
-
-
 // Occidental mindoro more info
 void more_info_occm(){
         std::string act;
@@ -1270,3 +869,304 @@ void more_info_sultan_kudarat(){
         }
 
 }
+
+// more info Region 1
+
+void more_info_ilocos_norte(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//ilocsnort.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_ilocossur(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//ilocos_sur.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_la_unionz(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//la_un.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_pangasinanz(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//pngsnn.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+
+void more_info_batanezz(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//btszz.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_cagaynz(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//cgyn.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_izabels(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//isbl.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_nuevaaviz(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//nuev_viz.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_qrnose(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//qrn.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
