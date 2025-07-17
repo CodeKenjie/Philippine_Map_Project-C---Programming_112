@@ -1303,7 +1303,8 @@ void south_lyte(){
 
 void dvodeoro() {
     std::cout << "\n==================== Davao De Oro (Province) ====================\n";
-    
+    std::cout << "Description: Davao de Oro is a landlocked province in Davao Region known\nfor its gold mines, mountains, and rich natural resources.";
+    std::cout << "\n=============================================================\n";    
     std::string cities[] = {
         "Compostela = 1", "Laak = 2", "Mabini = 3", "Maco = 4", "Maragusan = 5", "Mawab = 6", 
         "Montevista = 7", "Nabunturan = 8", "New Bataan = 9", "Pantukan = 10",};
@@ -1358,7 +1359,8 @@ void dvodeoro() {
 
 void dvodelsur() {
     std::cout << "\n==================== Davao Del Sur (Province) ====================\n";
-    
+    std::cout << "Description: Davao del Sur is a province in the Davao Region known for Mt. Apo,\nthe highest peak in the Philippines, and its agricultural lands.";
+    std::cout << "\n=============================================================\n";   
     std::string cities[] = {
         "Digos (City) = 1", "Hagonoy = 2", "Kiblawan = 3", "Magsaysay = 4", "Malalag = 5", "Matanao = 6", 
         "Padada = 7", "Santa Cruz = 8", "Sulop = 9"};
@@ -1411,6 +1413,8 @@ void dvodelsur() {
 
 void dvodelnorte(){
     std::cout << "\n==================== Davao Del Norte (Province) ====================\n";
+    std::cout << "Description: Davao del Norte is a province in the Davao Region known for banana\nplantations, island beaches like Samal, and growing industries.";
+    std::cout << "\n=============================================================\n";   
     
     std::string cities[] = {
         "Panobo City = 1", "Island Garden City of Samal = 2", "Tagum City = 3", "Asuncion = 4", "Carmen = 5", "Kapalong = 6", 
@@ -1470,7 +1474,9 @@ void dvodelnorte(){
 
 void dvoocci(){
     std::cout << "\n==================== Davao Occidental (Province) ====================\n";
-    
+    std::cout << "Description: Davao Occidental is the newest province in the Davao Region, known\nfor fishing, coastal towns, and peaceful natural landscapes.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Don Marcelino = 1", "Jose Abad Santos = 2", "Malita = 3", "Santa Maria = 4", "Sarangani = 5"};
     int size = sizeof(cities) / sizeof(cities[0]);
@@ -1515,7 +1521,9 @@ void dvoocci(){
 
 void dvoori(){
     std::cout << "\n==================== Davao Oriental (Province) ====================\n";
-    
+    std::cout << "Description: Davao Oriental is a coastal province in the Davao Region known for\nstunning beaches, waterfalls, and the sunrise capital of the Philippines.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Mati City = 1", "Baganga = 2", "Banaybanay = 3", "Boston = 4", "Caraga = 5", "Cateel = 6", "Governor Generoso = 7", "Lupon = 8", "Manay = 9", 
         "San Isidro = 10", "Tarragona = 11"};
@@ -1573,7 +1581,9 @@ void dvoori(){
 
 void cotabato(){
     std::cout << "\n==================== Cotabato City (Province) ====================\n";
-    
+    std::cout << "Description: Cotabato City is a highly urbanized city in Mindanao known for its\nrich Muslim heritage, cultural landmarks, and as the former seat of ARMM.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Kidapawan City = 1", "Alamada = 2", "Aleosan = 3", "Antipas = 4", "Arakan = 5", "Banisilan = 6", "Carmen = 7", "Kabacan = 8", "Libungan = 9", 
         "Magpet = 10", "Makilala = 11", "Matalam = 12", "M'lang = 13", "Pigcawayan = 14", "Pikit = 15", "President Roxas = 16", "Tulunan = 17", "Midsayap = 18"};
@@ -1645,7 +1655,9 @@ void cotabato(){
 
 void southcotabato(){
     std::cout << "\n==================== South Cotabato (Province) ====================\n";
-    
+    std::cout << "Description: South Cotabato is a province in SOCCSKSARGEN known for Lake Sebu,\nT'boli culture, and its cool highland climate.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Koronodal City = 1", "Banga = 2", "Lake Sebu = 3", "Norala = 4", "Polomok  = 5", "Santo Niño = 6", "Surallah = 7", "Tampakan = 8", "Tantangan = 9", 
         "T'boli = 10", "Tupi = 11"};
@@ -1703,7 +1715,9 @@ void southcotabato(){
 
 void sultankudarat(){
     std::cout << "\n==================== Sultan Kudarat (Province) ====================\n";
-    
+    std::cout << "Description: Sultan Kudarat is a province in SOCCSKSARGEN known for its vast\nagricultural lands, cultural diversity, and historical heritage.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Tacurong City = 1", "Bagumbayan = 2", "Columbio = 3", "Esperanza = 4", "Kalamansig  = 5", "Lambayong = 6", "Lebak = 7", "Lutayan = 8", "Palimbang = 9", 
         "President Quirino = 10", "Senator Ninoy Aquino = 11", "Isulan = 12"};
@@ -1761,7 +1775,9 @@ void sultankudarat(){
 
 void sarangani2(){
     std::cout << "\n==================== Sarangani (Province) ====================\n";
-    
+    std::cout << "Description: Sarangani is a coastal province in SOCCSKSARGEN known for its\nbeaches, tuna industry, and being the hometown of Manny Pacquiao.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Alabel = 1", "Glan = 2", "Kiamba = 3", "Maasim = 4", "Maitum = 5", "Malapatan = 6", "Malungon = 7"};
     int size = sizeof(cities) / sizeof(cities[0]);
@@ -1812,7 +1828,9 @@ void sarangani2(){
 
 void ilocsnorth(){
     std::cout << "\n==================== Ilocos Norte (Province) ====================\n";
-    
+    std::cout << "Description: A province known for its dramatic coastal landscapes, wind \nfarms, and rich Ilocano heritage, including the heritage city \nof Vigan.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Laoag City = 1", "Batac City = 2", "Adams = 3", "Bacarra = 4", "Badoc= 5", "Bangui = 6", "Banna (Espiritu) = 7", "Burgos = 8",
         "Carasi = 9", "Currimao = 10", "Dingras = 11", "Dumalneg = 12", "Marcos = 13", "Nueva Era = 14", "Pagudpud = 15", 
@@ -1894,7 +1912,9 @@ void ilocsnorth(){
 
 void ilocssur(){
     std::cout << "\n==================== Ilocos Sur (Province) ====================\n";
-    
+    std::cout << "Description: Famous for its well-preserved Spanish colonial architecture, \nparticularly in Vigan City, a UNESCO World Heritage Site.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Vigan City = 1", "Candon City = 2", "Alilem = 3", "Banayoyo = 4", "Bantay= 5", "Burgos = 6", "Cabugao = 7", "Caoayan = 8",
         "Cervantes = 9", "Galimuyod = 10", "Gregorio del Pilar = 11", "Lidlidda = 12", "Magsingal = 13", "Nagbukel = 14", "Narvacan = 15", 
@@ -1999,7 +2019,9 @@ void ilocssur(){
 
 void la_unionzzz(){
     std::cout << "\n==================== La Union (Province) ====================\n";
-    
+    std::cout << "Description: Renowned for its surfing beaches, especially in San Juan, \nand a growing food and art scene.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "San Fernando City = 1", "Agoo = 2", "Aringay = 3", "Bacnotan = 4", "Bagulin= 5", "Balaoan = 6", "Bangar = 7", "Bauang = 8",
         "Burgos = 9", "Caba = 10", "Luna = 11", "Naguilian = 12", "Pugo = 13", "Rosario = 14", "San Gabriel = 15", 
@@ -2074,7 +2096,9 @@ void la_unionzzz(){
 
 void pangasinanz(){
     std::cout << "\n==================== Pangasinan (Province) ====================\n";
-    
+    std::cout << "Description: The region's largest province, known for the Hundred \nIslands National Park, bangus (milkfish) industry, and \nvibrant coastal culture.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Dagupan City = 1", "San Carlos City = 2", "Urdaneta City = 3", "Alaminos City = 4", "Agno= 5", "Alcala = 6", "Anda = 7", "Asingan = 8",
         "Balungao = 9", "Bani = 10", "Basista = 11", "Bautista = 12", "Bayambang = 13", "Binalonan = 14", "Binmaley = 15", 
@@ -2209,7 +2233,9 @@ void pangasinanz(){
 
 void batanez(){
     std::cout << "\n==================== Batanes (Province) ====================\n";
-    
+    std::cout << "Description: The northernmost province of the Philippines, known \nfor its breathtaking rolling hills, stone houses, and serene, \ntyphoon-swept landscapes.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Basco = 1", "Itbayat = 2", "Ivana = 3", "Mahatao = 4", "Sabtang= 5", "Uyugan= 6"};
     int size = sizeof(cities) / sizeof(cities[0]);
@@ -2254,7 +2280,9 @@ void batanez(){
 
 void cgynanz(){
     std::cout << "\n==================== Cagayan (Province) ====================\n";
-    
+    std::cout << "Description: A province rich in natural wonders, including caves \nand beaches, and home to the historic Callao Cave and Palaui \nIsland.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Tuguegarao City = 1", "Alcala = 2", "Allacapan = 3", "Amulung = 4", "Aparri = 5", "Baggao = 6", "Ballesteros = 7", "Buguey = 8",
         "Calayan = 9", "Camalaniugan = 10", "Claveria = 11", "Enrile = 12", "Gattaran = 13", "Gonzaga = 14", "Iguig = 15", 
@@ -2346,7 +2374,9 @@ void cgynanz(){
 
 void izabelssss(){
     std::cout << "\n==================== Isabela (Province) ====================\n";
-    
+    std::cout << "Description: The region’s largest province, known as the “Rice \nand Corn Granary of the North,” with a growing agricultural \nand renewable energy industry.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Ilagan City = 1", "Cauayan City = 2", "Santiago City = 3", "Alicia = 4", "Angadanan = 5", "Aurora = 6", "Benito Solivan = 7", "Burgos = 8",
         "Cabagan = 9", "Cabatuan = 10", "Cordon = 11", "Delfion Albano = 12", "Dinapigue = 13", "Divilacan = 14", "Echague = 15", 
@@ -2458,7 +2488,9 @@ void izabelssss(){
 
 void nuvsvizz(){
     std::cout << "\n==================== Nueva Vizcaya (Province) ====================\n";
-    
+    std::cout << "Description: A landlocked province characterized by its mountainous \nterrain, rich indigenous culture, and eco-tourism attractions \nlike Imugan Falls.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Alfonso Castañeda = 1", "Ambaguio = 2", "Aritao = 3", "Bagabag = 4", "Bambang = 5", "bayombong = 6", "Diadi = 7", "Dupax del Norte = 8",
         "Dupax del Sur= 9", "Kasibu = 10", "Kayapa = 11", "Quezon = 12", "Santa Fe = 13", "Solano = 14", "Villaverde = 15"};
@@ -2522,7 +2554,9 @@ void nuvsvizz(){
 
 void quirinose(){
     std::cout << "\n==================== Quirino (Province) ====================\n";
-    
+    std::cout << "Description: A quiet, landlocked province with rugged terrain, \nscenic caves, rivers, and a developing reputation for \neco-adventures and nature tourism.";
+    std::cout << "\n=============================================================\n";   
+     
     std::string cities[] = {
         "Aglipay = 1", "Cabarroguis = 2", "Diffun = 3", "Maddela = 4", "Nagtipunan= 5", "Saguday = 6"};
     int size = sizeof(cities) / sizeof(cities[0]);
