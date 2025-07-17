@@ -1,0 +1,32 @@
+======= Pagbilao (Barangays) =======
+
+Urban (Poblacion) Barangays:
+Barangay 1 (Castillo)
+Barangay 2 (Daungan)
+Barangay 3 (Del Carmen)
+Barangay 4 (Parang)
+Barangay 5 (Santa Catalina)
+Barangay 6 (Tambak)
+
+Rural Barangays:
+7. Alupaye
+8. Añato
+9. Antipolo
+10. Bantigue
+11. Bigo
+12. Binahaan
+13. Bukal
+14. Ibabang Bagumbungan
+15. Ibabang Palsabangon
+16. Ibabang Polo
+17. Ikirin
+18. Ilayang Bagumbungan
+19. Ilayang Palsabangon
+20. Ilayang Polo
+21. Kanlurang Malicboy
+22. Mapagong
+23. Mayhay
+24. Pinagbayanan
+25. Silangang Malicboy
+26. Talipan
+27. Tukalan

@@ -1,0 +1,98 @@
+======= Imus (Barangays) =======
+Alapan I-A  
+Alapan I-B  
+Alapan I-C  
+Alapan II-A  
+Alapan II-B  
+Anabu I-A  
+Anabu I-B  
+Anabu I-C  
+Anabu I-D  
+Anabu I-E  
+Anabu I-F  
+Anabu I-G  
+Anabu II-A  
+Anabu II-B  
+Anabu II-C  
+Anabu II-D  
+Anabu II-E  
+Anabu II-F  
+Bagong Silang (Bahayang Pag-asa)  
+Bayan Luma I  
+Bayan Luma II  
+Bayan Luma III  
+Bayan Luma IV  
+Bayan Luma V  
+Bayan Luma VI  
+Bayan Luma VII  
+Bayan Luma VIII  
+Bayan Luma IX  
+Bucandala I  
+Bucandala II  
+Bucandala III  
+Bucandala IV  
+Bucandala V  
+Buhay na Tubig  
+Carsadang Bago I  
+Carsadang Bago II  
+Magdalo  
+Maharlika  
+Malagasang I-A  
+Malagasang I-B  
+Malagasang I-C  
+Malagasang I-D  
+Malagasang I-E  
+Malagasang I-F  
+Malagasang I-G  
+Malagasang II-A  
+Malagasang II-B  
+Malagasang II-C  
+Malagasang II-D  
+Malagasang II-E  
+Malagasang II-F  
+Malagasang II-G  
+Mariano Espeleta I  
+Mariano Espeleta II  
+Mariano Espeleta III  
+Medicion I-A  
+Medicion I-B  
+Medicion I-C  
+Medicion I-D  
+Medicion II-A  
+Medicion II-B  
+Medicion II-C  
+Medicion II-D  
+Medicion II-E  
+Medicion II-F  
+Pag-asa I  
+Pag-asa II  
+Pag-asa III  
+Palico I  
+Palico II  
+Palico III  
+Palico IV  
+Pasong Buaya I  
+Pasong Buaya II  
+Pinagbuklod  
+Poblacion I-A  
+Poblacion I-B  
+Poblacion I-C  
+Poblacion II-A  
+Poblacion II-B  
+Poblacion III-A  
+Poblacion III-B  
+Poblacion IV-A  
+Poblacion IV-B  
+Poblacion IV-C  
+Poblacion IV-D  
+Tanzang Luma I  
+Tanzang Luma II  
+Tanzang Luma III  
+Tanzang Luma IV  
+Tanzang Luma V  
+Tanzang Luma VI  
+Toclong I-A  
+Toclong I-B  
+Toclong I-C  
+Toclong II-A  
+Toclong II-B  

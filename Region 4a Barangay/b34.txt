@@ -1,0 +1,13 @@
+======= Pililla (Barangays) =======
+Urban
+Bagumbayan
+Hulo
+Imatong
+Wawa
+Takungan
+
+Rural 
+Halayhayin
+Quisao
+Niogan
+Malaya

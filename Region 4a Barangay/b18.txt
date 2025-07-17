@@ -1,0 +1,31 @@
+======= Santo Tomas City (Barangays) =======
+Barangay I (Poblacion)  
+Barangay II (Poblacion)  
+Barangay III (Poblacion)  
+Barangay IV (Poblacion)  
+San Agustin  
+San Antonio  
+San Bartolome  
+San Felix  
+San Fernando  
+San Francisco  
+San Isidro Norte  
+San Isidro Sur  
+San Joaquin  
+San Jose  
+San Juan  
+San Luis  
+San Miguel  
+San Pablo  
+San Pedro  
+San Rafael  
+San Roque  
+San Vicente  
+Santa Ana  
+Santa Anastacia  
+Santa Clara  
+Santa Cruz  
+Santa Elena  
+Santa Maria  
+Santa Teresita  
+Santiago  
