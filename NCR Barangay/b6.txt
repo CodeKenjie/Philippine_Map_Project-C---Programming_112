@@ -1,0 +1,125 @@
+======= Manila (Barangays) =======
+
+District I 
+
+Zone 1: Barangay 1-9
+Zone 2: Barangay 11-20, 25-26, 28-32
+Zone 3: Barangay 33-39, 41-47
+Zone 4: Barangay 48-55
+Zone 5: Barangay 56-61
+Zone 6: Barangay 62-75
+Zone 7: Barangay 76-90
+Zone 8: Barangay 91-106
+Zone 9: Barangay 107-112, 116-123
+Zone 10: Barangay 124-132
+Zone 11: Barangay 133-136
+
+District II 
+
+Zone 12: Barangay 137-154
+Zone 13: Barangay 155-176
+Zone 14: Barangay 177-190
+Zone 15: Barangay 191-201
+
+District III 
+
+Zone 16: Barangay 202-229
+Zone 17: Barangay 230-244
+Zone 18: Barangay 245-257
+
+District IV
+
+Zone 19: Barangay 264–274
+Zone 20: Barangay 275–286
+Zone 21: Barangay 287–296
+Zone 22: Barangay 297–308
+Zone 23: Barangay 309–319
+Zone 24: Barangay 320–328
+Zone 25: Barangay 329–338
+Zone 26: Barangay 339–346
+Zone 27: Barangay 347–353
+Zone 28: Barangay 354–363
+Zone 29: Barangay 364–375
+Zone 30: Barangay 376–384
+Zone 31: Barangay 385–394
+Zone 32: Barangay 395–400
+Zone 33: Barangay 401–408
+
+District V 
+
+Zone 34: Barangay 409–417
+Zone 35: Barangay 418–425
+Zone 36: Barangay 426–433
+Zone 37: Barangay 434–439
+Zone 38: Barangay 440–445
+Zone 39: Barangay 446–451
+Zone 40: Barangay 452–460
+Zone 41: Barangay 461–470
+Zone 42: Barangay 471–474
+Zone 43: Barangay 475–484
+Zone 44: Barangay 485–495
+Zone 45: Barangay 496–506
+Zone 46: Barangay 507–515
+Zone 47: Barangay 516–525
+Zone 48: Barangay 526–534
+Zone 49: Barangay 535–543
+Zone 50: Barangay 544
+
+District VI 
+
+Zone 51: Barangay 545–551
+Zone 52: Barangay 552–560
+Zone 53: Barangay 561–567
+Zone 54: Barangay 568–575
+Zone 55: Barangay 576–584
+Zone 56: Barangay 585–590
+Zone 57: Barangay 591–597
+Zone 58: Barangay 598–607
+Zone 59: Barangay 608–616
+Zone 60: Barangay 617–623
+Zone 61: Barangay 624–630
+Zone 62: Barangay 631–639
+Zone 63: Barangay 640–648
+Zone 64: Barangay 649–660
+Zone 65: Barangay 661–669
+Zone 66: Barangay 670–676
+Zone 67: Barangay 677–684
+Zone 68: Barangay 685–690
+Zone 69: Barangay 691–698
+Zone 70: Barangay 699–707
+Zone 71: Barangay 708–717
+Zone 72: Barangay 718–725
+Zone 73: Barangay 726–735
+Zone 74: Barangay 736–743
+Zone 75: Barangay 744–751
+Zone 76: Barangay 752–760
+Zone 77: Barangay 761–769
+Zone 78: Barangay 770–776
+Zone 79: Barangay 777–784
+Zone 80: Barangay 785–792
+Zone 81: Barangay 793–802
+Zone 82: Barangay 803–810
+Zone 83: Barangay 811–818
+Zone 84: Barangay 819–826
+Zone 85: Barangay 827–835
+Zone 86: Barangay 836–843
+Zone 87: Barangay 844–851
+Zone 88: Barangay 852–860
+Zone 89: Barangay 861–867
+Zone 90: Barangay 868–875
+Zone 91: Barangay 876–881
+Zone 92: Barangay 882–888
+Zone 93: Barangay 889–894
+Zone 94: Barangay 895–897
+
+
+
+
+
+
+
+
+
+
+
+

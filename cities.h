@@ -5,29 +5,471 @@
 
 /* [Reminder] THIS IS A CITIES FILE - palagi po maglagay ng comments para alam ng mga nag eedit */
 
-// ================================================== 149 cities / 1,493 municipalities ((void)Functionalities) ===========================================================================================================================================
-/////// ALL CITIES IN MINDANAO ONLY
+// ================================================== 149 cities ((void)Functionalities) ===========================================================================================================================================
 
-
-// Region 12 Cities / Municipalities
-
-// Davao De Oro Barangays
-
-void compos(){
+// Occidental Mindoro cities =========================================
+void san_j() {
     std::string act;
-    std::cout << "\n======= Compostela (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= San Jose (City) =======\n" << std::endl;
+
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b1.txt", std::ios::in);
+            Barangay.open("Barangay\\b1.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+void mamburao() {
+    std::string act;
+    std::cout << "\n======= Mamburao (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b2.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+void magsaysay() {
+    std::string act;
+    std::cout << "\n======= Magsaysay (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b3.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void calintaan() {
+    std::string act;
+    std::cout << "\n======= Calintaan (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b4.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void sablayan() {
+    std::string act;
+    std::cout << "\n======= Sablayan (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b5.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void looc() {
+    std::string act;
+    std::cout << "\n======= Looc (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b6.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void paluan() {
+    std::string act;
+    std::cout << "\n======= Panluan (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b7.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void adi() {
+    std::string act;
+    std::cout << "\n======= Abra Del Ilog (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b8.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void lubang() {
+    std::string act;
+    std::cout << "\n======= Lubang (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b9.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void riz() {
+    std::string act;
+    std::cout << "\n======= Rizal (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b10.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void santa_cruz() {
+    std::string act;
+    std::cout << "\n======= Santa Cruz (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b11.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void baco() {
+    std::string act;
+    std::cout << "\n======= Baco (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b12.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void naujan() {
+    std::string act;
+    std::cout << "\n======= Naujan (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b13.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+
+// Oriental Mindoro Cities =========================================================================================================================
+void calapan_CAP() {
+    std::string act;
+    std::cout << "\n======= Calapan (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b14.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -49,21 +491,124 @@ void compos(){
     }
 }
 
-void laak(){
+void bongabong() {
     std::string act;
-    std::cout << "\n======= Laak (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Bongabong (City) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b2.txt", std::ios::in);
+            Barangay.open("Barangay\\b15.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+void bulalacao() {
+    std::string act;
+    std::cout << "\n======= Bulalacao (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b16.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+void gloria(){
+    std::string act;
+    std::cout << "\n======= Gloria (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b17.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void mansalay() {
+    std::string act;
+    std::cout << "\n======= Mansalay (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b18.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -85,21 +630,435 @@ void laak(){
     }
 }
 
-void mabini(){
+void pinamalayan() {
     std::string act;
-    std::cout << "\n======= Mabini (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Pinamalayan (City) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b3.txt", std::ios::in);
+            Barangay.open("Barangay\\b19.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void pola() {
+    std::string act;
+    std::cout << "\n======= Pola (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b20.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void puerto_gal() {
+    std::string act;
+    std::cout << "\n======= Puerto Galera (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b21.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void roxy() {
+    std::string act;
+    std::cout << "\n======= Roxas (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b22.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void san_tdr() {
+    std::string act;
+    std::cout << "\n======= San Teodoro (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b23.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+void socorro() {
+    std::string act;
+    std::cout << "\n======= Socorro (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b24.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+void victoria() {
+    std::string act;
+    std::cout << "\n======= Victoria (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b25.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+
+// Marinduque cities
+
+void boac(){
+    std::string act;
+    std::cout << "\n======= Boac (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b26.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+void buenavista(){
+    std::string act;
+    std::cout << "\n======= Buenavista (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b27.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void gasan(){
+    std::string act;
+    std::cout << "\n======= Gasan (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b28.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void mogpog(){
+    std::string act;
+    std::cout << "\n======= Mogpog (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b29.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void santa_C(){
+    std::string act;
+    std::cout << "\n======= Santa Cruz (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b30.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void torrijos(){
+    std::string act;
+    std::cout << "\n======= Torrijos (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b31.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -121,21 +1080,566 @@ void mabini(){
     }
 }
 
-void maco(){
+// Romblon Municipalities
+void alctra() {
     std::string act;
-    std::cout << "\n======= Maco (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Alcantara (City) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b4.txt", std::ios::in);
+            Barangay.open("Barangay\\b32.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void btn() {
+    std::string act;
+    std::cout << "\n======= Banton (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b33.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+    
+}
+void cjcn() {
+    std::string act;
+    std::cout << "\n======= Cajidiocan (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b34.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void cltrv() {
+    std::string act;
+    std::cout << "\n======= Calatrava (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b35.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void cncptn() {
+    std::string act;
+    std::cout << "\n======= Conception (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b36.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void crqer() {
+    std::string act;
+    std::cout << "\n======= Corcuera (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b37.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void frrl() {
+    std::string act;
+    std::cout << "\n======= Ferrol (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b38.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void looc_2() {
+    std::string act;
+    std::cout << "\n======= Looc (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b39.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void mgdwng() {
+    std::string act;
+    std::cout << "\n======= Magdiwang (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b40.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void odogn() {
+    std::string act;
+    std::cout << "\n======= Odiongan (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b41.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void romblon_cap() {
+    std::string act;
+    std::cout << "\n======= Romblon Capital (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b42.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void san_agstn() {
+    std::string act;
+    std::cout << "\n======= San Agustin (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b43.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void san_adrs() {
+    std::string act;
+    std::cout << "\n======= San Andres (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b44.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void san_frnd() {
+    std::string act;
+    std::cout << "\n======= San Fernando (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b45.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void san_js() {
+    std::string act;
+    std::cout << "\n======= San Jose (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b46.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void snt_f() {
+    std::string act;
+    std::cout << "\n======= Santa Fe (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b47.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void snt_mra() {
+    std::string act;
+    std::cout << "\n======= Santa Maria (Imelda) (City) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b48.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -157,22 +1661,22 @@ void maco(){
     }
 }
 
+// Palawan Cities
 
-void mrgsan(){
+void ptoprcsa_city() {
     std::string act;
-    std::cout << "\n======= Maragusan (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Puerto Princesa (City) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b5.txt", std::ios::in);
+            Barangay.open("Barangay\\b49.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -193,22 +1697,20 @@ void mrgsan(){
         }
     }
 }
-
-void mawab(){
+void abln() {
     std::string act;
-    std::cout << "\n======= Mawab (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Aborlan (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b6.txt", std::ios::in);
+            Barangay.open("Barangay\\b50.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -229,22 +1731,20 @@ void mawab(){
         }
     }
 }
-
-void mntvsta(){
+void agty() {
     std::string act;
-    std::cout << "\n======= Montevista (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Agutaya (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b7.txt", std::ios::in);
+            Barangay.open("Barangay\\b51.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -265,22 +1765,20 @@ void mntvsta(){
         }
     }
 }
-
-void nbnturan(){
+void arcl() {
     std::string act;
-    std::cout << "\n======= Nabunturan (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Araceli (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b8.txt", std::ios::in);
+            Barangay.open("Barangay\\b52.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -301,22 +1799,20 @@ void nbnturan(){
         }
     }
 }
-
-void nwbtaan(){
+void blbc() {
     std::string act;
-    std::cout << "\n======= New Bataan (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Balabac (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b9.txt", std::ios::in);
+            Barangay.open("Barangay\\b53.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -337,22 +1833,20 @@ void nwbtaan(){
         }
     }
 }
-
-void pntukan(){
+void btrz() {
     std::string act;
-    std::cout << "\n======= Pantukan (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Bataraza (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b10.txt", std::ios::in);
+            Barangay.open("Barangay\\b54.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -373,23 +1867,20 @@ void pntukan(){
         }
     }
 }
-
-// Davao Del Sur Barangays
-void digos(){
+void brks_point() {
     std::string act;
-    std::cout << "\n======= Digos (Capital City) =======\n" << std::endl;
+    std::cout << "\n======= Brook's Point (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b11.txt", std::ios::in);
+            Barangay.open("Barangay\\b55.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -410,22 +1901,20 @@ void digos(){
         }
     }
 }
-
-void hgnoy(){
+void bsanga() {
     std::string act;
-    std::cout << "\n======= Hagonoy (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Busuangan (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b12.txt", std::ios::in);
+            Barangay.open("Barangay\\b56.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -446,22 +1935,20 @@ void hgnoy(){
         }
     }
 }
-
-void kblawan(){
+void cgynclo() {
     std::string act;
-    std::cout << "\n======= Kiblawan (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Cagayancillo (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b13.txt", std::ios::in);
+            Barangay.open("Barangay\\b57.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -482,8 +1969,245 @@ void kblawan(){
         }
     }
 }
+void crn() {
+    std::string act;
+    std::cout << "\n======= Coron (Municipality) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b58.txt", std::ios::in);
 
-void magsaysayy(){
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void cln() {
+    std::string act;
+    std::cout << "\n======= Culion (Municipality) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b59.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void cyo() {
+    std::string act;
+    std::cout << "\n======= Cuyo (Municipality) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b60.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void dmr() {
+    std::string act;
+    std::cout << "\n======= Dumaran (Municipality) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b61.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void bonakid() {
+    std::string act;
+    std::cout << "\n======= El Nido (Municipality) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b62.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void klyan() {
+    std::string act;
+    std::cout << "\n======= Kalayaan (Municipality) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b63.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void lnpacn() {
+    std::string act;
+    std::cout << "\n======= Linapacan (Municipality) =======\n" << std::endl;
+    
+    std::cout << "\n===============================\n" << std::endl;
+    while(true) {
+        // .txt file connection called the fstream
+        std::cout << "[type] barangays - view [Barangays];\n";
+        std::cout << "[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+        if (act == "barangays") {
+            std::fstream Barangay;
+            Barangay.open("Barangay\\b64.txt", std::ios::in);
+
+            if (Barangay.is_open()){
+            std::string line;
+            while (std::getline(Barangay, line)){
+                std::cout << line << std::endl; 
+            }
+            Barangay.close();
+            } else {
+                std::cout << "\n[error]could not open file\n";
+            }
+
+        } else if (act == "back" || act == "Back" || act == "BACK") {
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] action;";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void mgssy() {
     std::string act;
     std::cout << "\n======= Magsaysay (Municipality) =======\n" << std::endl;
     
@@ -492,12 +2216,11 @@ void magsaysayy(){
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b14.txt", std::ios::in);
+            Barangay.open("Barangay\\b65.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -508,7 +2231,7 @@ void magsaysayy(){
             } else {
                 std::cout << "\n[error]could not open file\n";
             }
-            
+
         } else if (act == "back" || act == "Back" || act == "BACK") {
             break;
         } else {
@@ -518,22 +2241,20 @@ void magsaysayy(){
         }
     }
 }
-
-void mlalag(){
+void nra() {
     std::string act;
-    std::cout << "\n======= Malalag (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Narra (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b15.txt", std::ios::in);
+            Barangay.open("Barangay\\b66.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -544,7 +2265,7 @@ void mlalag(){
             } else {
                 std::cout << "\n[error]could not open file\n";
             }
-            
+
         } else if (act == "back" || act == "Back" || act == "BACK") {
             break;
         } else {
@@ -554,22 +2275,20 @@ void mlalag(){
         }
     }
 }
-
-void mtnao(){
+void qoen() {
     std::string act;
-    std::cout << "\n======= Matanao (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Quezon (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b16.txt", std::ios::in);
+            Barangay.open("Barangay\\b67.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -580,7 +2299,7 @@ void mtnao(){
             } else {
                 std::cout << "\n[error]could not open file\n";
             }
-            
+
         } else if (act == "back" || act == "Back" || act == "BACK") {
             break;
         } else {
@@ -590,22 +2309,20 @@ void mtnao(){
         }
     }
 }
-
-void pdd(){
+void rizzler() {
     std::string act;
-    std::cout << "\n======= Padada (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Rizal (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-        
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b17.txt", std::ios::in);
+            Barangay.open("Barangay\\b68.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -616,7 +2333,7 @@ void pdd(){
             } else {
                 std::cout << "\n[error]could not open file\n";
             }
-            
+
         } else if (act == "back" || act == "Back" || act == "BACK") {
             break;
         } else {
@@ -626,22 +2343,20 @@ void pdd(){
         }
     }
 }
-
-void sntcruz(){
+void rxs() {
     std::string act;
-    std::cout << "\n======= Santa Cruz (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Roxas (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b18.txt", std::ios::in);
+            Barangay.open("Barangay\\b69.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -652,7 +2367,7 @@ void sntcruz(){
             } else {
                 std::cout << "\n[error]could not open file\n";
             }
-            
+
         } else if (act == "back" || act == "Back" || act == "BACK") {
             break;
         } else {
@@ -662,22 +2377,20 @@ void sntcruz(){
         }
     }
 }
-
-void sulop(){
+void san_vsnt() {
     std::string act;
-    std::cout << "\n======= Sulop (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= San Vicente (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b19.txt", std::ios::in);
+            Barangay.open("Barangay\\b70.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -688,7 +2401,7 @@ void sulop(){
             } else {
                 std::cout << "\n[error]could not open file\n";
             }
-            
+
         } else if (act == "back" || act == "Back" || act == "BACK") {
             break;
         } else {
@@ -698,24 +2411,20 @@ void sulop(){
         }
     }
 }
-
-// Davao Del Norte Barangays
-
-void panobo(){
+void sofnyo_espnl() {
     std::string act;
-    std::cout << "\n======= Panobo City (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Sofronio Española (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b20.txt", std::ios::in);
+            Barangay.open("Barangay\\b71.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -726,7 +2435,7 @@ void panobo(){
             } else {
                 std::cout << "\n[error]could not open file\n";
             }
-            
+
         } else if (act == "back" || act == "Back" || act == "BACK") {
             break;
         } else {
@@ -736,22 +2445,20 @@ void panobo(){
         }
     }
 }
-
-void samal(){
+void tyty() {
     std::string act;
-    std::cout << "\n======= Island Garden City of Samal (Municipality) =======\n" << std::endl;
+    std::cout << "\n======= Taytay (Municipality) =======\n" << std::endl;
     
     std::cout << "\n===============================\n" << std::endl;
     while(true) {
         // .txt file connection called the fstream
         std::cout << "[type] barangays - view [Barangays];\n";
         std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
+            std::cout << "[type]: ";
+            std::cin >> act;
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b21.txt", std::ios::in);
+            Barangay.open("Barangay\\b72.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -762,7 +2469,7 @@ void samal(){
             } else {
                 std::cout << "\n[error]could not open file\n";
             }
-            
+
         } else if (act == "back" || act == "Back" || act == "BACK") {
             break;
         } else {
@@ -772,2543 +2479,3 @@ void samal(){
         }
     }
 }
-
-void tagum(){
-    std::string act;
-    std::cout << "\n======= Tagum (Capital City) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b22.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void asuncion(){
-    std::string act;
-    std::cout << "\n======= Asuncion (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b23.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void carmen(){
-    std::string act;
-    std::cout << "\n======= Carmen (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b24.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void kplong(){
-    std::string act;
-    std::cout << "\n======= Kapalong (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b25.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void nwcrlla(){
-    std::string act;
-    std::cout << "\n======= New Corella (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b26.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void snttomas(){
-    std::string act;
-    std::cout << "\n======= Santo Tomas (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b27.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void talaingod(){
-    std::string act;
-    std::cout << "\n======= Talaingod (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b28.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void braulio(){
-    std::string act;
-    std::cout << "\n======= Braulio E. Dujali (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b29.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void snisidro(){
-    std::string act;
-    std::cout << "\n======= San Isidro (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b30.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-// Davao Occidental Barangays
-
-void donmarcelino(){
-    std::string act;
-    std::cout << "\n======= Don Marcelino (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b31.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void joseabdsntos(){
-    std::string act;
-    std::cout << "\n======= Jose Abad Santos (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b32.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void malita(){
-    std::string act;
-    std::cout << "\n======= Malita (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b33.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void sntamaria(){
-    std::string act;
-    std::cout << "\n======= Santa Maria (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b34.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void sarangani(){
-    std::string act;
-    std::cout << "\n======= Sarangani (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b35.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-// Davao Oriental Barangays
-
-void mati(){
-    std::string act;
-    std::cout << "\n======= Mati City (Capital City) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b36.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}
-
-void baganga(){
-    std::string act;
-    std::cout << "\n======= Baganga (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b37.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void banaybanay(){
-    std::string act;
-    std::cout << "\n======= Banaybanay (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b38.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-void boston(){
-    std::string act;
-    std::cout << "\n======= Boston (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b39.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void caraga(){
-    std::string act;
-    std::cout << "\n======= Caraga (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b40.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void cateel(){
-    std::string act;
-    std::cout << "\n======= Cateel (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b41.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-
-void govgenroso(){
-    std::string act;
-    std::cout << "\n======= Governor Generoso (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b42.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-
-void lupon(){
-    std::string act;
-    std::cout << "\n======= Lupon (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b43.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void manay(){
-    std::string act;
-    std::cout << "\n======= Manay (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b44.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void snisidro2(){
-    std::string act;
-    std::cout << "\n======= San Isidro (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b45.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void tarragona(){
-    std::string act;
-    std::cout << "\n======= Tarragona (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 11 Barangay\\b46.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-
-
-
-
-// Region 12 SOCCSKSARGEN ===============================================================================================================================================================
-
-
-//Cotabato Barangays
-
-void kidapawan(){
-    std::string act;
-    std::cout << "\n======= Kidapawan (Capital City) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b1.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void alamada(){
-    std::string act;
-    std::cout << "\n======= Alamada (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b2.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void aleosan(){
-    std::string act;
-    std::cout << "\n======= Aleosan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b3.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void antipas(){
-    std::string act;
-    std::cout << "\n======= Antipas (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b4.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void arakan(){
-    std::string act;
-    std::cout << "\n======= Arakan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b5.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void banisilan(){
-    std::string act;
-    std::cout << "\n======= Banisilan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b6.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void carmen2(){
-    std::string act;
-    std::cout << "\n======= Carmen (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b7.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] action;";
-            std::cout << "\n===========================\n";
-        }
-    }
-}   
-
-void kabacan(){
-    std::string act;
-    std::cout << "\n======= Kabacan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b8.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-void libungan(){
-    std::string act;
-    std::cout << "\n======= Libungan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b9.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void magpet(){
-    std::string act;
-    std::cout << "\n======= Magpet (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b10.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void makilala(){
-    std::string act;
-    std::cout << "\n======= Makilala (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b11.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void matalam(){
-    std::string act;
-    std::cout << "\n======= Matalam (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b12.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void mlang(){
-    std::string act;
-    std::cout << "\n======= M'lang (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b13.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void pigcawayan(){
-    std::string act;
-    std::cout << "\n======= Pigcawayan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b14.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void pikit(){
-    std::string act;
-    std::cout << "\n======= Pikit (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b15.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-
-void presidentroxas(){
-    std::string act;
-    std::cout << "\n======= President Roxas (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b16.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-
-    void tulunan(){
-    std::string act;
-    std::cout << "\n======= Tulunan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b17.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void midsayap(){
-    std::string act;
-    std::cout << "\n======= Midsayap (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b18.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-
-    //South Cotabato Barangays
-
-    void koronodal(){
-    std::string act;
-    std::cout << "\n======= Koronodal (Capital City) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b19.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void banga(){
-    std::string act;
-    std::cout << "\n======= Banga (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b20.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void lakesebu(){
-    std::string act;
-    std::cout << "\n======= Lake Sebu (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b21.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void norala(){
-    std::string act;
-    std::cout << "\n======= Norala (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b22.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-
-
-//Barangays below have no info ================================================================================================================================================
-// Tim Ame's personal slave 
-// South Cotabato Unfinished
-
-
-     void polomok(){
-    std::string act;
-    std::cout << "\n======= Polomok (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b23.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-     void sntnino(){
-    std::string act;
-    std::cout << "\n======= Santo Niño (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b24.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void surallah(){
-    std::string act;
-    std::cout << "\n======= Surallah (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b25.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void tampakan(){
-    std::string act;
-    std::cout << "\n======= Tampakan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b26.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void tantangan(){
-    std::string act;
-    std::cout << "\n======= Tantangan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b27.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void tboli(){
-    std::string act;
-    std::cout << "\n======= T'boli (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b28.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void tupi(){
-    std::string act;
-    std::cout << "\n======= Tupi (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b29.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    // Sultan Kudarat Barangays ======(No info)==========(No info)==========================================================================================================
-
-    void tacurong(){
-    std::string act;
-    std::cout << "\n======= Tacurong (Capital City) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b30.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void bagumbayan2(){
-    std::string act;
-    std::cout << "\n======= Bagumbayan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b31.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void columbio(){
-    std::string act;
-    std::cout << "\n======= Columbio (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b32.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void esperanza2(){
-    std::string act;
-    std::cout << "\n======= Esperanza (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b33.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void kalamansig(){
-    std::string act;
-    std::cout << "\n======= Kalamansig (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b34.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void lambayong(){
-    std::string act;
-    std::cout << "\n======= Lambayong (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b35.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void lebak(){
-    std::string act;
-    std::cout << "\n======= Lebak (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b36.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-
-    void lutayan(){
-    std::string act;
-    std::cout << "\n======= Lutayan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b37.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-
-    void palimbang(){
-    std::string act;
-    std::cout << "\n======= Palimbang (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b38.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-
-    void presidentquirino(){
-    std::string act;
-    std::cout << "\n======= President Quirino (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b39.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void sntorninoy(){
-    std::string act;
-    std::cout << "\n======= Senator Ninoy Aquino (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b40.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-void isulan(){
-    std::string act;
-    std::cout << "\n======= Isulan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b41.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-// Saragani Barangays 
-
-void alabel(){
-    std::string act;
-    std::cout << "\n======= Alabel (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b42.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void glan(){
-    std::string act;
-    std::cout << "\n======= Glan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b43.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void kiamba(){
-    std::string act;
-    std::cout << "\n======= Kiamba (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b44.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void maasim(){
-    std::string act;
-    std::cout << "\n======= Maasim (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b45.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-void maitum(){
-    std::string act;
-    std::cout << "\n======= Maitum (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b46.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void malapatan(){
-    std::string act;
-    std::cout << "\n======= Malapatan (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b47.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    void malungon(){
-    std::string act;
-    std::cout << "\n======= Malungon (Municipality) =======\n" << std::endl;
-    
-    std::cout << "\n===============================\n" << std::endl;
-    while(true) {
-        // .txt file connection called the fstream
-        std::cout << "[type] barangays - view [Barangays];\n";
-        std::cout << "[type] back - leave the [more info];\n";
-        std::cout << "[type]: ";
-        std::cin >> act;
-
-        if (act == "barangays") {
-            std::fstream Barangay;
-            Barangay.open("Barangay\\Region 12 Barangay\\b48.txt", std::ios::in);
-
-            if (Barangay.is_open()){
-            std::string line;
-            while (std::getline(Barangay, line)){
-                std::cout << line << std::endl; 
-            }
-            Barangay.close();
-            } else {
-                std::cout << "\n[error]could not open file\n";
-            }
-            
-        } else if (act == "back" || act == "Back" || act == "BACK") {
-            break;
-        } else {
-            std::cout << "\n===========================\n";}
-        }
-    }
-
-    
-// Tim Ame's personal slave ============================================================================
