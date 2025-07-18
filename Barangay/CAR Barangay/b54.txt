@@ -1,0 +1,12 @@
+======= Lagawe (provincial capital) (Barangays) =======
+Banga
+Boliwong
+Caba
+Cudog
+Dulao
+Fabban
+PoblacionEast
+PoblacionNorth
+PoblacionSouth
+PoblacionWest
+Tupaya

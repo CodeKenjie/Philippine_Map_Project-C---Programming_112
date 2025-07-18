@@ -1,0 +1,12 @@
+======= Rizal (Barangays) =======
+BabalagEast
+BabalagWest
+Buga
+Caggao
+LiwanEast
+LiwanWest
+Macutay
+Malpoc
+Romualdez
+SanFrancisco
+SanPascual

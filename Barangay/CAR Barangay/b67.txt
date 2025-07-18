@@ -1,0 +1,27 @@
+======= Bauko (Barangays) =======
+Abatan
+BagnenOriente
+BagnenProper
+BaukoCentral
+Bila
+BilaEast
+BilaWest
+GuinzadanCentral
+GuinzadanNorth
+GuinzadanSouth
+Leseb
+Mabaay
+Madaymen
+Manabeng
+MonamonNorte
+MonamonSur
+OtucanNorte
+OtucanSur
+Poblacion
+Sadsadan
+Sinto
+Tapapan
+Tawang
+Tebewek
+TadianNorth
+TadianSouth
