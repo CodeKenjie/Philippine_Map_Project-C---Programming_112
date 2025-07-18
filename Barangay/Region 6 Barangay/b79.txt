@@ -1,0 +1,38 @@
+======= (Barangays) =======
+Aglana
+Balaring
+Balaring Proper
+Carlos Hilado (Poblacion)
+Cayetano Remollo (Poblacion)
+Consolacion
+E. Lopez (Poblacion)
+Estanislao Villanueva (Poblacion)
+Graciano Lopez-Jaena (Poblacion)
+Helena Z. Benitez (Poblacion)
+Iba
+II-village
+III-village
+IV-village
+Jordan (Poblacion)
+Lantad
+Looc (Poblacion)
+Mulia
+North Poblacion
+North Villa
+Ola-puerto
+Pahanocoy
+Pepito Barrios (Poblacion)
+Quezon Plan Village
+Rizal (Poblacion)
+San Antonio I
+San Antonio II
+San Felipe
+San Isidro
+San Rafael
+Santa Maria
+South Villa
+Sumpong
+Tan-awan
+Valle de la Paz
+Zona Barreto
+

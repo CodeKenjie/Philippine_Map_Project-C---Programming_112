@@ -1,0 +1,33 @@
+======= (Barangays) =======
+Alijis
+Bagacay
+Bayamon
+Disunidad
+Getulio N. De Guzman
+Inayawan
+Izak
+Junob-junob
+Lapuz Norte
+Lapuz Sur
+Mabuhay
+Mansilingan
+Naninoy
+Poblacion Barangay 1
+Poblacion Barangay 2
+Poblacion Barangay 3
+Poblacion Barangay 4
+Poblacion Barangay 5
+Poblacion Barangay 6
+Poblacion Barangay 7
+Poblacion Barangay 8
+Poblacion Barangay 9
+Poblacion Barangay 10
+Poblacion Barangay 11
+Poblacion Barangay 12
+Poblacion Barangay 13
+Polvorista
+San Enrique
+San Jose
+Santa Rosa
+Sipalay
+

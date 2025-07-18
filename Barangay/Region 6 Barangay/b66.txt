@@ -1,0 +1,37 @@
+======= (Barangays) =======
+Aganan
+Agbanwat
+Alimodian
+Bantayan
+Baybay
+Batu-an
+Bi-itan
+Bulo
+Buyo
+Cabugao
+Cabugao East
+Cabugao West
+Cabalakan
+Calumpang
+Caninguan
+Cau-ayan
+Danao
+Lagasan
+Maamot
+Mali-ao
+Man-ib
+Morobuan
+Nabitasan
+New Poblacion
+Old Poblacion
+Poblacion Barangay 1
+Poblacion Barangay 2
+Poblacion Barangay 3
+Poblacion Barangay 4
+Poblacion Barangay 5
+Poblacion Barangay 6
+Tacas
+Ticulob
+Tinocuan
+Ugtas
+Walu

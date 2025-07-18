@@ -1,0 +1,50 @@
+======= (Barangays) =======
+Barangay 1 Poblacion Zone I
+Barangay 2 Poblacion Zone II
+Barangay 3 Poblacion Zone III
+Barangay 4 Poblacion Zone IV
+Barangay 5 Poblacion Zone V
+Barangay 6 Poblacion Zone VI
+Barangay 7 Poblacion Zone VII
+Barangay 8 Poblacion Zone VIII
+Barangay 9 Poblacion Zone IX
+Barangay 10 Poblacion Zone X
+Barangay 11 Poblacion Zone XI
+Barangay 12 Poblacion Zone XII
+Barangay 13 Poblacion Zone XIII
+Barangay 14 Poblacion Zone XIV
+Barangay 15 Poblacion Zone XV
+Barangay 16 Poblacion Zone XVI
+Barangay 17 Poblacion Zone XVII
+Barangay 18 Poblacion Zone XVIII
+Alolayan
+Amaba Norte
+Amaba Sur
+Balaring
+Balicayan
+Bantayan
+Bato
+Balabag
+Bitay
+Cabugao
+Canlad
+Capin
+Fatima
+Gua-an
+Guintulan
+La Castilla
+La Feliz
+Lapatonan
+Ma-ay
+Maloco
+Mansilingan
+Pan-ay
+Panuran
+Pine
+Poblacion Barangay XIX
+Pulo
+San Miguel
+San Roque
+San Vicente
+Tagakay
+

@@ -1,0 +1,27 @@
+======= (Barangays) =======
+Agrocen
+Antipolo
+Bobon
+Cansilayan
+Concepcion
+Cubay
+Estefania
+Evangelista
+Hilamonan
+Igbulo
+Maglisang
+North Poblacion
+Panaad
+Poblacion
+Rizal
+Robles
+San Jose
+San Vicente
+South Poblacion
+Tac-awan
+Tangub
+Tinago
+Victoria Village
+Vista Alegre
+Yubo
+

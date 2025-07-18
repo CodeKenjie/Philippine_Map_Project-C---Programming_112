@@ -1,0 +1,36 @@
+======= (Barangays) =======
+Agdao
+As-is
+Ayungon
+Bascon
+Bonawon
+Calatrava
+Calingao
+Calinginan
+Cansilayan
+Cavasi
+Concepcion
+Dagsaan
+Dagohoy
+De la Paz
+Espinosa
+Guadalupe
+Guihob
+La Castellana
+Magsaysay
+Mina-ala
+Poblacion I (Zone 1)
+Poblacion II (Zone 2)
+Poblacion III (Zone 3)
+Poblacion IV (Zone 4)
+Poblacion V (Zone 5)
+Pueblo
+Quiaquit
+San Antonio
+San Isidro
+Santa Cruz
+Santa Fe
+San Vicente
+Talotog
+Tuburan
+Vista Alegre

@@ -1,0 +1,45 @@
+======= (Barangays) =======
+Alog
+Amancio
+Ayong
+Banban
+Banlic
+Bangbanggan
+Bantayan
+Batuan
+Camambugan
+Casaralan
+Catalon-an
+Cayang
+Danao
+Ginaugsa-an
+Igbac
+Inalusungan
+Janipa-on
+Lawa-an
+Linog
+Lisun-an
+Maasin
+Mabunga
+Macalbag
+Maguinhulugan
+Manalipa
+Man-an
+Marcelo
+Marirong
+Nabitasan
+Naburayan
+Nadulao
+Nansadalan
+Napolidan
+Pal-agon
+Pawili
+Poblacion Barangay 1
+Poblacion Barangay 2
+Poblacion Barangay 3
+Poblacion Barangay 4
+Sirangan
+Taytay
+Tigbauan North
+Tigbauan South
+Tungay

@@ -1,0 +1,19 @@
+======= (Barangays) =======
+Biaknabato
+Cabacungan
+Camandag
+Cubay
+Lalagsan
+Linaslan
+Manghanoy
+Masulog
+Nato
+Puso
+Robles
+Sag-ang
+Talaptap
+Barangay 1 Poblacion
+Barangay 2 Poblacion
+Barangay 3 Poblacion
+Barangay 4 Poblacion
+Barangay 5 Poblacion

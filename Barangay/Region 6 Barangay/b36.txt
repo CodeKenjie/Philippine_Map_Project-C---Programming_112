@@ -1,0 +1,21 @@
+======= (Barangays) =======
+Concepcion
+Consolacion
+Dolores
+Duran
+Poblacion
+San Agustin
+San Jose
+San Martin
+San Miguel
+San Rafael
+San Roque
+Santa Carmen
+Santa Cruz
+Santa Monica
+Santa Rita
+Santa Teresa
+Santo Angel
+Santo Niño
+Santo Rosario
+

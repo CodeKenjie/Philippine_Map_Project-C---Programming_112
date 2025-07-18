@@ -1,0 +1,29 @@
+======= (Barangays) =======
+Anas
+Bagong Barrio
+Bayasung
+Bololon
+Calingin
+Canlusong
+Catuhoy
+Dimalaha
+Domingo
+Igbulo
+Kanlud
+Linantud
+Malurong
+Mangima
+Maning-uban
+Mulan-it
+Pal-sibong
+Panlong
+Poblacion Barangay 1
+Poblacion Barangay 2
+Poblacion Barangay 3
+Rizal
+San Antonio
+San Isidro
+San Miguel
+San Vicente
+Santa Cruz
+Santo Domingo
