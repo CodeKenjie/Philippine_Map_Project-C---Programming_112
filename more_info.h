@@ -10,7 +10,7 @@ void more_info_ara(){
         std::string act;
         std::fstream mrinf;
 
-        mrinf.open("more_info\\ara_mi.txt", std::ios::in);
+        mrinf.open("more_info//ara_mi.txt", std::ios::in);
         
         if(mrinf.is_open()){
             std::string line;
