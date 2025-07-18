@@ -500,10 +500,86 @@ void reg_xii() {
     }       
         
 }
+
+// vin 
 void reg_xiii() {
-        
+    std::cout << "\n==================== Region XIII (CARAGA Region) ====================\n";
+    std::cout << "Capital: Butuan City (Agusan del Norte)\n" << "Key Info: \n\tKnown for lush forests, mining, and eco-tourism\n\twith strong indigenous culture and heritage.\n" << "Population: 2,804,788 (as of 2020 Census)\n" << "Land Area: Approximately 18,847.5 km² (7,277.6 sq mi)\n";
+    std::string prov;
+    std::string provinces[] = {"Agusan del Norte", "Agusan del Sur", "Dinagat Islands", "Surigao del Norte", "Surigao del Sur"
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+    
+    
+    while (true) {
+        std::cout << "\n==================== CARAGA Region (Provinces) ====================\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+
+        if (prov == "agusan del norte" || prov == "Agusan del Norte"|| prov == "AGUSAN DEL NORTE") {
+            agsn_dl_nrt();
+        } else if (prov == "agusan del sur" || prov == "Agusan del Sur"|| prov == "AGUSAN DEL SUR") {
+            agsn_dl_sr();
+        } else if (prov == "dinagat islands" || prov == "Dinagat Islands"|| prov == "DINAGAT ISLANDS") {
+            dngt_isld();
+        } else if (prov == "surigao del norte" || prov == "Surigao del Norte"|| prov == "SURIGAO DEL NORTE") {
+            srgo_dl_nrt();
+        } else if (prov == "surigao del sur" || prov == "Surigao del Sur"|| prov == "SURIGAO DEL SUR") {
+            srgo_dl_sr();
+        } else if (prov == "back" || prov == "Back" || prov == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    
+    }
+    
 }
 
 void reg_barmm() {
-        
+    std::cout << "\n==================== Region 14 (BARMM Region) ====================\n";
+    std::cout << "Capital: Cotabato City (Independent, but serves as BARMM's regional center)\n" << "Key Info: \n\tKnown for Islamic heritage, diverse Moro ethnic groups,\n\tand its quest for peace and autonomy.\n" << "Population: 4,404,288 (as of 2020 Census)\n" << "Land Area: Approximately 31,451.3 km² (12,144.5 sq mi)\n";
+    std::string prov;
+    std::string provinces[] = {"Basilan", "Lanao del Sur", "Maguindanao Del Norte", "Maguindanao Del Sur", "Tawi-Tawi"
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+    
+    
+    while (true) {
+        std::cout << "\n==================== BARMM Region (Provinces) ====================\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+
+        if (prov == "basilan" || prov == "Basilan"|| prov == "BASILAN") {
+            Basilan();
+        } else if (prov == "lanao del sur" || prov == "Lanao del Sur"|| prov == "LANAO DEL SUR") {
+            Lno_dl_Sr();
+        } else if (prov == "maguindanao del norte" || prov == "Maguindanao Del Norte"|| prov == "MAGUINDANAO DEL NORTE") {
+            Mguindno_dl_Nrte();
+        } else if (prov == "maguindanao del sur" || prov == "Maguindanao Del Sur"|| prov == "MAGUINDANAO DEL SUR") {
+            Mguindanao_dl_Sur();
+        } else if (prov == "tawi-tawi" || prov == "Tawi-Tawi"|| prov == "TAWI-TAWI") {
+            Tawi_Tawi();
+        } else if (prov == "back" || prov == "Back" || prov == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    
+    }
+    
 }

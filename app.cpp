@@ -115,7 +115,7 @@ void mindanao_reg() {
     std::cout << "Description: Mindanao is the second-largest island in the Philippines,\nlocated in the southern part of the archipelago.\n";
     std::string reg;
     std::string regions[] = {
-        "Zamboanga Peninsula (Region IX)", "Northern Mindanao (Region X)", "Davao Region (Region XI):=========================> [11]", "SOCCSKSARGEN (Region XII):=========================> [12]", "Caraga (Region XIII)", "Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)"
+        "Zamboanga Peninsula (Region IX)", "Northern Mindanao (Region X)", "Davao Region (Region XI):=========================> [11]", "SOCCSKSARGEN (Region XII):=========================> [12]", "Caraga (Region XIII):=========================> [13]", "Bangsamoro Autonomous \nRegion in Muslim Mindanao (BARMM):=========================> [brmm]"
     };
     int size = sizeof(regions) / sizeof(regions[0]);
     
@@ -138,7 +138,7 @@ void mindanao_reg() {
             reg_xii();
         } else if (reg == "13") {
             reg_xiii();
-        } else if (reg == "barmm") {
+        } else if (reg == "barmm" || reg == "Barmm" || reg == "BARMM" || reg == "14") {
             reg_barmm();
         } else if (reg == "back" || reg == "Back" || reg == "BACK") {
             std::cout << "\n===========================\n";

@@ -3596,15 +3596,694 @@ void mountain_provincee(){
 
 
 
+// REGION 13
+/// CARAGA REGION PROVINCES
 
 
+void agsn_dl_nrt(){
+
+    std::cout << "\n======= Agusan del Norte (province) =======\n" << std::endl;
+    std::cout << "Description: A province in northeastern Mindanao \n known for its agro-industrial economy, \n Butuan City historical significance, and rich natural resources." << std::endl;
+    std::cout << "\n===========================================\n" << std::endl;
+
+    std::string cities[] = {
+        "cabadbaran City (City) = 1", "butuan City (City) = 2", "Buenavista (municipality) = 3", "Carmen (municipality) = 4", "Jabonga (municipality) = 5", "Kitcharao (municipality) = 6", "Las Nieves (municipality) = 7", "Magallanes (municipality) = 8", "Nasipit (municipality) = 9",
+        "Remedios T. Romualdez (municipality) = 10", "Santiago (municipality) = 11", "Tubay (municipality) = 12"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Agusan del Norte -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            Cbdarn_Cty();
+        } else if (city == "2") {
+            Btn_Cty();
+        } else if (city == "3") {
+            Bnvst();
+        } else if (city == "4") {
+            Crmn();
+        } else if (city == "5") {
+            Jbng();
+        } else if (city == "6") {
+            Ktchr();
+        } else if (city == "7") {
+            Ls_Nvs();
+        } else if (city == "8") {
+            Mgllns();
+        } else if (city == "9") {
+            Nspt();
+        } else if (city == "10") {
+            Rmds_Rmldz();
+        } else if (city == "11") {
+            Sntg();
+        } else if (city == "12") {
+            Tby();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_agsn_dl_nrt();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+
+}
+
+void agsn_dl_sr(){
+    std::cout << "\n======= Agusan del Sur (province) =======\n" << std::endl;
+    std::cout << "Description: A landlocked province in Mindanao \n famed for the Agusan Marsh Wildlife Sanctuary, \n vast forestlands, and indigenous cultural communities." << std::endl;
+    std::cout << "\n==========================================\n" << std::endl;
+
+    std::string cities[] = {
+        "Bayugan City = 1", "Bunawan (Capital City) = 2", "Esperanza = 3", "La_Paz = 4", "Loreto = 5", "Veruela = 6", "Prosperidad = 7", 
+        "Rosario = 8", "San Francisco = 9", "San Luis = 10", "San Miguel = 11", "Talacogon = 12", "Trento = 13", "Veruela = 14"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+   while (true) {
+       std::cout << "\n---------------- Cities/Municipalities Agusan del Sur -------------\n";
+       for (int i = 0; i < size; i++) {
+           std::cout << cities[i] << std::endl;
+       }
+       std::cout << "\n[type]: back - Previous;\n";
+       std::cout << "[type]: more info = for more info about the city;\n";
+       std::cout << "[Select] City: ";
+       std::getline(std::cin >> std::ws, city);
+
+       if (city == "1") {
+           Bygn_Cty();
+       } else if (city == "2") {
+           Bunwn();
+       } else if (city == "3") {
+           Esprnz();
+       } else if (city == "4") {
+           La_Pz();
+       } else if (city == "5") {
+           Lrt();
+       } else if (city == "6") {
+           Prsprdd();
+       } else if (city == "7") {
+           Rsro();
+       } else if (city == "8") {
+           Sn_Frncsco();
+       } else if (city == "9") {
+           Sn_Ls();
+       } else if (city == "10") {
+           Snta_Jsfa();
+       } else if (city == "11") {
+           Sbgat();
+       } else if (city == "12") {
+           Tlcgn();
+       } else if (city == "13") {
+           Trnt();
+       } else if (city == "14") {
+           Vrela();
+       } else if (city == "back" || city == "Back" || city == "BACK") {
+           std::cout << "\n===========================\n";
+           break;
+       } else if (city == "more info"){
+           more_info_agsn_dl_sr();
+       } else {
+           std::cout << "\n===========================\n";
+           std::cout << "[error] city dont exist";
+           std::cout << "\n===========================\n";
+       }
+
+   }
+
+}
+void dngt_isld(){
+    std::cout << "\n======= Dinagat Islands (province) =======\n" << std::endl;
+    std::cout << "Description: An island province off northeastern Mindanao, \n known for its mystical landscapes, eco-tourism potential, \n and unique political history." << std::endl;
+    std::cout << "\n==========================================\n" << std::endl;
+
+    std::string cities[] = {
+        "Cagdianao = 1", "Dinagat = 2", "Libjo = 3", "Loreto = 4", "Tubajon = 5"
+        };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Dinagat Islands -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            Cgdno();
+        } else if (city == "2") {
+            Dgt();
+        } else if (city == "3") {
+            Lbo();
+        } else if (city == "4") {
+            Lto();
+        } else if (city == "5") {
+            Tbjn();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_dgt_isld();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void srgo_dl_nrt(){
+    std::cout << "\n======= Surigao del Norte (province) =======\n" << std::endl;
+    std::cout << "Description: A coastal province in northeastern Mindanao \n famous for Siargao Island, stunning beaches, \n and a thriving surfing and ecotourism industry." << std::endl;
+    std::cout << "\n============================================\n" << std::endl;
+
+    std::string cities[] = {
+        "Surigao City (Capital City) = 1", "Alegria = 2", "Bacuag = 3", "Burgos = 4", "Claver = 5", "Dapa = 6", 
+        "Del Carmen = 7", "General Luna = 8", "Gigaquit = 9", "Mainit = 10", "Malimono = 11", "Pilar = 12", 
+        "Placer = 13", "San Benito = 14", "San Francisco = 15", "San Isidro = 16", 
+        "Santa Monica = 17", "Sison = 18", "Socorro = 19", "Tagana-an = 20", "Tubod = 21"
+
+    };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Surigao del Norte -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        if (city == "1") {
+            Srg_Cty();
+        } else if (city == "2") {
+            Algra();
+        } else if (city == "3") {
+            Bcg();
+        } else if (city == "4") {
+            Bgs();
+        } else if (city == "5") {
+            Clvr();
+        } else if (city == "6") {
+            Dp();
+        } else if (city == "7") {
+            Dl_Crmn();
+        } else if (city == "8") {
+            Gnrl_Ln();
+        } else if (city == "9") {
+            Ggqt();
+        } else if (city == "10") {
+            Mnt();
+        } else if (city == "11") {
+            Mlmn();
+        } else if (city == "12") {
+            Plr();
+        } else if (city == "13") {
+            Plcr();
+        } else if (city == "14") {
+            Sn_bnt();
+        } else if (city == "15") {
+            Sn_Frnc();
+        } else if (city == "16") {
+            Sn_Isdr();
+        } else if (city == "17") {
+            Snt_mnc();
+        } else if (city == "18") {
+            Sin();
+        } else if (city == "19") {
+            Scro();
+        } else if (city == "20") {
+            Tgnn();
+        } else if (city == "21") {
+            Tbd();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_srgo_dl_sr();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+
+        
+
+    }
+
+}
+
+void srgo_dl_sr(){
+    std::cout << "\n======= Surigao del Sur (province) =======\n" << std::endl;
+    std::cout << "Description: A scenic province along Mindanao eastern coast, \n known for Enchanted River, Tinuy-an Falls, \n and its rich biodiversity and cultural heritage." << std::endl;
+    std::cout << "\n===========================================\n" << std::endl;
+
+    std::string cities[] = {
+        "Tandag City (City) = 1", "Bislig City (City) = 2", "Barobo (Municipality) = 3", "Bayabas (Municipality) = 4", "Cagwait (Municipality) = 5", "Cantilan (Municipality) = 6",
+        "Carmen (Municipality) = 7", "Carrascal (Municipality) = 8", "Cortes (Municipality) = 9", "Hinatuan (Municipality) = 10", "Lanuza (Municipality) = 11", "Lianga (City) = 12", "Lingig (Municipality) = 13",
+        "Madrid (Municipality) = 14", "Marihatag (Municipality) = 15", "San Agustin (Municipality) = 16", "San Miguel (Municipality) = 17", "Tagbina (Municipality) = 18"
+    };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Surigao del Sur -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        if (city == "1") {
+            Tndg_City();
+        } else if (city == "2") {
+            Bsig_City();
+        } else if (city == "3") {
+            Brbo();
+        } else if (city == "4") {
+            Bybas();
+        } else if (city == "5") {
+            Cgwit();
+        } else if (city == "6") {
+            Cntln();
+        } else if (city == "7") {
+            Crn();
+        } else if (city == "8") {
+            Crrscl();
+        } else if (city == "9") {
+            Cts();
+        } else if (city == "10") {
+            Hntn();
+        } else if (city == "11") {
+            Lnz();
+        } else if (city == "12") {
+            Lnga();
+        } else if (city == "13") {
+            Lngg();
+        } else if (city == "14") {
+            Mdrd();
+        } else if (city == "15") {
+            Mrhtg();
+        } else if (city == "16") {
+            Sn_Agn();
+        } else if (city == "17") {
+            Sn_Mgl();
+        } else if (city == "18") {
+            Tgbn();
+        } else if (city == "19") {
+            Tg();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_srgo_dl_sr();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+
+    }
+
+}
+
+/// BARMM REGION PROVINCES
+void Basilan(){
+    std::cout << "\n======= Basilan (province) =======\n" << std::endl;
+    std::cout << "Description: An island province off the southern coast of Mindanao, \n known for its natural beauty, rubber plantations, \n and the diverse cultures of the Yakan, Tausug, and Chavacano peoples." << std::endl;
+    std::cout << "\n=================================\n" << std::endl;
+
+    std::string cities[] = {
+        "Lamitan City (City) = 1", "Akbar (Municipality) = 2", "Al-Barka (Municipality) = 3", "Hadji Mohammad Ajul (Municipality) = 4", "Hadji Muhtamad (Municipality) = 5",
+        "Lantawan (Municipality) = 6", "Maluso (Municipality) = 7", "Sumisip (Municipality) = 8", "Tabuan-Lasa (Municipality) = 9", "Tipo-Tipo (Municipality) = 10"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Basilan -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            Lmtn_Cty();
+        } else if (city == "2") {
+            kbr();
+        } else if (city == "3") {
+            Al_Brk();
+        } else if (city == "4") {
+            Hdj_Mhmmd_Ajl();
+        } else if (city == "5") {
+            H_Mhtmd();
+        } else if (city == "6") {
+            Lntwn();
+        } else if (city == "7") {
+            Mls();
+        } else if (city == "8") {
+            Smsip();
+        } else if (city == "9") {
+            Tbn_Lsa();
+        } else if (city == "10") {
+            T_Tp();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_basilan();
+
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+    }
 
 
+}
+
+void Lno_dl_Sr(){
+    std::cout << "\n======= Lanao del Sur (province) =======\n" << std::endl;
+    std::cout << "Description: A culturally vibrant province in Mindanao, \n known for Marawi City, Lake Lanao, \n and its strong Maranao traditions rooted in Islamic and royal heritage." << std::endl;
+    std::cout << "\n========================================\n" << std::endl;
 
 
+    std::string cities[] = {
+        "Marawi City (City) = 1", "Bacolod-Kalawi (Municipality) = 2", "Balabagan (Municipality) = 3", "Balindong (Municipality) = 4", "Bayang (Municipality) = 5", "Binidayan (Municipality) = 6",
+        "Buadiposo (Municipality) = 7", "Bubong (Municipality) = 8", "Butig (Municipality) = 9", "Calanogas (Municipality) = 10", "Sultan Dumalondong (Municipality) = 11",
+        "Ditsaan (Municipality) = 12", "Ganassi (Municipality) = 13", "Kapai (Municipality) = 14", "Kapatagan (Municipality) = 15", "Lumba (Municipality) = 16",
+        "Lumbaca (Municipality) = 17", "Lumbatan (Municipality) = 18", "Lumbayanague (Municipality) = 19", "Madalum (Municipality) = 20", "Madamba (Municipality) = 21",
+        "Maguing (Municipality) = 22", "Malabang (Municipality) = 23", "Marantao (Municipality) = 24"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;  
+
+    while (true){
+        std::cout << "\n---------------- Cities/Municipalities Lanao del Sur ----------------\n";
+        for(int i=0; i<size; i++){
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        if (city == "1") {
+            Mrwi_Cty();
+        } else if (city == "2") {
+            Bcld_Klwi();
+        } else if (city == "3") {
+            Blbgn();
+        } else if (city == "4") {
+            Balindong();
+        } else if (city == "5") {
+            Bayang();
+        } else if (city == "6") {
+            Binidayan();
+        } else if (city == "7") {
+            Budposo();
+        } else if (city == "8") {
+            Bubong();
+        } else if (city == "9") {
+            Butig();
+        } else if (city == "10") {
+            Calanogas();
+        } else if (city == "11") {
+            Sltn_Dmlndng();
+        } else if (city == "12") {
+            dtsn();
+        } else if (city == "13") {
+            Ganassi();
+        } else if (city == "14") {
+            Kapi();
+        } else if (city == "15") {
+            Kptagn();
+        } else if (city == "16") {
+            Lmba();
+        } else if (city == "17") {
+            Lmbca();
+        } else if (city == "18") {
+            Lmbtan();
+        } else if (city == "19") {
+            Lumbayangue();
+        } else if (city == "20") {
+            Madlm();
+        } else if (city == "21") {
+            Madmb();
+        } else if (city == "22") {
+            Magung();
+        } else if (city == "23") {
+            Mlabang();
+        } else if (city == "24") {
+            Marnto();
+        } else if (city == "more info") {
+            more_info_lano_dl_sr();
+
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+
+void Mguindno_dl_Nrte(){
+    std::cout << "\n======= Maguindanao del Norte (province) =======\n" << std::endl;
+    std::cout << "Description: A coastal province in central Mindanao \n known for its fertile plains, cultural diversity, \n and its proximity to Cotabato City as a commercial center." << std::endl;
+    std::cout << "\n===============================================\n" << std::endl;
+
+    std::string cities[] = {
+        "Parang City =1", " Barira (Municipality) = 2", "Buldon (Municipality) = 3", "Datu Blah T. Sinsuat (Municipality) = 4", "Datu Odin Sinsuat  (Municipality) = 5", "Kabuntalan (Municipality) = 6",
+        "Matanog (Municipality) = 7", "Sultan Mastura (Municipality) = 8", "Talitay (Municipality) = 9", "Upi (Municipality) = 10"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true){
+        std::cout << "\n---------------- Cities/Municipalities Maguindanao del Norte ----------------\n";
+        for(int i=0; i<size; i++){
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            Parang_City();
+        } else if (city == "2") {
+            Barira();
+        } else if (city == "3") {
+            Buldon();
+        } else if (city == "4") {
+            Datu_Blah_T_Sinsuat();
+        } else if (city == "5") {
+            Datu_Odin_Sinsuat();
+        } else if (city == "6") {
+            Kabuntalan();
+        } else if (city == "7") {
+            Matanog();
+        } else if (city == "8") {
+            Northern_Kabuntalan();
+        } else if (city == "9") {
+            Sultan_Kudarat();
+        } else if (city == "10") {
+            Sultan_Mastura();
+        } else if (city == "11") {
+            Talitay();
+        } else if (city == "12") {
+            Upi();
+        } else if (city == "more info") {
+            more_info_mguindno_dl_nrte();
+
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+    }    
 
 
+}
+
+void Mguindanao_dl_Sur(){
+    std::cout << "\n======= Maguindanao del Sur (province) =======\n" << std::endl;
+    std::cout << "Description: is a landlocked province in central Mindanao \n celebrated for its deep-rooted heritage, agricultural strength, \n and historical significance as the Maguindanaon heartland." << std::endl;
+    std::cout << "\n==============================================\n" << std::endl;
+
+    std::string cities[] = {
+    // List of cities in Maguindanao del Sur
+        "Ampatuan (Municipality) = 1", "Buluan (Municipality) = 2", "Datu Sangki (Municipality) = 3", "Datu Anggal Midtimbang (Municipality) = 4", "Datu Hoffer Ampatuan (Municipality) = 5",
+        "Datu Paglas (Municipality) = 6", "Datu Piang (Municipality) = 7", "Datu Salibo (Municipality) = 8", "Datu Saudi Ampatuan (Municipality) = 9", "Datu Unsay (Municipality) = 10",
+        "Gen S. K. Pendatun (Municipality) = 11", "Guindulungan (Municipality) = 12", "Mamasapano (Municipality) = 13", "Mangudadatu (Municipality) = 14", "Pagalungan (Municipality) = 15",
+        "Paglat (Municipality) = 16", "Rajah Buayan (Municipality) = 17", "Shariff Aguak (Municipality) = 18", "Shariff Saydona Mustapha (Municipality) = 19", "South Upi (Municipality) = 20",
+        "Sultan sa Barongis (Municipality) = 21", "Talayan (Municipality) = 22"
+    };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true){
+        std::cout << "\n---------------- Cities/Municipalities Maguindanao del Norte ----------------\n";
+        for(int i=0; i<size; i++){
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            Ampatuan();
+        } else if (city == "2") {
+            Buluan();
+        } else if (city == "3") {
+            Datu_Sangki();
+        } else if (city == "4") {
+            Datu_Anggl_Mdtmbng();
+        } else if (city == "5") {
+            Datu_Hffer_Amptan();
+        } else if (city == "6") {
+            Datu_Paglas();
+        } else if (city == "7") {
+            Datu_Piang();
+        } else if (city == "8") {
+            Dtu_Slib();
+        } else if (city == "9") {
+            Dtu_Saudi_Amptuan();
+        } else if (city == "10") {
+            Datu_Unsay();
+        } else if (city == "11") {
+            Gen_S_K_Pendatun();
+        } else if (city == "12") {
+            Guindulungan();
+        } else if (city == "13") {
+            Mamasapano();
+        } else if (city == "14") {
+            Mangudadatu();
+        } else if (city == "15") {
+            Pagalungan();
+        } else if (city == "16") {
+            Paglat();
+        } else if (city == "17") {
+            Pandag();
+        } else if (city == "18") {
+            Rajah_Buayan();
+        } else if (city == "19") {
+            Pagalungan();
+        } else if (city == "20") {
+            Shariff_Aguak();
+        } else if (city == "21") {
+            Shariff_Saydona_Mustapha();
+        } else if (city == "22") {
+            South_Upi();
+        } else if (city == "23") {
+            Sultan_sa_Barongis();
+        } else if (city == "24") {
+            Talayan();
+        } else if (city == "more info") {
+            more_info_mguindno_dl_sr();
+
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+    }    
 
 
+}
 
 
+void Tawi_Tawi(){
+    std::cout << "\n======= Tawi-Tawi (province) =======\n" << std::endl;
+    std::cout << "Description: The southernmost province of the Philippines, \n known for its pristine islands, strong Sama-Bajau maritime culture, \n and peaceful island communities." << std::endl;
+    std::cout << "\n===================================\n" << std::endl;
+
+    std::string cities[] = {
+        "Bongao (Municipality) = 1", "Languyan (Municipality) = 3", "Mapun (Municipality) = 4", "Sapa-Sapa (Municipality) = 5",
+        "Sibutu (Municipality) = 6", "Simunul (Municipality) = 7", "Sitangkai (Municipality) = 8", "South Ubian (Municipality) = 9", "Tandubas (Municipality) = 10",
+        "Turtle Islands (Municipality) = 11"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true){
+        std::cout << "\n---------------- Cities/Municipalities Tawi-Tawi ----------------\n";
+        for(int i=0; i<size; i++){
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Bng();
+        } else if (city == "3") {
+            Lngyn();
+        } else if (city == "4") {
+            Mpn();
+        } else if (city == "5") {
+            Panglima_Sugala();
+        } else if (city == "6") {
+            Sapa_Sapa();
+        } else if (city == "7") {
+            Sibutu();
+        } else if (city == "8") {
+            Sitangkai();
+        } else if (city == "9") {
+            South_Ubian();
+        } else if (city == "10") {
+            Tandubas();
+        } else if (city == "11") {
+            Turtle_Islands();
+        } else if (city == "more info") {
+            more_info_twi_tawi();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
