@@ -28,9 +28,9 @@ void luzon_reg() {
     std::cout << "\n==================== LUZON ISLAND ====================\n";
     std::cout << "Description: Luzon is the largest and most populous \nisland in the Philippines, serving as the nation's economic\nand political center.\n";
     std::string reg;
-    std::string regions[] = {"Ilocos Region (Region I):=========================> [1]", "Cagayan Valley (Region II):=========================> [2]", "Central Luzon (Region III):=========================> [3]", "CALABARZON (Region IV-A):=========================> [4a]", 
-        "MIMAROPA (Region IV-B):=========================> [4b]", "Bicol Region (Region V):=========================> [5]",
-        "National Capital Region (NCR)", "Cordillera Administrative Region (CAR)"
+    std::string regions[] = {"Ilocos Region (Region I):==========================> [1]", "Cagayan Valley (Region II):========================> [2]", "Central Luzon (Region III):========================> [3]", "CALABARZON (Region IV-A):==========================> [4a]", 
+        "MIMAROPA (Region IV-B):============================> [4b]", "Bicol Region (Region V):===========================> [5]",
+        "National Capital Region (NCR):=====================> [ncr]", "Cordillera Administrative Region (CAR):============> [car]"
     };
     int size = sizeof(regions) / sizeof(regions[0]);
     

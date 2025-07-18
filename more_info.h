@@ -1542,7 +1542,209 @@ void more_info_qrnose(){
         std::string act;
         std::fstream mrinf;
 
-        mrinf.open("more_info//qrn.txt", std::ios::in);
+        mrinf.open("more_info//abra_mi.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+
+// more info car region ================================================
+
+void more_info_abraa_v2(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//abra_mi.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+
+void more_info_apayaoo(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//Apayao_mi.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_benguett(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//Benguet_mi.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_ifugaoo(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//ifugao_mi.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_kalingaa(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//Kalinga_mi.txt", std::ios::in);
+
+        if (mrinf.is_open()){
+            std::string line;
+            while (std::getline(mrinf, line)) {
+                std::cout << line << std::endl;
+            }
+            mrinf.close();
+        } else {
+            std::cout << "\n[error] cant trace the file.\n";
+        }
+
+        // leave more info
+        while (true){
+            std::cout << "\n[type] back - leave the [more info];\n";
+            std::cout << "[type]: ";
+            std::cin >> act;
+
+            if (act == "back" || act == "Back" || act == "BACK") {
+                break;
+            } else {
+                std::cout << "\n===========================\n";
+                std::cout << "[error] action;";
+                std::cout << "\n===========================\n";
+            }
+        }
+
+}
+
+void more_info_mountain_provincee(){
+        std::string act;
+        std::fstream mrinf;
+
+        mrinf.open("more_info//MT_mi.txt", std::ios::in);
 
         if (mrinf.is_open()){
             std::string line;

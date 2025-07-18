@@ -242,10 +242,121 @@ void reg_v() {
     
     }
 }
+
+// jochil=====================================================================
 void reg_ncr() {
+    std::cout << "\n======= NATIONAL CAPITAL REGION (Cities) =======\n";
+    std::string cities[] = { "Caloocan = 1","Las Piñas = 2","Makati = 3","Malabon = 4","Mandaluyong = 5","Manila = 6","Marikina = 7","Muntinlupa = 8",
+"Navotas = 9","Parañaque = 10","Pasay = 11","Pasig = 12","Quezon City = 13","San Juan = 14","Taguig = 15","Valenzuela = 16"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities NATIONAL CAPITAL REGION -------------\n";
+
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            clocan();
+        } else if (city == "2") {
+            ls_pns();
+        } else if (city == "3") {
+            mkati();
+        } else if (city == "4") {
+            mlabon();
+        } else if (city == "5") {
+            mndluyng();
+        } else if (city == "6") {
+            mnila();
+        } else if (city == "7") {
+            mrikin();
+        } else if (city == "8") {
+            mntinlpa();
+        } else if (city == "9") {
+            nvots();
+        } else if (city == "10") {
+            prnaue();
+        } else if (city == "11") {
+            psay();
+        } else if (city == "12") {
+            psig();
+        }  else if (city == "13") {
+            qezon_city();
+        }  else if (city == "14") {
+            san_jn_v2();
+        }  else if (city == "15") {
+            tgig();
+        }  else if (city == "16") {
+            vlenzela();
+        }  else if (city == "17") {
+            pters();   
+
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_occm();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
         
 }
+
+//jochil =========================================================================================================================================
 void reg_car() {
+    std::cout << "\n==================== Cordillera Administrative Region (car region) ====================\n";
+    std::cout << "Capital: Baguio City (Regional Center)\n"
+    << "Info:Home to the Igorot people, rice terraces,\n"
+    << "Sagada caves, and cool mountain climate.\n" 
+    << "Population: 1,797,660 (as of 2020 Census)\n"
+    << "Land Area: Approximately 19,422.03 km² (7,498.57 sq mi)\n";
+    std::string prov;
+    std::string provinces[] = {"Abra", "Apayao", "Benguet", "Ifugao",  "Kalinga", "Mountain Province" };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+
+    
+    while (true) {
+        std ::cout << "\n===================== Cordillera Administrative Region (Provinces) =====================\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << provinces[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Provice: ";
+        std::getline(std::cin >> std::ws, prov);
+    
+        if (prov == "Abra" || prov == "abra"|| prov == "ABRA") {
+            abraa_v2();
+        } else if (prov == "Apayao" || prov == "apayao"|| prov == "APAYAO") {
+            apayaoo();
+        } else if (prov == "Benguet" || prov == "benguet"|| prov == "BENGUET") {
+            benguett();
+        } else if (prov == "Ifugao" || prov == "ifugao"|| prov == "IFUGAO") {
+            ifugaoo();
+        } else if (prov == "Kalinga" || prov == "kalinga"|| prov == "KALINGA") {
+            kalingaa();
+        } else if (prov == "Mountain Province" || prov == "mountain province"|| prov == "MOUNTAIN PROVINCE") {
+            mountain_provincee();
+        }  else if (prov == "back" || prov == "Back" || prov == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        }else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province dont Exist";
+            std::cout << "\n===========================\n";
+        }
+    
+    }    
         
 }
 
@@ -312,6 +423,7 @@ void reg_x() {
 void reg_xi() { 
     
     std::cout << "\n==================== Region XI (MIMAROPA) ====================\n";
+    std::cout << "Capital: Davao City (regional center)\n" << "Key Info: \n\tDavao Region (Region XI) is in southeastern Mindanao. \n\tIt's known for Mt. Apo, rich agriculture (especially \n\tbananas and durian), and diverse culture" << "\nPopulation: 5,243,536 (2020 Census)\n" << "Land Area: Approximately 20,357.42 square kilometers\n";
     std::string prov;
     std::string provinces[] = {"Davao De Oro", "Davao Del Norte", "Davao Del Sur", "Davao Occidental", "Davao Oriental"   
     };
@@ -319,6 +431,7 @@ void reg_xi() {
 
     
     while (true) {
+        std::cout << "\n==================== Davao Region (Provinces) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << provinces[i] << std::endl;
         }
@@ -352,12 +465,14 @@ void reg_xi() {
 void reg_xii() {  
 
     std::cout << "\n==================== Region XII (SOCCSKSARGEN Region) ====================\n";
+    std::cout << "Capital: Koronodal City (regional center)\n" << "Key Info: \n\tSOCCSKSARGEN (Region XII) is in south-central Mindanao.\n\tIt is known for agriculture tuna fishing in General Santos \n\tCity, and vibrant indigenous cultures."<< "\nPopulation: 4,545,276 (2020 Census)\n" << "Land Area: Approximately 22,336.26 square kilometers\n";
     std::string prov;
     std::string provinces[] = {"Cotabato", "South Cotabato", "Sultan Kudarat", "Sarangani"   };
     int size = sizeof(provinces) / sizeof(provinces[0]);
 
     
     while (true) {
+        std::cout << "\n==================== SOCCKSARGEN (Provinces) ====================\n";
         for (int i = 0; i < size; i++) {
         std::cout << provinces[i] << std::endl;
         }
