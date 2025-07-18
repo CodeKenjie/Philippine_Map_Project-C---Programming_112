@@ -8,6 +8,781 @@
 
 // LUZON PROVINCES =============================================================================================================================
 
+// Region 1
+
+
+void ilocsnorth(){
+    std::cout << "\n==================== Ilocos Norte (Province) ====================\n";
+    std::cout << "Description: A province known for its dramatic coastal landscapes, wind \nfarms, and rich Ilocano heritage, including the heritage city \nof Vigan.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "Laoag City = 1", "Batac City = 2", "Adams = 3", "Bacarra = 4", "Badoc= 5", "Bangui = 6", "Banna (Espiritu) = 7", "Burgos = 8",
+        "Carasi = 9", "Currimao = 10", "Dingras = 11", "Dumalneg = 12", "Marcos = 13", "Nueva Era = 14", "Pagudpud = 15", 
+        "Paoay = 16", "Pasuquin = 17", "Piddig = 18", "Pinili = 19", "San Nicolas = 20", "Sarrat = 21", "Solsona = 22",
+        "Vintar = 23"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            lag();
+        } else if (city == "2") {
+            batacs();
+        } else if (city == "3") {
+            adms();
+        } else if (city == "4") {
+            bcrra();
+        } else if (city == "5") {
+            bdc();
+        } else if (city == "6") {
+            bngui();
+        } else if (city == "7") {
+            bnna();
+        } else if (city == "8") {
+            brgs();
+        } else if (city == "9") {
+            carc();
+        } else if (city == "10") {
+            crrmao();
+        } else if (city == "12") {
+            dngrs();
+        } else if (city == "13") {
+            dumlng();
+        } else if (city == "14") {
+            mrcs();
+        } else if (city == "15") {
+            nuev_era();
+         } else if (city == "16") {
+            pgdpd();
+        } else if (city == "17") {
+            pawayz();
+        } else if (city == "18") {
+            psquin();
+        } else if (city == "19") {
+            pddg();
+        } else if (city == "20") {
+            pnli();
+        } else if (city == "21") {
+            san_nicos();
+        } else if (city == "22") {
+            srrt();
+        } else if (city == "23") {
+            solsn();
+        } else if (city == "24") {
+            vnctr();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_ilocos_norte();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void ilocssur(){
+    std::cout << "\n==================== Ilocos Sur (Province) ====================\n";
+    std::cout << "Description: Famous for its well-preserved Spanish colonial architecture, \nparticularly in Vigan City, a UNESCO World Heritage Site.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "Vigan City = 1", "Candon City = 2", "Alilem = 3", "Banayoyo = 4", "Bantay= 5", "Burgos = 6", "Cabugao = 7", "Caoayan = 8",
+        "Cervantes = 9", "Galimuyod = 10", "Gregorio del Pilar = 11", "Lidlidda = 12", "Magsingal = 13", "Nagbukel = 14", "Narvacan = 15", 
+        "Quirino = 16", "Salcedo = 17", "San Emilio = 18", "San Esteban = 19", "San Ildefonso = 20", "San Juan = 21", "San Vicente = 22",
+        "Santa = 23", "Santa Catalina = 24", "Santa Cruz = 25", "Santa Lucia = 26", "Santa Maria = 27", "Santiago = 28", "Santo Domingo = 29", 
+        "Sigay = 30", "Sinait = 31", "Sugpon = 32", "Suyo = 33", "Tagudin = 34"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            vegan();
+        } else if (city == "2") {
+            cndn();
+        } else if (city == "3") {
+            allm();
+        } else if (city == "4") {
+            bnyyo();
+        } else if (city == "5") {
+            bnty();
+        } else if (city == "6") {
+            bgs();
+        } else if (city == "7") {
+            cbgao();
+        } else if (city == "8") {
+            cawayan();
+        } else if (city == "9") {
+            crvnts();
+        } else if (city == "10") {
+            glmyd();
+        } else if (city == "11") {
+            delplar();
+        } else if (city == "12") {
+            lidlid();
+        } else if (city == "13") {
+            mgcngl();
+        } else if (city == "14") {
+            ngbkl();
+         } else if (city == "15") {
+            nrvcn();
+        } else if (city == "16") {
+            qrno();
+        } else if (city == "17") {
+            slcdo();
+        } else if (city == "18") {
+            san_emi();
+        } else if (city == "19") {
+            san_st();
+        } else if (city == "20") {
+            san_idy();
+        } else if (city == "21") {
+            san_jn();
+        } else if (city == "22") {
+            san_vi();
+        } else if (city == "23") {
+            snt();
+        } else if (city == "24") {
+            snt_ctln();
+        } else if (city == "25") {
+            snt_crz();
+        } else if (city == "26") {
+            snt_lc();
+        } else if (city == "27") {
+            snt_mr();
+        } else if (city == "28") {
+            sntgooo();
+        } else if (city == "29") {
+            snt_dmngo();
+        } else if (city == "30") {
+            cgay();
+        } else if (city == "31") {
+            cnait();
+        } else if (city == "32") {
+            sgpn();
+        } else if (city == "33") {
+            suyi();
+        } else if (city == "34") {
+            tgdn();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_ilocossur();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void la_unionzzz(){
+    std::cout << "\n==================== La Union (Province) ====================\n";
+    std::cout << "Description: Renowned for its surfing beaches, especially in San Juan, \nand a growing food and art scene.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "San Fernando City = 1", "Agoo = 2", "Aringay = 3", "Bacnotan = 4", "Bagulin= 5", "Balaoan = 6", "Bangar = 7", "Bauang = 8",
+        "Burgos = 9", "Caba = 10", "Luna = 11", "Naguilian = 12", "Pugo = 13", "Rosario = 14", "San Gabriel = 15", 
+        "San Juan = 16", "Santo Tomas = 17", "Santol = 18", "Sudipen = 19", "Tubao = 20"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+        if (city == "1") {
+            sn_fnndo();
+        } else if (city == "2") {
+            aggo();
+        } else if (city == "3") {
+            arngy();
+        } else if (city == "4") {
+            bcntn();
+        } else if (city == "5") {
+            bgln();
+        } else if (city == "6") {
+            blano_ns();
+        } else if (city == "7") {
+            bngr();
+        } else if (city == "8") {
+            bang();
+        } else if (city == "9") {
+            brgss();
+        } else if (city == "10") {
+            cba();
+        } else if (city == "11") {
+            lnaa();
+        } else if (city == "12") {
+            nagilan();
+        } else if (city == "13") {
+            pgo();
+        } else if (city == "14") {
+            rsr_io();
+         } else if (city == "15") {
+            sng_briel();
+        } else if (city == "16") {
+            san_jun();
+        } else if (city == "17") {
+            satomas();
+        } else if (city == "18") {
+            sntl();
+        } else if (city == "19") {
+            sudpn();
+         } else if (city == "20") {
+            tbao();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_la_unionz();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void pangasinanz(){
+    std::cout << "\n==================== Pangasinan (Province) ====================\n";
+    std::cout << "Description: The region's largest province, known for the Hundred \nIslands National Park, bangus (milkfish) industry, and \nvibrant coastal culture.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "Dagupan City = 1", "San Carlos City = 2", "Urdaneta City = 3", "Alaminos City = 4", "Agno= 5", "Alcala = 6", "Anda = 7", "Asingan = 8",
+        "Balungao = 9", "Bani = 10", "Basista = 11", "Bautista = 12", "Bayambang = 13", "Binalonan = 14", "Binmaley = 15", 
+        "Bolinao = 16", "Bugallon = 17", "Burgos = 18", "Calasiao = 19", "Dasol = 20", "Infanta = 21", "Labrador = 22",
+        "Laoac = 23", "Lingayen = 24", "Mabini = 25", "Malasiqui = 26", "Manaoag = 27", "Mangaldan = 28", "Mangataren = 29", 
+        "Mapandan = 30", "Natividad = 31", "Pozorrubio = 32", "Rosales = 33", "San Fabian = 34", "San Jacinto = 35", "San Manuel = 36", 
+        "San Nicolas = 37", "San Quintin = 38", "Santa Barbara = 39", "Santa Maria = 40", "Santo Tomas = 41", "Sison = 42", "Sual = 43", "Tayug = 44", 
+        "Umingan = 45", "Urbioztondo = 46", "Villasis = 47"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            dgpnct();
+        } else if (city == "2") {
+            scct();
+        } else if (city == "3") {
+            urdnt();
+        } else if (city == "4") {
+            almns();
+        } else if (city == "5") {
+            agn();
+        } else if (city == "6") {
+            alcl();
+        } else if (city == "7") {
+            andaaa();
+        } else if (city == "8") {
+            acngn();
+        } else if (city == "9") {
+            blng();
+        } else if (city == "10") {
+            baniii();
+        } else if (city == "11") {
+            bssta();
+        } else if (city == "12") {
+            bautst();
+        } else if (city == "13") {
+            bymbng();
+        } else if (city == "14") {
+            bnlnn();
+         } else if (city == "15") {
+            bnmly();
+        } else if (city == "16") {
+            blnao();
+        } else if (city == "17") {
+            bglln();
+        } else if (city == "18") {
+            brgsss();
+        } else if (city == "19") {
+            clss();
+         } else if (city == "20") {
+            dsol();
+        } else if (city == "21") {
+            nfnta();
+        } else if (city == "22") {
+            lbrdr();
+        } else if (city == "23") {
+            laok();
+        } else if (city == "24") {
+            lngyn();
+        } else if (city == "25") {
+            mbini();
+        } else if (city == "26") {
+            malacq();
+        } else if (city == "27") {
+            manawag();
+        } else if (city == "28") {
+            mngldn();
+        } else if (city == "29") {
+            mngtrn();
+        } else if (city == "30") {
+            mpndn();
+        } else if (city == "31") {
+            ntvdad();
+         } else if (city == "32") {
+            pzrrbio();
+        } else if (city == "33") {
+            rsls();
+        } else if (city == "34") {
+            san_fb();
+        } else if (city == "35") {
+            snjcnto();
+        } else if (city == "36") {
+            snm_nel();
+        } else if (city == "37") {
+            snncls();
+        } else if (city == "38") {
+            snkntn();
+        } else if (city == "39") {
+            sntbrbra();
+        } else if (city == "40") {
+            sntmria();
+         } else if (city == "41") {
+            stotoms();
+        } else if (city == "42") {
+            cson();
+        } else if (city == "43") {
+            sualll();
+        } else if (city == "44") {
+            taug();
+        } else if (city == "45") {
+            umngn();
+        } else if (city == "46") {
+            rbiztndo();
+         } else if (city == "47") {
+            vlls();    
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_pangasinanz();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+// Region 2
+
+void batanez(){
+    std::cout << "\n==================== Batanes (Province) ====================\n";
+    std::cout << "Description: The northernmost province of the Philippines, known \nfor its breathtaking rolling hills, stone houses, and serene, \ntyphoon-swept landscapes.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "Basco = 1", "Itbayat = 2", "Ivana = 3", "Mahatao = 4", "Sabtang= 5", "Uyugan= 6"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            bsco();
+        } else if (city == "2") {
+            itbyt();
+        } else if (city == "3") {
+            ivna();
+        } else if (city == "4") {
+            mhtao();
+        } else if (city == "5") {
+            sbtng();
+        } else if (city == "6") {
+            uygn();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_batanezz();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void cgynanz(){
+    std::cout << "\n==================== Cagayan (Province) ====================\n";
+    std::cout << "Description: A province rich in natural wonders, including caves \nand beaches, and home to the historic Callao Cave and Palaui \nIsland.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "Tuguegarao City = 1", "Alcala = 2", "Allacapan = 3", "Amulung = 4", "Aparri = 5", "Baggao = 6", "Ballesteros = 7", "Buguey = 8",
+        "Calayan = 9", "Camalaniugan = 10", "Claveria = 11", "Enrile = 12", "Gattaran = 13", "Gonzaga = 14", "Iguig = 15", 
+        "Lal-lo = 16", "Lasam = 17", "Pamplona = 18", "Peñablanca = 19", "Piat = 20", "Rizal = 21", "Sanchez-Mira = 22",
+        "Santa Ana = 23", "Santa Praxedes = 24", "Santa Teresita = 25", "Santo Niño = 26", "Solana = 27", "Tuao = 28"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            tggrao();
+        } else if (city == "2") {
+            alcssl();
+        } else if (city == "3") {
+            allcpn();
+        } else if (city == "4") {
+            amlng();
+        } else if (city == "5") {
+            aprri();
+        } else if (city == "6") {
+            bggo();
+        } else if (city == "7") {
+            bllstrs();
+        } else if (city == "8") {
+            bugy();
+        } else if (city == "9") {
+            clyn();
+        } else if (city == "10") {
+            cmlngn();
+        } else if (city == "11") {
+            clv_ia();
+        } else if (city == "12") {
+            nrle();
+        } else if (city == "13") {
+            gtrrn();
+        } else if (city == "14") {
+            gnzga();
+         } else if (city == "15") {
+            igig();
+        } else if (city == "16") {
+            lalo();
+        } else if (city == "17") {
+            lsam();
+        } else if (city == "18") {
+            pmplona();
+        } else if (city == "19") {
+            pnblnca();
+         } else if (city == "20") {
+            piyat();
+        } else if (city == "21") {
+            rizzal();
+        } else if (city == "22") {
+            snchzmra();
+        } else if (city == "23") {
+            staanaa();
+        } else if (city == "24") {
+            staprax();
+        } else if (city == "25") {
+            statere();
+        } else if (city == "26") {
+            stoninoo();
+        } else if (city == "27") {
+            soln();
+        } else if (city == "28") {
+            twowz();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_cagaynz();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void izabelssss(){
+    std::cout << "\n==================== Isabela (Province) ====================\n";
+    std::cout << "Description: The region's largest province, known as the “Rice \nand Corn Granary of the North,” with a growing agricultural \nand renewable energy industry.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "Ilagan City = 1", "Cauayan City = 2", "Santiago City = 3", "Alicia = 4", "Angadanan = 5", "Aurora = 6", "Benito Solivan = 7", "Burgos = 8",
+        "Cabagan = 9", "Cabatuan = 10", "Cordon = 11", "Delfion Albano = 12", "Dinapigue = 13", "Divilacan = 14", "Echague = 15", 
+        "Gamu = 16", "Jones = 17", "Luna = 18", "Maconacon = 19", "Mallig = 20", "Naguillian = 21", "Palanan = 22",
+        "Quezon = 23", "Quirino = 24", "Ramon = 25", "Reina Mercedes = 26", "Roxas = 27", "San Agustin = 28", "San Guillermo = 29", 
+        "San Isidro = 30", "San Manuel = 31", "San Mariano = 32", "San Mateo = 33", "San Pablo = 34", "SanTa Maria = 35", "Santo Tomas = 36", 
+        "Tumauini = 37"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            ilgnct();
+        } else if (city == "2") {
+            kwynct();
+        } else if (city == "3") {
+            snt_go();
+        } else if (city == "4") {
+            alsya();
+        } else if (city == "5") {
+            angdnn();
+        } else if (city == "6") {
+            aaqes();
+        } else if (city == "7") {
+            bntoslvn();
+        } else if (city == "8") {
+            brgoz();
+        } else if (city == "9") {
+            cbgn();
+        } else if (city == "10") {
+            cbtan();
+        } else if (city == "11") {
+            crdn();
+        } else if (city == "12") {
+            dlfnalbn();
+        } else if (city == "13") {
+            dnapd();
+        } else if (city == "14") {
+            dvlkn();
+         } else if (city == "15") {
+            echags();
+        } else if (city == "16") {
+            gmo();
+        } else if (city == "17") {
+            jns();
+        } else if (city == "18") {
+            lna();
+        } else if (city == "19") {
+            mconcn();
+         } else if (city == "20") {
+            mllg();
+        } else if (city == "21") {
+            nagln();
+        } else if (city == "22") {
+            plnn();
+        } else if (city == "23") {
+            qzone();
+        } else if (city == "24") {
+            grno();
+        } else if (city == "25") {
+            rmon();
+        } else if (city == "26") {
+            reinmer();
+        } else if (city == "27") {
+            roxs();
+        } else if (city == "28") {
+            snagstn();
+        } else if (city == "29") {
+            sngllrm();
+        } else if (city == "30") {
+            snisdr();
+        } else if (city == "31") {
+            snmnel();
+         } else if (city == "32") {
+            snmrno();
+        } else if (city == "33") {
+            snmto();
+        } else if (city == "34") {
+            sanpblo();
+        } else if (city == "35") {
+            stamra();
+        } else if (city == "36") {
+            sto_toms();
+        } else if (city == "37") {
+            tumwni();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_izabels();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void nuvsvizz(){
+    std::cout << "\n==================== Nueva Vizcaya (Province) ====================\n";
+    std::cout << "Description: A landlocked province characterized by its mountainous \nterrain, rich indigenous culture, and eco-tourism attractions \nlike Imugan Falls.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "Alfonso Castañeda = 1", "Ambaguio = 2", "Aritao = 3", "Bagabag = 4", "Bambang = 5", "bayombong = 6", "Diadi = 7", "Dupax del Norte = 8",
+        "Dupax del Sur= 9", "Kasibu = 10", "Kayapa = 11", "Quezon = 12", "Santa Fe = 13", "Solano = 14", "Villaverde = 15"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            alfnscn();
+        } else if (city == "2") {
+            ambgo();
+        } else if (city == "3") {
+            arto();
+        } else if (city == "4") {
+            bgbg();
+        } else if (city == "5") {
+            bang_bang();
+        } else if (city == "6") {
+            bym_bang();
+        } else if (city == "7") {
+            diads();
+        } else if (city == "8") {
+            dpn();
+        } else if (city == "9") {
+            dps();
+        } else if (city == "10") {
+            ksbu();
+        } else if (city == "11") {
+            kyaps();
+        } else if (city == "12") {
+            qzono();
+        } else if (city == "13") {
+            stafet();
+        } else if (city == "14") {
+            solno();
+         } else if (city == "15") {
+            villvrd();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_nuevaaviz();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void quirinose(){
+    std::cout << "\n==================== Quirino (Province) ====================\n";
+    std::cout << "Description: A quiet, landlocked province with rugged terrain, \nscenic caves, rivers, and a developing reputation for \neco-adventures and nature tourism.";
+    std::cout << "\n=============================================================\n";   
+     
+    std::string cities[] = {
+        "Aglipay = 1", "Cabarroguis = 2", "Diffun = 3", "Maddela = 4", "Nagtipunan= 5", "Saguday = 6"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            agpay();
+        } else if (city == "2") {
+            cabs();
+        } else if (city == "3") {
+            diffs();
+        } else if (city == "4") {
+            mads();
+        } else if (city == "5") {
+            nagtips();
+        } else if (city == "6") {
+            sagdy();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_qrnose();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
 
 // REGION 3 provinces, Central Luzon ===========================================================================================
 // Aurora 
@@ -1411,6 +2186,1110 @@ void srsgn(){
         
     }
 }
+//// NCR no Province
+// car region ==============================
+void abraa_v2(){
+    std::cout << "\n==================== Abra (Province) ====================\n";
+    std::cout << "Description: Abra, located in the western part of the Cordillera region, \nis a land of rolling hills, deep valleys, and rivers. Known for its rich culture, handwoven \nabel fabric, and historical landmarks, it offers a glimpse of traditional highland life.";
+    std::cout << "\n=============================================================\n";
+
+    std::string cities[] = {
+        "Bangued = 1", "Bucay = 2", "Bucloc = 3", "Daguioman = 4", "Danglas = 5",
+         "Dolores = 6" "La Paz = 7", "Lacub = 8", "Lagangilang = 9", "Lagayan = 10", 
+         "Langiden = 11", "Licuan-Baay  = 12" "Luba = 13" "Malibcong = 14", "Manabo = 15", "Penarrubia = 16", "Pidigan = 17", "Pilar = 18", "Sallapadan  = 19"
+        "San Isidro = 20", "San Juan  = 21" "San Quintin = 22" "Tayum = 23", "Tineg = 24", "Tubo = 25", "Villaviciosa = 26"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Abra -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            bnged();
+        } else if (city == "2") {
+            bucy();
+        } else if (city == "3") {
+            blc();
+        } else if (city == "4") {
+            daguman_();
+        } else if (city == "5") {
+            daglas();
+        } else if (city == "6") {
+            dlors();
+        } else if (city == "7") {
+            l_pz();
+        } else if (city == "8") {
+            lcb();
+        } else if (city == "9") {
+            lagagilg();
+        } else if (city == "10") {
+            lgyan();
+        } else if (city == "11") {
+            lngidn();
+        } else if (city == "12") {
+            licn_by();
+        } else if (city == "13") {
+            lba_();
+        } else if (city == "14") {
+            mlbcong();
+        } else if (city == "15") {
+            mnbo();
+        } else if (city == "16") {
+            pnrruba();
+        } else if (city == "17") {
+            pdgan();
+        } else if (city == "18") {
+            plr();
+        } else if (city == "19") {
+            sllapdan();
+        } else if (city == "20") {
+            sn_isdro();
+        } else if (city == "21") {
+            sn_jn_();
+        } else if (city == "22") {
+            sn_qntin();
+        } else if (city == "23") {
+            tyum();
+        } else if (city == "24") {
+            tneg();
+        } else if (city == "25") {
+            tbo_();
+        } else if (city == "26") {
+            vllvicisa_();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_qrnose();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void apayaoo(){
+    std::cout << "\n==================== Apayao (Province) ====================\n";
+    std::cout << "Description: Apayao, located in the northern part of the Cordillera region, \nis known for its vast forests, scenic rivers, and diverse wildlife. It is home to the \nIsnag people and offers peaceful nature spots, waterfalls, and cultural heritage.";
+    std::cout << "\n=============================================================\n";
+
+    std::string cities[] = {
+        "Calanasan = 1", "Conner = 2", "Flora = 3", "Kabugao (provincial capital) = 4", "Luna = 5", "Pudtol = 6", "Santa Marcela = 7"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Apayao -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            clnsan();
+        } else if (city == "2") {
+            cnr();
+        } else if (city == "3") {
+            flra();
+        } else if (city == "4") {
+            kbgo();
+        } else if (city == "5") {
+            lunaa_();
+        } else if (city == "6") {
+            pudtl();
+        } else if (city == "7") {
+            snt_mrcl();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_qrnose();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+
+void benguett(){
+    std::cout << "\n==================== benguet (Province) ====================\n";
+    std::cout << "Description: Benguet, located in the southern part of the Cordillera region, \nis known for its cool climate, vegetable farms, and scenic mountain views. \nIt is often called the 'Salad Bowl of the Philippines' and surrounds Baguio City.";
+    std::cout << "\n=============================================================\n";
+
+    std::string cities[] = {
+        "Atok = 1", "Bakun = 2", "Bokod = 3", "Buguias = 4", "Itogon = 5", "Kabayan = 6", "Kapangan = 7",
+         "Kibungan = 8", "La Trinidad (provincial capital) = 9", "Mankayan = 10", "Sablan = 11", "Tuba = 12", 
+         "Tublay = 13"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities benguet -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            atok_();
+        } else if (city == "2") {
+            bakun_();
+        } else if (city == "3") {
+            bokod_();
+        } else if (city == "4") {
+            bugis_();
+        } else if (city == "5") {
+            itogo_();
+        } else if (city == "6") {
+            kabayo_();
+        } else if (city == "7") {
+            kpngan_();
+        } else if (city == "8") {
+            kbngan_();
+        } else if (city == "9") {
+            l_trndad();
+        } else if (city == "10") {
+            sbln_();
+        } else if (city == "11") {
+            mnkaya_();
+        } else if (city == "12") {
+            tubaa_();
+        } else if (city == "13") {
+            tbly_();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_qrnose();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void ifugaoo(){
+    std::cout << "\n==================== ifugao (Province) ====================\n";
+    std::cout << "Description: Ifugao, famous for the UNESCO-listed Banaue Rice Terraces, \nis a mountainous province rich in culture and tradition. \nIt is home to the Ifugao people, known for their woodcarving, weaving, and ancient rituals.";
+    std::cout << "\n=============================================================\n";
+
+    std::string cities[] = {
+        "Aguinaldo = 1", "Alfonso Lista (formerly Potia) = 2", "Asipulo = 3", "Banaue = 4", "Hingyon = 5",
+         "Hungduan = 6", "Kiangan = 7", "Lagawe (provincial capital) = 8", "Lamut = 9", "Mayoyao = 10", 
+         "Tinoc = 11"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities ifugao -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            aginaldo_();
+        } else if (city == "2") {
+            alfons_lsta();
+        } else if (city == "3") {
+            aspulo_();
+        } else if (city == "4") {
+            bunue_();
+        } else if (city == "5") {
+            hinyn_();
+        } else if (city == "6") {
+            hungdan_();
+        } else if (city == "7") {
+            kingan_();
+        } else if (city == "8") {
+            lagare_();
+        } else if (city == "9") {
+            lmut_();
+        } else if (city == "10") {
+            myyao_();
+        } else if (city == "11") {
+            tinoc_();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_qrnose();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void kalingaa(){
+    std::cout << "\n==================== Kalinga (Province) ====================\n";
+    std::cout << "Description: Kalinga, located in the northern Cordillera region, \nis known for its fierce warrior heritage, rice terraces, and traditional tattoos. \nIt is home to the famous tattoo artist Apo Whang-Od and rich indigenous culture.";
+    std::cout << "\n=============================================================\n";
+
+    std::string cities[] = {
+        "Tabuk City = 1", "Balbalan = 2", "Lubuagan = 3", "Pasil = 4", "Pinukpuk = 5", 
+        "Rizal = 6", "Tanudan = 7", "Tinglayan = 8"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities Kalinga -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            tbuk_();
+        } else if (city == "2") {
+            balbln_();
+        } else if (city == "3") {
+            lbgan_();
+        } else if (city == "4") {
+            psil_();
+        } else if (city == "5") {
+            pnkpk_();
+        } else if (city == "6") {
+            rizl_();
+        } else if (city == "7") {
+            tnudn_();
+        } else if (city == "8") {
+            tnglyan_();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_qrnose();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+void mountain_provincee(){
+    std::cout << "\n==================== mountain_province (Province) ====================\n";
+    std::cout << "Description: Mountain Province, located at the heart of the Cordillera region, \nis known for its hanging coffins, caves, and scenic mountain landscapes. \nSagada and Bontoc offer a mix of adventure, culture, and highland traditions.";
+    std::cout << "\n=============================================================\n";
+
+    std::string cities[] = {
+       "Barlig = 1", "Bauko = 2", "Besao = 3", "Bontoc (provincial capital) = 4", "Natonin = 5",
+        "Paracelis = 6", "Sabangan = 7", "Sadanga = 8", "Sagada = 9", "Tadian = 10"};
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+    
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities mountain_province -------------\n";
+        for (int i = 0; i < size; i++) {
+        std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+        
+       if (city == "1") {
+            brlig_();
+        } else if (city == "2") {
+            bako_();
+        } else if (city == "3") {
+            beso_();
+        } else if (city == "4") {
+            bntc_();
+        } else if (city == "5") {
+            ntnin_();
+        } else if (city == "6") {
+            prcls_();
+        } else if (city == "7") {
+            sbngan_();
+        } else if (city == "8") {
+            sdanga_();
+        } else if (city == "9") {
+            sgda_();
+        } else if (city == "10") {
+            tdian();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info"){
+            more_info_qrnose();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] city dont exist";
+            std::cout << "\n===========================\n";
+        }
+        
+    }
+
+}
+
+// ============================================  REGION VI   (RAIZEN) =================================================================
+
+
+void aklan() {
+    std::cout << "\n==================== Aklan (Province) ====================\n";
+
+    std::string cities[] = {
+        "Altavas = 1", "Balete = 2", "Banga = 3", "Batan = 4", "Buruanga = 5", 
+        "Ibajay = 6", "Kalibo (Capital) = 7", "Lezo = 8", "Libacao = 9", "Madalag = 10"
+    };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities of Aklan -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Altavas();
+        } else if (city == "2") {
+            Balete();
+        } else if (city == "3") {
+            Banga();
+        } else if (city == "4") {
+            Batan();
+        } else if (city == "5") {
+            Buruanga();
+        } else if (city == "6") {
+            Ibajay();
+        } else if (city == "7") {
+            Kalibo();
+        } else if (city == "8") {
+            Lezo();
+        } else if (city == "9") {   
+            Libacao();
+        } else if (city == "10") {
+            Madalag();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_aklan();
+        } else {
+            std::cout << "\n=========   ==================\n";
+            std::cout << "[error] City doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+
+    }
+
+}
+
+
+void antique() {
+    std::cout << "\n==================== Antique (Province) ====================\n";
+
+    std::string cities[] = {
+        "Anini-y = 1", "Barbaza = 2", "Belison = 3", "Bugasong = 4", "Caluya = 5",
+        "Culasi = 6", "Hamtic = 7", "Laua-an = 8", "Libertad = 9", "Pandan = 10",
+        "Patnongon = 11", "San Jose de Buenavista (Capital) = 12", "San Remigio = 13",
+        "Sebaste = 14", "Sibalom = 15", "Tibiao = 16", "Tobias Fornier = 17"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities of Antique -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Aniniy();
+        } else if (city == "2") {
+            Barbaza();
+        } else if (city == "3") {
+            Belison();
+        } else if (city == "4") {
+            Bugasong();
+        } else if (city == "5") {
+            Caluya();
+        } else if (city == "6") {
+            Culasi();
+        } else if (city == "7") {
+            Hamtic();
+        } else if (city == "8") {
+            Lauaan();
+        } else if (city == "9") {
+            Libertad();
+        } else if (city == "10") {
+            Pandan();
+        } else if (city == "11") {
+            Patnongon();
+        } else if (city == "12") {
+            San_Jose_de_Buenavista();
+        } else if (city == "13") {
+            San_Remigio();
+        } else if (city == "14") {
+            Sebaste();
+        } else if (city == "15") {
+            Sibalom();
+        } else if (city == "16") {
+            Tibiao ();
+        } else if (city == "17") {
+            Tobias_Fornier();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_antique();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] City doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+
+    }
+    
+}
+
+void capiz() {
+    std::cout << "\n==================== Capiz (Province) ====================\n";
+
+    std::string cities[] = {
+        "Cuartero = 1", "Dao = 2", "Dumalag = 3", "Dumarao = 4", "Ivisan = 5",
+        "Jamindan = 6", "Maayon = 7", "Mambusao = 8", "Panay = 9", "Panitan = 10",
+        "Pilar = 11", "Pontevedra = 12", "President Roxas = 13", "Roxas City (Capital) = 14",
+        "Sapian = 15", "Tapaz = 16"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities of Capiz -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Cuartero();
+        } else if (city == "2") {
+            Dao();
+        } else if (city == "3") {
+            Dumalag();
+        } else if (city == "4") {
+            Dumarao();
+        } else if (city == "5") {
+            Ivisan();
+        } else if (city == "6") {
+            Jamindan();
+        } else if (city == "7") {
+            Maayon();
+        } else if (city == "8") {
+            Mambusao();
+        } else if (city == "9") {
+            Panay();
+        } else if (city == "10") {
+            Panitan();
+        } else if (city == "11") {
+            Pilar();
+        } else if (city == "12") {
+            Pontevedra1();
+        } else if (city == "13") {
+            President_Roxas();
+        } else if (city == "14") {
+            Roxas_City();
+        } else if (city == "15") {
+            Sapian();
+        } else if (city == "16") {
+            Tapaz();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_capiz();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] City doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+
+void guimaras() {
+    std::cout << "\n==================== Guimaras (Province) ====================\n";
+
+    std::string cities[] = {
+        "Buenavista = 1", "Jordan (Capital) = 2", "Nueva Valencia = 3", 
+        "San Lorenzo = 4", "Sibunag = 5"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Municipalities of Guimaras -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the municipality;\n";
+        std::cout << "[Select] Municipality: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Buenavista();
+        } else if (city == "2") {
+            Jordan();
+        } else if (city == "3") {
+            Nueva_Valencia();
+        } else if (city == "4") {
+            San_Lorenzo();
+        } else if (city == "5") {
+            Sibunag();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_guimaras();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Municipality doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+
+void iloilo() {
+    std::cout << "\n====================     (Province) ====================\n";
+
+    std::string cities[] = {
+        "Passi City = 1", "Ajuy = 2", "Alimodian = 3", "Anilao = 4", "Badiangan = 5", 
+        "Banate = 6", "Barotac Nuevo = 7", "Barotac Viejo = 8", "Cabatuan = 9", "Calinog = 10", 
+        "Carles = 11", "Concepcion = 12", "Dingle = 13", "Dumangas = 14", "Estancia = 15", 
+        "Guimbal = 16", "Janiuay = 17", "Lambunao = 18", "Leganes = 19", "Oton = 20", 
+        "Santa Barbara = 21"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities in Iloilo -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Passi();
+        } else if (city == "2") {
+            Ajuy();
+        } else if (city == "3") {
+            Alimodian();
+        } else if (city == "4") {
+            Anilao();
+        } else if (city == "5") {
+            Badiangan();
+        } else if (city == "6") {
+            Banate();
+        } else if (city == "7") {
+            Barotac_Nuevo();
+        } else if (city == "8") {
+            Barotac_Viejo();
+        } else if (city == "9") {
+            Cabatuan();
+        } else if (city == "10") {
+            Calinog();
+        } else if (city == "11") {
+            Carles();
+        } else if (city == "12") {
+            Concepcion();
+        } else if (city == "13") {
+            Dingle();
+        } else if (city == "14") {
+            Dumangas();
+        } else if (city == "15") {
+            Estancia();
+        } else if (city == "16") {
+            Guimbal();
+        } else if (city == "17") {
+            Janiuay();
+        } else if (city == "18") {
+            Lambunao();
+        } else if (city == "19") {
+            Leganes();
+        } else if (city == "20") {
+            Oton();
+        } else if (city == "21") {
+            Santa_Barbara();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_iloilo();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Municipality doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+
+void negros_occidental() {
+    std::cout << "\n==================== Negros Occidental (Province) ====================\n";
+
+    std::string cities[] = {
+        "Bacolod City (Capital) = 1", "Bago City = 2", "Cadiz City = 3", "Escalante City = 4", "Himamaylan City = 5",
+        "Kabankalan City = 6", "La Carlota City = 7", "Sagay City = 8", "San Carlos City = 9", "Silay City = 10",
+        "Sipalay City = 11", "Talisay City = 12", "Victorias City = 13", "Binalbagan = 14", "Calatrava = 15",
+        "Candoni = 16", "Cauayan = 17", "Enrique B. Magalona = 18", "Hinigaran = 19", "Hinoba-an = 20",
+        "Ilog = 21", "Isabela = 22", "La Castellana = 23", "Manapla = 24", "Moises Padilla = 25",
+        "Murcia = 26", "Pontevedra = 2  7", "Pulupandan = 28", "Salvador Benedicto = 29", "San Enrique = 30",
+        "Toboso = 31", "Valladolid = 32"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities in Negros Occidental -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Bacolod();
+        } else if (city == "2") {
+            Bago();
+        } else if (city == "3") {
+            Cadiz();
+        } else if (city == "4") {
+            Escalante();
+        } else if (city == "5") {
+            Himamaylan();
+        } else if (city == "6") {
+            Kabankalan();
+        } else if (city == "7") {
+            La_Carlota();
+        } else if (city == "8") {
+            Sagay();
+        } else if (city == "9") {
+            San_Carlos();
+        } else if (city == "10") {
+            Silay();
+        } else if (city == "11") {
+            Sipalay();
+        } else if (city == "12") {
+            Talisay1();
+        } else if (city == "13") {
+            Victorias();
+        } else if (city == "14") {
+            Binalbagan();
+        } else if (city == "15") {
+            Calatrava();
+        } else if (city == "16") {
+            Candoni();
+        } else if (city == "17") {
+            Cauayan();
+        } else if (city == "18") {
+            Enrique_B_Magalona();
+        } else if (city == "19") {
+            Hinigaran();
+        } else if (city == "20") {
+            Hinobaan();
+        } else if (city == "21") {
+            Ilog();
+        } else if (city == "22") {
+            Isabela();
+        } else if (city == "23") {
+            La_Castellana();
+        } else if (city == "24") {
+            Manapla();
+        } else if (city == "25") {
+            Moises_Padilla();
+        } else if (city == "26") {
+            Murcia();
+        } else if (city == "27") {
+            Pontevedra();
+        } else if (city == "28") {
+            Pulupandan();
+        } else if (city == "29") {
+            Salvador_Benedicto();
+        } else if (city == "30") {
+            San_Enrique();
+        } else if (city == "31") {
+            Toboso();
+        } else if (city == "32") {
+            Valladolid();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_negros_occidental();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Municipality doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+
+// ============================================  REGION VI   (RAIZEN) =================================================================
+
+// ============================================  REGION VII  (RAIZEN) =================================================================
+
+void bohol() {
+    std::cout << "\n==================== Bohol (Province) ====================\n";
+
+    std::string cities[] = {
+        "Tagbilaran City = 1", "Alburquerque = 2", "Alicia = 3", "Anda = 4", "Antequera = 5",
+        "Baclayon = 6", "Balilihan = 7", "Batuan = 8", "Bilar = 9", "Buenavista = 10",
+        "Calape = 11", "Candijay = 12", "Carmen = 13", "Corella = 14", "Cortes = 15",
+        "Dagohoy = 16", "Dauis = 17", "Dimiao = 18", "Duero = 19", "Garcia Hernandez = 20", 
+        "Guindulman = 21"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n------------ Cities/Municipalities in Bohol -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Tagbilaran();
+        } else if (city == "2") {
+            Alburquerque();
+        } else if (city == "3") {
+            Alicia();
+        } else if (city == "4") {
+            Anda();
+        } else if (city == "5") {
+            Antequera();
+        } else if (city == "6") {
+            Baclayon();
+        } else if (city == "7") {
+            Balilihan();
+        } else if (city == "8") {
+            Batuan();
+        } else if (city == "9") {
+            Bilar();
+        } else if (city == "10") {
+            Buenavista1();
+        } else if (city == "11") {
+            Calape();
+        } else if (city == "12") {
+            Candijay();
+        } else if (city == "13") {
+            Carmen();
+        } else if (city == "14") {
+            Corella();
+        } else if (city == "15") {
+            Cortes();
+        } else if (city == "16") {
+            Dagohoy();
+        } else if (city == "17") {
+            Dauis();
+        } else if (city == "18") {
+            Dimiao();
+        } else if (city == "19") {
+            Duero();
+        } else if (city == "20") {
+            Garcia_Hernandez();
+        } else if (city == "21") {
+            Guindulman();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_bohol();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Municipality doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+
+void cebu() {
+    std::cout << "\n==================== Cebu (Province) ====================\n";
+
+    std::string cities[] = {
+        "Bogo City = 1", "Carcar City = 2", "Danao City = 3", 
+        "Naga City = 4", "Talisay City = 5", "Toledo City = 6",
+        "Alcoy = 7", "Alegria = 8", "Aloguinsan = 9", "Argao = 10",
+        "Asturias = 11", "Balamban = 12", "Bantayan = 13", "Barili = 14",
+        "Carmen = 15", "Catmon = 16", "Compostela = 17", "Consolacion = 18",
+        "Cordova = 19", "Daanbantayan = 20", "Dalaguete = 21", "Dumanjug = 22",
+        "Liloan = 23", "Madridejos = 24", "Medellin = 25", "Minglanilla = 26"
+    };
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities in Cebu -------------\n";
+        for (int i = 0; i < size; ++i) {
+            std::cout << cities[i] << std::endl;
+        }
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info - for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Bogo();
+        } else if (city == "2") {
+            Carcar();
+        } else if (city == "3") {
+            Danao();
+        } else if (city == "4") {
+            Naga();
+        } else if (city == "5") {
+            Talisay();
+        } else if (city == "6") {
+            Toledo();
+        } else if (city == "7") {
+            Alcoy();
+        } else if (city == "8") {
+            Alegria();
+        } else if (city == "9") {
+            Aloguinsan();
+        } else if (city == "10") {
+            Argao();
+        } else if (city == "11") {
+            Asturias();
+        } else if (city == "12") {
+            Balamban();
+        } else if (city == "13") {
+            Bantayan();
+        } else if (city == "14") {
+            Barili();
+        } else if (city == "15") {
+            Carmen();
+        } else if (city == "16") {
+            Catmon();
+        } else if (city == "17") {
+            Compostela();
+        } else if (city == "18") {
+            Consolacion();
+        } else if (city == "19") {
+            Cordova();
+        } else if (city == "20") {
+            Daanbantayan();
+        } else if (city == "21") {
+            Dalaguete();
+        } else if (city == "22") {
+            Dumanjug();
+        } else if (city == "23") {
+            Liloan();
+        } else if (city == "24") {
+            Madridejos();
+        } else if (city == "25") {
+            Medellin();
+        } else if (city == "26") {
+            Minglanilla();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_cebu();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] City/Municipality doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void negros_oriental() {
+    std::cout << "\n==================== Negros Oriental (Province) ====================\n";
+
+    std::string cities[] = {
+        "Bais City = 1", "Bayawan City = 2", "Canlaon City = 3", "Dumaguete City (Capital) = 4", "Guihulngan City = 5",
+        "Tanjay City = 6", "Amlan = 7", "Ayungon = 8", "Bacong = 9", "Basay = 10",
+        "Bindoy = 11", "Dauin = 12", "Jimalalud = 13", "La Libertad = 14", "Mabinay = 15",
+        "Manjuyod = 16", "Pamplona = 17", "San Jose = 18", "Santa Catalina = 19", "Siaton = 20",
+        "Sibulan = 21", "Tayasan = 22"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n---------------- Cities/Municipalities in Negros Oriental -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the city;\n";
+        std::cout << "[Select] City: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Bais();
+        } else if (city == "2") {
+            Bayawan();
+        } else if (city == "3") {
+            Canlaon();
+        } else if (city == "4") {
+            Dumaguete();
+        } else if (city == "5") {
+            Guihulngan();
+        } else if (city == "6") {
+            Tanjay();
+        } else if (city == "7") {
+            Amlan();
+        } else if (city == "8") {
+            Ayungon();
+        } else if (city == "9") {   
+            Bacong();
+        } else if (city == "10") {
+            Basay();
+        } else if (city == "11") {
+            Bindoy();
+        } else if (city == "12") {
+            Dauin();
+        } else if (city == "13") {
+            Jimalalud();
+        } else if (city == "14") {
+            La_Libertad();
+        } else if (city == "15") {
+            Mabinay();
+        } else if (city == "16") {
+            Manjuyod();
+        } else if (city == "17") {
+            Pamplona();
+        } else if (city == "18") {
+            San_Jose();
+        } else if (city == "19") {
+            Santa_Catalina();
+        } else if (city == "20") {
+            Siaton();
+        } else if (city == "21") {
+            Sibulan();
+        } else if (city == "22") {
+            Tayasan();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_negros_oriental();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Municipality doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+void siquijor() {
+    std::cout << "\n==================== Siquijor (Province) ====================\n";
+
+    std::string cities[] = {
+        "Enrique Villanueva = 1", "Larena = 2", "Lazi = 3", 
+        "Maria = 4", "San Juan = 5", "Siquijor (Capital) = 6"
+    };
+
+    int size = sizeof(cities) / sizeof(cities[0]);
+    std::string city;
+
+    while (true) {
+        std::cout << "\n------------- Municipalities in Siquijor -------------\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << cities[i] << std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[type]: more info = for more info about the municipality;\n";
+        std::cout << "[Select] Municipality: ";
+        std::getline(std::cin >> std::ws, city);
+
+        if (city == "1") {
+            Enrique_Villanueva();
+        } else if (city == "2") {
+            Larena();
+        } else if (city == "3") {
+            Lazi();
+        } else if (city == "4") {
+            Maria();
+        } else if (city == "5") {
+            San_Juan();
+        } else if (city == "6") {
+            Siquijor_Capital();
+        } else if (city == "back" || city == "Back" || city == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else if (city == "more info") {
+            more_info_siquijor();
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Municipality doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+}
+// ============================================  REGION VII  (RAIZEN) ================================================================
+
 
 // Region 8 Provinces Eastern Visyas ===========================================================================================================
 
@@ -1920,6 +3799,8 @@ void south_lyte(){
     }
 }
 
+
+
 // Davao Region Provinces =====================================================================================================================================================
 
 void dvodeoro() {
@@ -1972,12 +3853,8 @@ void dvodeoro() {
             std::cout << "[error] city dont exist";
             std::cout << "\n===========================\n";
         }
+    }
 }
-}
-
-
-
-
 void dvodelsur() {
     std::cout << "\n==================== Davao Del Sur (Province) ====================\n";
     std::cout << "Description: Davao del Sur is a province in the Davao Region known for Mt. Apo,\nthe highest peak in the Philippines, and its agricultural lands.";
@@ -2026,11 +3903,8 @@ void dvodelsur() {
             std::cout << "[error] city dont exist";
             std::cout << "\n===========================\n";
         }
+    }
 }
-}
-
-
-
 
 void dvodelnorte(){
     std::cout << "\n==================== Davao Del Norte (Province) ====================\n";
@@ -2089,9 +3963,6 @@ void dvodelnorte(){
     }
 
 }
-
-
-
 
 void dvoocci(){
     std::cout << "\n==================== Davao Occidental (Province) ====================\n";
@@ -2442,1158 +4313,6 @@ void sarangani2(){
     }
 
 }
-
-
-// Region 1
-
-
-void ilocsnorth(){
-    std::cout << "\n==================== Ilocos Norte (Province) ====================\n";
-    std::cout << "Description: A province known for its dramatic coastal landscapes, wind \nfarms, and rich Ilocano heritage, including the heritage city \nof Vigan.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "Laoag City = 1", "Batac City = 2", "Adams = 3", "Bacarra = 4", "Badoc= 5", "Bangui = 6", "Banna (Espiritu) = 7", "Burgos = 8",
-        "Carasi = 9", "Currimao = 10", "Dingras = 11", "Dumalneg = 12", "Marcos = 13", "Nueva Era = 14", "Pagudpud = 15", 
-        "Paoay = 16", "Pasuquin = 17", "Piddig = 18", "Pinili = 19", "San Nicolas = 20", "Sarrat = 21", "Solsona = 22",
-        "Vintar = 23"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-        if (city == "1") {
-            lag();
-        } else if (city == "2") {
-            batacs();
-        } else if (city == "3") {
-            adms();
-        } else if (city == "4") {
-            bcrra();
-        } else if (city == "5") {
-            bdc();
-        } else if (city == "6") {
-            bngui();
-        } else if (city == "7") {
-            bnna();
-        } else if (city == "8") {
-            brgs();
-        } else if (city == "9") {
-            carc();
-        } else if (city == "10") {
-            crrmao();
-        } else if (city == "12") {
-            dngrs();
-        } else if (city == "13") {
-            dumlng();
-        } else if (city == "14") {
-            mrcs();
-        } else if (city == "15") {
-            nuev_era();
-         } else if (city == "16") {
-            pgdpd();
-        } else if (city == "17") {
-            pawayz();
-        } else if (city == "18") {
-            psquin();
-        } else if (city == "19") {
-            pddg();
-        } else if (city == "20") {
-            pnli();
-        } else if (city == "21") {
-            san_nicos();
-        } else if (city == "22") {
-            srrt();
-        } else if (city == "23") {
-            solsn();
-        } else if (city == "24") {
-            vnctr();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_ilocos_norte();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void ilocssur(){
-    std::cout << "\n==================== Ilocos Sur (Province) ====================\n";
-    std::cout << "Description: Famous for its well-preserved Spanish colonial architecture, \nparticularly in Vigan City, a UNESCO World Heritage Site.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "Vigan City = 1", "Candon City = 2", "Alilem = 3", "Banayoyo = 4", "Bantay= 5", "Burgos = 6", "Cabugao = 7", "Caoayan = 8",
-        "Cervantes = 9", "Galimuyod = 10", "Gregorio del Pilar = 11", "Lidlidda = 12", "Magsingal = 13", "Nagbukel = 14", "Narvacan = 15", 
-        "Quirino = 16", "Salcedo = 17", "San Emilio = 18", "San Esteban = 19", "San Ildefonso = 20", "San Juan = 21", "San Vicente = 22",
-        "Santa = 23", "Santa Catalina = 24", "Santa Cruz = 25", "Santa Lucia = 26", "Santa Maria = 27", "Santiago = 28", "Santo Domingo = 29", 
-        "Sigay = 30", "Sinait = 31", "Sugpon = 32", "Suyo = 33", "Tagudin = 34"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-        if (city == "1") {
-            vegan();
-        } else if (city == "2") {
-            cndn();
-        } else if (city == "3") {
-            allm();
-        } else if (city == "4") {
-            bnyyo();
-        } else if (city == "5") {
-            bnty();
-        } else if (city == "6") {
-            bgs();
-        } else if (city == "7") {
-            cbgao();
-        } else if (city == "8") {
-            cawayan();
-        } else if (city == "9") {
-            crvnts();
-        } else if (city == "10") {
-            glmyd();
-        } else if (city == "11") {
-            delplar();
-        } else if (city == "12") {
-            lidlid();
-        } else if (city == "13") {
-            mgcngl();
-        } else if (city == "14") {
-            ngbkl();
-         } else if (city == "15") {
-            nrvcn();
-        } else if (city == "16") {
-            qrno();
-        } else if (city == "17") {
-            slcdo();
-        } else if (city == "18") {
-            san_emi();
-        } else if (city == "19") {
-            san_st();
-        } else if (city == "20") {
-            san_idy();
-        } else if (city == "21") {
-            san_jn();
-        } else if (city == "22") {
-            san_vi();
-        } else if (city == "23") {
-            snt();
-        } else if (city == "24") {
-            snt_ctln();
-        } else if (city == "25") {
-            snt_crz();
-        } else if (city == "26") {
-            snt_lc();
-        } else if (city == "27") {
-            snt_mr();
-        } else if (city == "28") {
-            sntgooo();
-        } else if (city == "29") {
-            snt_dmngo();
-        } else if (city == "30") {
-            cgay();
-        } else if (city == "31") {
-            cnait();
-        } else if (city == "32") {
-            sgpn();
-        } else if (city == "33") {
-            suyi();
-        } else if (city == "34") {
-            tgdn();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_ilocossur();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void la_unionzzz(){
-    std::cout << "\n==================== La Union (Province) ====================\n";
-    std::cout << "Description: Renowned for its surfing beaches, especially in San Juan, \nand a growing food and art scene.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "San Fernando City = 1", "Agoo = 2", "Aringay = 3", "Bacnotan = 4", "Bagulin= 5", "Balaoan = 6", "Bangar = 7", "Bauang = 8",
-        "Burgos = 9", "Caba = 10", "Luna = 11", "Naguilian = 12", "Pugo = 13", "Rosario = 14", "San Gabriel = 15", 
-        "San Juan = 16", "Santo Tomas = 17", "Santol = 18", "Sudipen = 19", "Tubao = 20"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-        if (city == "1") {
-            sn_fnndo();
-        } else if (city == "2") {
-            aggo();
-        } else if (city == "3") {
-            arngy();
-        } else if (city == "4") {
-            bcntn();
-        } else if (city == "5") {
-            bgln();
-        } else if (city == "6") {
-            blano_ns();
-        } else if (city == "7") {
-            bngr();
-        } else if (city == "8") {
-            bang();
-        } else if (city == "9") {
-            brgss();
-        } else if (city == "10") {
-            cba();
-        } else if (city == "11") {
-            lnaa();
-        } else if (city == "12") {
-            nagilan();
-        } else if (city == "13") {
-            pgo();
-        } else if (city == "14") {
-            rsr_io();
-         } else if (city == "15") {
-            sng_briel();
-        } else if (city == "16") {
-            san_jun();
-        } else if (city == "17") {
-            satomas();
-        } else if (city == "18") {
-            sntl();
-        } else if (city == "19") {
-            sudpn();
-         } else if (city == "20") {
-            tbao();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_la_unionz();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void pangasinanz(){
-    std::cout << "\n==================== Pangasinan (Province) ====================\n";
-    std::cout << "Description: The region's largest province, known for the Hundred \nIslands National Park, bangus (milkfish) industry, and \nvibrant coastal culture.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "Dagupan City = 1", "San Carlos City = 2", "Urdaneta City = 3", "Alaminos City = 4", "Agno= 5", "Alcala = 6", "Anda = 7", "Asingan = 8",
-        "Balungao = 9", "Bani = 10", "Basista = 11", "Bautista = 12", "Bayambang = 13", "Binalonan = 14", "Binmaley = 15", 
-        "Bolinao = 16", "Bugallon = 17", "Burgos = 18", "Calasiao = 19", "Dasol = 20", "Infanta = 21", "Labrador = 22",
-        "Laoac = 23", "Lingayen = 24", "Mabini = 25", "Malasiqui = 26", "Manaoag = 27", "Mangaldan = 28", "Mangataren = 29", 
-        "Mapandan = 30", "Natividad = 31", "Pozorrubio = 32", "Rosales = 33", "San Fabian = 34", "San Jacinto = 35", "San Manuel = 36", 
-        "San Nicolas = 37", "San Quintin = 38", "Santa Barbara = 39", "Santa Maria = 40", "Santo Tomas = 41", "Sison = 42", "Sual = 43", "Tayug = 44", 
-        "Umingan = 45", "Urbioztondo = 46", "Villasis = 47"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            dgpnct();
-        } else if (city == "2") {
-            scct();
-        } else if (city == "3") {
-            urdnt();
-        } else if (city == "4") {
-            almns();
-        } else if (city == "5") {
-            agn();
-        } else if (city == "6") {
-            alcl();
-        } else if (city == "7") {
-            andaaa();
-        } else if (city == "8") {
-            acngn();
-        } else if (city == "9") {
-            blng();
-        } else if (city == "10") {
-            baniii();
-        } else if (city == "11") {
-            bssta();
-        } else if (city == "12") {
-            bautst();
-        } else if (city == "13") {
-            bymbng();
-        } else if (city == "14") {
-            bnlnn();
-         } else if (city == "15") {
-            bnmly();
-        } else if (city == "16") {
-            blnao();
-        } else if (city == "17") {
-            bglln();
-        } else if (city == "18") {
-            brgsss();
-        } else if (city == "19") {
-            clss();
-         } else if (city == "20") {
-            dsol();
-        } else if (city == "21") {
-            nfnta();
-        } else if (city == "22") {
-            lbrdr();
-        } else if (city == "23") {
-            laok();
-        } else if (city == "24") {
-            lngyn();
-        } else if (city == "25") {
-            mbini();
-        } else if (city == "26") {
-            malacq();
-        } else if (city == "27") {
-            manawag();
-        } else if (city == "28") {
-            mngldn();
-        } else if (city == "29") {
-            mngtrn();
-        } else if (city == "30") {
-            mpndn();
-        } else if (city == "31") {
-            ntvdad();
-         } else if (city == "32") {
-            pzrrbio();
-        } else if (city == "33") {
-            rsls();
-        } else if (city == "34") {
-            san_fb();
-        } else if (city == "35") {
-            snjcnto();
-        } else if (city == "36") {
-            snm_nel();
-        } else if (city == "37") {
-            snncls();
-        } else if (city == "38") {
-            snkntn();
-        } else if (city == "39") {
-            sntbrbra();
-        } else if (city == "40") {
-            sntmria();
-         } else if (city == "41") {
-            stotoms();
-        } else if (city == "42") {
-            cson();
-        } else if (city == "43") {
-            sualll();
-        } else if (city == "44") {
-            taug();
-        } else if (city == "45") {
-            umngn();
-        } else if (city == "46") {
-            rbiztndo();
-         } else if (city == "47") {
-            vlls();    
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_pangasinanz();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-// Region 2
-
-void batanez(){
-    std::cout << "\n==================== Batanes (Province) ====================\n";
-    std::cout << "Description: The northernmost province of the Philippines, known \nfor its breathtaking rolling hills, stone houses, and serene, \ntyphoon-swept landscapes.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "Basco = 1", "Itbayat = 2", "Ivana = 3", "Mahatao = 4", "Sabtang= 5", "Uyugan= 6"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            bsco();
-        } else if (city == "2") {
-            itbyt();
-        } else if (city == "3") {
-            ivna();
-        } else if (city == "4") {
-            mhtao();
-        } else if (city == "5") {
-            sbtng();
-        } else if (city == "6") {
-            uygn();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_batanezz();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void cgynanz(){
-    std::cout << "\n==================== Cagayan (Province) ====================\n";
-    std::cout << "Description: A province rich in natural wonders, including caves \nand beaches, and home to the historic Callao Cave and Palaui \nIsland.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "Tuguegarao City = 1", "Alcala = 2", "Allacapan = 3", "Amulung = 4", "Aparri = 5", "Baggao = 6", "Ballesteros = 7", "Buguey = 8",
-        "Calayan = 9", "Camalaniugan = 10", "Claveria = 11", "Enrile = 12", "Gattaran = 13", "Gonzaga = 14", "Iguig = 15", 
-        "Lal-lo = 16", "Lasam = 17", "Pamplona = 18", "Peñablanca = 19", "Piat = 20", "Rizal = 21", "Sanchez-Mira = 22",
-        "Santa Ana = 23", "Santa Praxedes = 24", "Santa Teresita = 25", "Santo Niño = 26", "Solana = 27", "Tuao = 28"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            tggrao();
-        } else if (city == "2") {
-            alcssl();
-        } else if (city == "3") {
-            allcpn();
-        } else if (city == "4") {
-            amlng();
-        } else if (city == "5") {
-            aprri();
-        } else if (city == "6") {
-            bggo();
-        } else if (city == "7") {
-            bllstrs();
-        } else if (city == "8") {
-            bugy();
-        } else if (city == "9") {
-            clyn();
-        } else if (city == "10") {
-            cmlngn();
-        } else if (city == "11") {
-            clv_ia();
-        } else if (city == "12") {
-            nrle();
-        } else if (city == "13") {
-            gtrrn();
-        } else if (city == "14") {
-            gnzga();
-         } else if (city == "15") {
-            igig();
-        } else if (city == "16") {
-            lalo();
-        } else if (city == "17") {
-            lsam();
-        } else if (city == "18") {
-            pmplona();
-        } else if (city == "19") {
-            pnblnca();
-         } else if (city == "20") {
-            piyat();
-        } else if (city == "21") {
-            rizzal();
-        } else if (city == "22") {
-            snchzmra();
-        } else if (city == "23") {
-            staanaa();
-        } else if (city == "24") {
-            staprax();
-        } else if (city == "25") {
-            statere();
-        } else if (city == "26") {
-            stoninoo();
-        } else if (city == "27") {
-            soln();
-        } else if (city == "28") {
-            twowz();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_cagaynz();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void izabelssss(){
-    std::cout << "\n==================== Isabela (Province) ====================\n";
-    std::cout << "Description: The region's largest province, known as the “Rice \nand Corn Granary of the North,” with a growing agricultural \nand renewable energy industry.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "Ilagan City = 1", "Cauayan City = 2", "Santiago City = 3", "Alicia = 4", "Angadanan = 5", "Aurora = 6", "Benito Solivan = 7", "Burgos = 8",
-        "Cabagan = 9", "Cabatuan = 10", "Cordon = 11", "Delfion Albano = 12", "Dinapigue = 13", "Divilacan = 14", "Echague = 15", 
-        "Gamu = 16", "Jones = 17", "Luna = 18", "Maconacon = 19", "Mallig = 20", "Naguillian = 21", "Palanan = 22",
-        "Quezon = 23", "Quirino = 24", "Ramon = 25", "Reina Mercedes = 26", "Roxas = 27", "San Agustin = 28", "San Guillermo = 29", 
-        "San Isidro = 30", "San Manuel = 31", "San Mariano = 32", "San Mateo = 33", "San Pablo = 34", "SanTa Maria = 35", "Santo Tomas = 36", 
-        "Tumauini = 37"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            ilgnct();
-        } else if (city == "2") {
-            kwynct();
-        } else if (city == "3") {
-            snt_go();
-        } else if (city == "4") {
-            alsya();
-        } else if (city == "5") {
-            angdnn();
-        } else if (city == "6") {
-            aaqes();
-        } else if (city == "7") {
-            bntoslvn();
-        } else if (city == "8") {
-            brgoz();
-        } else if (city == "9") {
-            cbgn();
-        } else if (city == "10") {
-            cbtan();
-        } else if (city == "11") {
-            crdn();
-        } else if (city == "12") {
-            dlfnalbn();
-        } else if (city == "13") {
-            dnapd();
-        } else if (city == "14") {
-            dvlkn();
-         } else if (city == "15") {
-            echags();
-        } else if (city == "16") {
-            gmo();
-        } else if (city == "17") {
-            jns();
-        } else if (city == "18") {
-            lna();
-        } else if (city == "19") {
-            mconcn();
-         } else if (city == "20") {
-            mllg();
-        } else if (city == "21") {
-            nagln();
-        } else if (city == "22") {
-            plnn();
-        } else if (city == "23") {
-            qzone();
-        } else if (city == "24") {
-            grno();
-        } else if (city == "25") {
-            rmon();
-        } else if (city == "26") {
-            reinmer();
-        } else if (city == "27") {
-            roxs();
-        } else if (city == "28") {
-            snagstn();
-        } else if (city == "29") {
-            sngllrm();
-        } else if (city == "30") {
-            snisdr();
-        } else if (city == "31") {
-            snmnel();
-         } else if (city == "32") {
-            snmrno();
-        } else if (city == "33") {
-            snmto();
-        } else if (city == "34") {
-            sanpblo();
-        } else if (city == "35") {
-            stamra();
-        } else if (city == "36") {
-            sto_toms();
-        } else if (city == "37") {
-            tumwni();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_izabels();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void nuvsvizz(){
-    std::cout << "\n==================== Nueva Vizcaya (Province) ====================\n";
-    std::cout << "Description: A landlocked province characterized by its mountainous \nterrain, rich indigenous culture, and eco-tourism attractions \nlike Imugan Falls.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "Alfonso Castañeda = 1", "Ambaguio = 2", "Aritao = 3", "Bagabag = 4", "Bambang = 5", "bayombong = 6", "Diadi = 7", "Dupax del Norte = 8",
-        "Dupax del Sur= 9", "Kasibu = 10", "Kayapa = 11", "Quezon = 12", "Santa Fe = 13", "Solano = 14", "Villaverde = 15"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            alfnscn();
-        } else if (city == "2") {
-            ambgo();
-        } else if (city == "3") {
-            arto();
-        } else if (city == "4") {
-            bgbg();
-        } else if (city == "5") {
-            bang_bang();
-        } else if (city == "6") {
-            bym_bang();
-        } else if (city == "7") {
-            diads();
-        } else if (city == "8") {
-            dpn();
-        } else if (city == "9") {
-            dps();
-        } else if (city == "10") {
-            ksbu();
-        } else if (city == "11") {
-            kyaps();
-        } else if (city == "12") {
-            qzono();
-        } else if (city == "13") {
-            stafet();
-        } else if (city == "14") {
-            solno();
-         } else if (city == "15") {
-            villvrd();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_nuevaaviz();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void quirinose(){
-    std::cout << "\n==================== Quirino (Province) ====================\n";
-    std::cout << "Description: A quiet, landlocked province with rugged terrain, \nscenic caves, rivers, and a developing reputation for \neco-adventures and nature tourism.";
-    std::cout << "\n=============================================================\n";   
-     
-    std::string cities[] = {
-        "Aglipay = 1", "Cabarroguis = 2", "Diffun = 3", "Maddela = 4", "Nagtipunan= 5", "Saguday = 6"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Masbate -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            agpay();
-        } else if (city == "2") {
-            cabs();
-        } else if (city == "3") {
-            diffs();
-        } else if (city == "4") {
-            mads();
-        } else if (city == "5") {
-            nagtips();
-        } else if (city == "6") {
-            sagdy();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_qrnose();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-
-
-// car region ==============================
-void abraa_v2(){
-    std::cout << "\n==================== Abra (Province) ====================\n";
-    std::cout << "Description: Abra, located in the western part of the Cordillera region, \nis a land of rolling hills, deep valleys, and rivers. Known for its rich culture, handwoven \nabel fabric, and historical landmarks, it offers a glimpse of traditional highland life.";
-    std::cout << "\n=============================================================\n";
-
-    std::string cities[] = {
-        "Bangued = 1", "Bucay = 2", "Bucloc = 3", "Daguioman = 4", "Danglas = 5",
-         "Dolores = 6" "La Paz = 7", "Lacub = 8", "Lagangilang = 9", "Lagayan = 10", 
-         "Langiden = 11", "Licuan-Baay  = 12" "Luba = 13" "Malibcong = 14", "Manabo = 15", "Penarrubia = 16", "Pidigan = 17", "Pilar = 18", "Sallapadan  = 19"
-        "San Isidro = 20", "San Juan  = 21" "San Quintin = 22" "Tayum = 23", "Tineg = 24", "Tubo = 25", "Villaviciosa = 26"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Abra -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            bnged();
-        } else if (city == "2") {
-            bucy();
-        } else if (city == "3") {
-            blc();
-        } else if (city == "4") {
-            daguman_();
-        } else if (city == "5") {
-            daglas();
-        } else if (city == "6") {
-            dlors();
-        } else if (city == "7") {
-            l_pz();
-        } else if (city == "8") {
-            lcb();
-        } else if (city == "9") {
-            lagagilg();
-        } else if (city == "10") {
-            lgyan();
-        } else if (city == "11") {
-            lngidn();
-        } else if (city == "12") {
-            licn_by();
-        } else if (city == "13") {
-            lba_();
-        } else if (city == "14") {
-            mlbcong();
-        } else if (city == "15") {
-            mnbo();
-        } else if (city == "16") {
-            pnrruba();
-        } else if (city == "17") {
-            pdgan();
-        } else if (city == "18") {
-            plr();
-        } else if (city == "19") {
-            sllapdan();
-        } else if (city == "20") {
-            sn_isdro();
-        } else if (city == "21") {
-            sn_jn_();
-        } else if (city == "22") {
-            sn_qntin();
-        } else if (city == "23") {
-            tyum();
-        } else if (city == "24") {
-            tneg();
-        } else if (city == "25") {
-            tbo_();
-        } else if (city == "26") {
-            vllvicisa_();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_qrnose();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void apayaoo(){
-    std::cout << "\n==================== Apayao (Province) ====================\n";
-    std::cout << "Description: Apayao, located in the northern part of the Cordillera region, \nis known for its vast forests, scenic rivers, and diverse wildlife. It is home to the \nIsnag people and offers peaceful nature spots, waterfalls, and cultural heritage.";
-    std::cout << "\n=============================================================\n";
-
-    std::string cities[] = {
-        "Calanasan = 1", "Conner = 2", "Flora = 3", "Kabugao (provincial capital) = 4", "Luna = 5", "Pudtol = 6", "Santa Marcela = 7"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Apayao -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            clnsan();
-        } else if (city == "2") {
-            cnr();
-        } else if (city == "3") {
-            flra();
-        } else if (city == "4") {
-            kbgo();
-        } else if (city == "5") {
-            lunaa_();
-        } else if (city == "6") {
-            pudtl();
-        } else if (city == "7") {
-            snt_mrcl();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_qrnose();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-
-void benguett(){
-    std::cout << "\n==================== benguet (Province) ====================\n";
-    std::cout << "Description: Benguet, located in the southern part of the Cordillera region, \nis known for its cool climate, vegetable farms, and scenic mountain views. \nIt is often called the 'Salad Bowl of the Philippines' and surrounds Baguio City.";
-    std::cout << "\n=============================================================\n";
-
-    std::string cities[] = {
-        "Atok = 1", "Bakun = 2", "Bokod = 3", "Buguias = 4", "Itogon = 5", "Kabayan = 6", "Kapangan = 7",
-         "Kibungan = 8", "La Trinidad (provincial capital) = 9", "Mankayan = 10", "Sablan = 11", "Tuba = 12", 
-         "Tublay = 13"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities benguet -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            atok_();
-        } else if (city == "2") {
-            bakun_();
-        } else if (city == "3") {
-            bokod_();
-        } else if (city == "4") {
-            bugis_();
-        } else if (city == "5") {
-            itogo_();
-        } else if (city == "6") {
-            kabayo_();
-        } else if (city == "7") {
-            kpngan_();
-        } else if (city == "8") {
-            kbngan_();
-        } else if (city == "9") {
-            l_trndad();
-        } else if (city == "10") {
-            sbln_();
-        } else if (city == "11") {
-            mnkaya_();
-        } else if (city == "12") {
-            tubaa_();
-        } else if (city == "13") {
-            tbly_();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_qrnose();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void ifugaoo(){
-    std::cout << "\n==================== ifugao (Province) ====================\n";
-    std::cout << "Description: Ifugao, famous for the UNESCO-listed Banaue Rice Terraces, \nis a mountainous province rich in culture and tradition. \nIt is home to the Ifugao people, known for their woodcarving, weaving, and ancient rituals.";
-    std::cout << "\n=============================================================\n";
-
-    std::string cities[] = {
-        "Aguinaldo = 1", "Alfonso Lista (formerly Potia) = 2", "Asipulo = 3", "Banaue = 4", "Hingyon = 5",
-         "Hungduan = 6", "Kiangan = 7", "Lagawe (provincial capital) = 8", "Lamut = 9", "Mayoyao = 10", 
-         "Tinoc = 11"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities ifugao -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            aginaldo_();
-        } else if (city == "2") {
-            alfons_lsta();
-        } else if (city == "3") {
-            aspulo_();
-        } else if (city == "4") {
-            bunue_();
-        } else if (city == "5") {
-            hinyn_();
-        } else if (city == "6") {
-            hungdan_();
-        } else if (city == "7") {
-            kingan_();
-        } else if (city == "8") {
-            lagare_();
-        } else if (city == "9") {
-            lmut_();
-        } else if (city == "10") {
-            myyao_();
-        } else if (city == "11") {
-            tinoc_();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_qrnose();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void kalingaa(){
-    std::cout << "\n==================== Kalinga (Province) ====================\n";
-    std::cout << "Description: Kalinga, located in the northern Cordillera region, \nis known for its fierce warrior heritage, rice terraces, and traditional tattoos. \nIt is home to the famous tattoo artist Apo Whang-Od and rich indigenous culture.";
-    std::cout << "\n=============================================================\n";
-
-    std::string cities[] = {
-        "Tabuk City = 1", "Balbalan = 2", "Lubuagan = 3", "Pasil = 4", "Pinukpuk = 5", 
-        "Rizal = 6", "Tanudan = 7", "Tinglayan = 8"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities Kalinga -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            tbuk_();
-        } else if (city == "2") {
-            balbln_();
-        } else if (city == "3") {
-            lbgan_();
-        } else if (city == "4") {
-            psil_();
-        } else if (city == "5") {
-            pnkpk_();
-        } else if (city == "6") {
-            rizl_();
-        } else if (city == "7") {
-            tnudn_();
-        } else if (city == "8") {
-            tnglyan_();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_qrnose();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-void mountain_provincee(){
-    std::cout << "\n==================== mountain_province (Province) ====================\n";
-    std::cout << "Description: Mountain Province, located at the heart of the Cordillera region, \nis known for its hanging coffins, caves, and scenic mountain landscapes. \nSagada and Bontoc offer a mix of adventure, culture, and highland traditions.";
-    std::cout << "\n=============================================================\n";
-
-    std::string cities[] = {
-       "Barlig = 1", "Bauko = 2", "Besao = 3", "Bontoc (provincial capital) = 4", "Natonin = 5",
-        "Paracelis = 6", "Sabangan = 7", "Sadanga = 8", "Sagada = 9", "Tadian = 10"};
-    int size = sizeof(cities) / sizeof(cities[0]);
-    std::string city;
-    
-    while (true) {
-        std::cout << "\n---------------- Cities/Municipalities mountain_province -------------\n";
-        for (int i = 0; i < size; i++) {
-        std::cout << cities[i] << std::endl;
-        }
-        std::cout << "\n[type]: back - Previous;\n";
-        std::cout << "[type]: more info = for more info about the city;\n";
-        std::cout << "[Select] City: ";
-        std::getline(std::cin >> std::ws, city);
-        
-       if (city == "1") {
-            brlig_();
-        } else if (city == "2") {
-            bako_();
-        } else if (city == "3") {
-            beso_();
-        } else if (city == "4") {
-            bntc_();
-        } else if (city == "5") {
-            ntnin_();
-        } else if (city == "6") {
-            prcls_();
-        } else if (city == "7") {
-            sbngan_();
-        } else if (city == "8") {
-            sdanga_();
-        } else if (city == "9") {
-            sgda_();
-        } else if (city == "10") {
-            tdian();
-        } else if (city == "back" || city == "Back" || city == "BACK") {
-            std::cout << "\n===========================\n";
-            break;
-        } else if (city == "more info"){
-            more_info_qrnose();
-        } else {
-            std::cout << "\n===========================\n";
-            std::cout << "[error] city dont exist";
-            std::cout << "\n===========================\n";
-        }
-        
-    }
-
-}
-
-
 
 
 // REGION 13

@@ -79,7 +79,7 @@ void reg_ii() {
         }
     }    
 }
-
+// Jake
 void reg_iii() {
     std::cout << "\n==================== Region III (CENTRAL LUZON) ====================\n";
     std::cout << "Capital: Baler (Aurora)\n" << "Info: \n\tThe birthplace of surfing in the Philippines and a popular surfing destination.\n\tand Sabang Beach(Popular surfing spot).\n" << "Population: 43,785 as of the 2020 Census, according to PhilAtlas \n" << "Land Area: 92.54 square kilometers (9,254 hectares).\n";
@@ -243,11 +243,12 @@ void reg_v() {
     }
 }
 
+
 // jochil=====================================================================
 void reg_ncr() {
     std::cout << "\n======= NATIONAL CAPITAL REGION (Cities) =======\n";
     std::string cities[] = { "Caloocan = 1","Las Piñas = 2","Makati = 3","Malabon = 4","Mandaluyong = 5","Manila = 6","Marikina = 7","Muntinlupa = 8",
-"Navotas = 9","Parañaque = 10","Pasay = 11","Pasig = 12","Quezon City = 13","San Juan = 14","Taguig = 15","Valenzuela = 16"};
+        "Navotas = 9","Parañaque = 10","Pasay = 11","Pasig = 12","Quezon City = 13","San Juan = 14","Taguig = 15","Valenzuela = 16"};
     int size = sizeof(cities) / sizeof(cities[0]);
     std::string city;
     
@@ -360,13 +361,103 @@ void reg_car() {
         
 }
 
-// Visayas Region ==================================================
+// Visayas Region(RAIZEN) ==================================================
+
 void reg_vi() {
-        
+    std::cout << "\n==================== Region VI (Western Visayas) ====================\n";
+    std::cout << "Capital: Iloilo City (Iloilo)\n"
+              << "Key Info:\n\tKnown for Dinagyang Festival, heritage churches,\n\tand sweet mangoes from Guimaras.\n"
+              << "Population: 7,954,723 (as of 2020 Census)\n"
+              << "Land Area: Approximately 20,794.18 km² (8,028.3 sq mi)\n";
+
+    std::string prov;
+    std::string provinces[] = {
+        "Aklan", "Antique", "Capiz", "Guimaras", "Iloilo", "Negros Occidental"
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+
+    while (true) {
+        std::cout << "\n==================== Western Visayas (Provinces) ====================\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << provinces[i] << std::endl;     
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Province: ";
+        std::getline(std::cin >> std::ws, prov);
+
+        if (prov == "aklan" || prov == "Aklan" || prov == "AKLAN") {
+            aklan();
+        } else if (prov == "antique" || prov == "Antique" || prov == "ANTIQUE") {
+            antique();
+        } else if (prov == "capiz" || prov == "Capiz" || prov == "CAPIZ") {
+            capiz();
+        } else if (prov == "guimaras" || prov == "Guimaras" || prov == "GUIMARAS") {
+            guimaras();
+        } else if (prov == "iloilo" || prov == "Iloilo" || prov == "ILOILO") {
+            iloilo();
+        } else if (prov == "negros occidental" || prov == "Negros Occidental" || prov == "NEGROS OCCIDENTAL") {
+            negros_occidental();
+        } else if (prov == "back" || prov == "Back" || prov == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province doesn't exist";
+            std::cout << "\n===========================\n";
+        }
+    }
+
 }
 void reg_vii() {
-        
+    std::cout << "\n==================== Region VII (Central Visayas) ====================\n";
+    std::cout << "Capital: Cebu City (Cebu)\n"
+              << "Key Info:\n\tFamous for Sinulog Festival, Chocolate Hills (Bohol),\n\tbeautiful beaches, and historical landmarks.\n"
+              << "Population: 8,081,988 (as of 2020 Census)\n"
+              << "Land Area: Approximately 15,875.3 km² (6,129.4 sq mi)\n";
+
+    std::string prov;
+    std::string provinces[] = {
+        "Bohol", "Cebu", "Negros Oriental", "Siquijor"
+    };
+    int size = sizeof(provinces) / sizeof(provinces[0]);
+
+    while (true) {
+        std::cout << "\n==================== Central Visayas (Provinces/Cities) ====================\n";
+        for (int i = 0; i < size; i++) {
+            std::cout << provinces[i] <<        std::endl;
+        }
+
+        std::cout << "\n[type]: back - Previous;\n";
+        std::cout << "[Select] Province or City: ";
+        std::getline(std::cin >> std::ws, prov);
+
+        if (prov == "bohol" || prov == "Bohol" || prov == "BOHOL") {
+            bohol();
+        } else if (prov == "cebu" || prov == "Cebu" || prov == "CEBU") {
+            cebu();
+        } else if (prov == "negros oriental" || prov == "Negros Oriental" || prov == "NEGROS ORIENTAL") {
+            negros_oriental();
+        } else if (prov == "siquijor" || prov == "Siquijor" || prov == "SIQUIJOR") {
+            siquijor();
+        } else if (prov == "back" || prov == "Back" || prov == "BACK") {
+            std::cout << "\n===========================\n";
+            break;
+        } else {
+            std::cout << "\n===========================\n";
+            std::cout << "[error] Province or City doesn't exist";
+            std::cout << "\n===========================\n";     
+        }
+
+    }
+    
 }
+
+
+
+// Visayas Region(RAIZEN) ==================================================
+
+
 //kenjie the great -------------------------------------------------
 void reg_viii() {
     std::cout << "\n==================== Region VIII (Eastern Visayas) ====================\n";

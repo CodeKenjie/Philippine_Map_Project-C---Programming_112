@@ -78,7 +78,7 @@ void visayas_reg() {
     std::cout << "Description: The Visayas is a major island group and cultural region\n in the central Philippines, known for its diverse landscapes,\nvibrant culture, and numerous tourist destinations\n";
     std::string reg;
     std::string regions[] = {
-        "Western Visayas (Region VI)", "Central Visayas (Region VII)", "Eastern Visayas (Region VIII):=========================> [8]"
+        "Western Visayas (Region VI):=========================> [6]", "Central Visayas (Region VII):========================> [7]", "Eastern Visayas (Region VIII):=======================> [8]"
     };
     int size = sizeof(regions) / sizeof(regions[0]);
     
@@ -115,7 +115,7 @@ void mindanao_reg() {
     std::cout << "Description: Mindanao is the second-largest island in the Philippines,\nlocated in the southern part of the archipelago.\n";
     std::string reg;
     std::string regions[] = {
-        "Zamboanga Peninsula (Region IX)", "Northern Mindanao (Region X)", "Davao Region (Region XI):=========================> [11]", "SOCCSKSARGEN (Region XII):=========================> [12]", "Caraga (Region XIII):=========================> [13]", "Bangsamoro Autonomous \nRegion in Muslim Mindanao (BARMM):=========================> [brmm]"
+        "Zamboanga Peninsula (Region IX):===================> [9]", "Northern Mindanao (Region X):======================> [10]", "Davao Region (Region XI):==========================> [11]", "SOCCSKSARGEN (Region XII):=========================> [12]", "Caraga (Region XIII):==============================> [13]", "\nBangsamoro Autonomous \nRegion in Muslim Mindanao (BARMM):=================> [barmm]\n"
     };
     int size = sizeof(regions) / sizeof(regions[0]);
     
