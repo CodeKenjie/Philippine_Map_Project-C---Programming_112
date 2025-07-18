@@ -1,9 +1,0 @@
-======= Matanog (Barangays) =======
-BayangaNorte
-BayangaSur
-BugasanNorte
-BugasanSur
-Kidama
-Langco
-Langkong
-Sapad
