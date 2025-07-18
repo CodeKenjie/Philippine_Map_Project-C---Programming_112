@@ -2,26 +2,11 @@
 #include <string>
 #include <fstream>
 #include "regions.h"
+#include "travel.h"
 
  /* ========== Philippine Map Project  Programming 112 ================== */
- 
-void intro(){
 
-    std::string act;
-    std::cout << "\n==================== Phillipine Map ====================\n";
-    std::cout << "Welcome User this is a Philippine Map Project designed\n to help you navigate through the Philippines and give you\nbasic informations about different places in the Philippines\n" << std::endl;
 
-    while (true) {
-        std::cout << "\tWould you like to continue?[Y/N]: ";
-        std::cin >> act;
-        if (act == "y" || act == "Y") {
-            break;
-        } else if (act == "n" || act == "N"){
-            exit(0);
-        }
-    }
-    
-}
 
 // Luzon ==========================================================
 void luzon_reg() {
@@ -143,7 +128,7 @@ void mindanao_reg() {
         } else if (reg == "back" || reg == "Back" || reg == "BACK") {
             std::cout << "\n===========================\n";
             break;
-        }else {
+        } else {
             std::cout << "\n===========================\n";
             std::cout << "[error] Region not in Mindanao";
             std::cout << "\n===========================\n";
@@ -151,15 +136,14 @@ void mindanao_reg() {
     }
 }
 
-// Main Function ===================================================
-int main() {
-    intro();
-    std::string isl;
+void explore(){
+     std::string isl;
     std::string islands[] = {"\tLuzon", "\tVisayas", "\tMindanao"};
     int size = sizeof(islands) / sizeof(islands[0]);
     
     while (true){
-        std::cout << "\n========== Philippine (Islands) ==========\n";
+        std::cout << "\n==================== Philippine (Islands) ====================\n";
+        std::cout << "Welocome To The Philippines\n";
         for (int i = 0; i < size; i++) {
         std::cout << islands[i] << std::endl;
         }
@@ -183,5 +167,31 @@ int main() {
         }
     }
     
+
+    
+}
+
+// Main Function ===================================================
+int main() {
+    std::string act;
+    while (true) {
+        std::cout << "\n==================== Phillipine Map Project ====================\n";
+        std::cout << "Welcome User this is a Philippine Map Project designed\n to help you navigate through the Philippines and give you\nbasic informations about different places in the Philippines\n" << std::endl;
+        std::cout << "\t[Explore] - to explore the Philippines\n";
+        std::cout << "\t[Travel] - Airport to Airport Travel\n";
+        std::cout << "\t[Exit] - to Exit\n" << std::endl;
+        std::cout << "\tWhat wouild you like to do?: ";
+        std::cin >> act;
+        if (act == "explore" || act == "Explore" || act == "EXPLORE") {
+            explore();
+        } else if (act == "travel" || act == "Travel" || act == "TRAVEL"){
+            travel();
+        } else if (act == "exit" || act == "Exit" || act == "EXIT") {
+            exit(0);
+        } else {
+            std::cout << "[Error]";
+        }
+    }
+
     return 0;
 }
