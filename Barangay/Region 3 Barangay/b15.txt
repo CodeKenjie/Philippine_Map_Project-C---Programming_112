@@ -1,0 +1,90 @@
+======= Cabanatuan (Barangays) =======
+Aduas Centro
+Aduas Norte
+Aduas Sur
+Bagong Sikat
+Bagong Buhay
+Bakero
+Bakod Bayan
+Balite
+Bangad
+Bantug Bulalo
+Bantug Norte
+Barlis
+Barrera District (Poblacion)
+Bernardo District (Poblacion)
+Bitas
+Bonifacio District (Poblacion)
+Buliran
+Cabu
+Caudillo
+Calawagan (Kalawagan)
+Caalibangbangan
+Camp Tinio (Campo Tinio)
+Caridad Village
+Cinco-Cinco
+City Supermarket/Bayan (Poblacion)
+Communal
+Cruz Roja
+Daan Sarile
+Dalampang
+Dicarma (Poblacion)
+Dimasalang (Poblacion)
+Dionisio S. Garcia (D.S. Garcia)
+Fatima (Poblacion)
+General Luna (Poblacion)
+Hermogenes C. Concepcion Sr. (H. Concepcion)
+Ibabao-Bana
+Imelda District
+Isla (Poblacion)
+Kalikid Norte
+Kalikid Sur
+Kapitan Pepe Subdivision (Poblacion)
+Lagare
+Lourdes (Matungal-Tungal)
+M.S. Garcia
+Mabini Extension
+Mabini Homesite
+Macatbong
+Magsaysay District
+Magsaysay South
+Maria Theresa
+Matadero (Poblacion)
+Mayapyap Norte
+Mayapyap Sur
+Melojavilla (Poblacion)
+Nabao (Poblacion)
+Obrero
+Padre Burgos (Poblacion)
+Padre Crisostomo
+Pagas
+Palagay
+Pamaldan
+Pangatian
+Patalac
+Polilio
+Pula
+Quezon District (Poblacion)
+Rizdelis (Poblacion)
+Samon
+San Isidro
+San Josef Norte
+San Josef Sur
+San Juan Accfa (San Juan Poblacion)
+San Roque Norte
+San Roque Sur
+Sanbermicristi (Poblacion)
+Sangitan
+Sangitan East
+Santa Arcadia
+Santo Niño
+Sapang
+Sumacab Este
+Sumacab Norte
+Sumacab South
+Talipapa
+Valdefuente
+Valle Cruz
+Vijandre District (Poblacion)
+Villa Ofelia Subdivision (Villa Ofelia-Caridad)
+Zuleta District (Poblacion)
