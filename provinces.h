@@ -2563,7 +2563,8 @@ void mountain_provincee(){
 
 void aklan() {
     std::cout << "\n==================== Aklan (Province) ====================\n";
-
+    std::cout << "Description: Home to the world-famous Boracay Island, Aklan \nblends natural beauty with vibrant festivals like \nAti-Atihan.";
+    std::cout << "\n=============================================================\n";   
     std::string cities[] = {
         "Altavas = 1", "Balete = 2", "Banga = 3", "Batan = 4", "Buruanga = 5", 
         "Ibajay = 6", "Kalibo (Capital) = 7", "Lezo = 8", "Libacao = 9", "Madalag = 10"
@@ -2619,7 +2620,8 @@ void aklan() {
 
 void antique() {
     std::cout << "\n==================== Antique (Province) ====================\n";
-
+    std::cout << "Description: Known for its mountains, beaches, and hot springs, \nAntique offers raw eco-adventures and heritage sites.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Anini-y = 1", "Barbaza = 2", "Belison = 3", "Bugasong = 4", "Caluya = 5",
         "Culasi = 6", "Hamtic = 7", "Laua-an = 8", "Libertad = 9", "Pandan = 10",
@@ -2692,7 +2694,8 @@ void antique() {
 
 void capiz() {
     std::cout << "\n==================== Capiz (Province) ====================\n";
-
+    std::cout << "Description: Dubbed the \"Seafood Capital of the Philippines,\" \nCapiz boasts rich marine life, culture, and Spanish-era landmarks.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Cuartero = 1", "Dao = 2", "Dumalag = 3", "Dumarao = 4", "Ivisan = 5",
         "Jamindan = 6", "Maayon = 7", "Mambusao = 8", "Panay = 9", "Panitan = 10",
@@ -2761,7 +2764,8 @@ void capiz() {
 
 void guimaras() {
     std::cout << "\n==================== Guimaras (Province) ====================\n";
-
+    std::cout << "Description: A serene island province famous for producing the \nsweetest mangoes and unspoiled white-sand beaches.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Buenavista = 1", "Jordan (Capital) = 2", "Nueva Valencia = 3", 
         "San Lorenzo = 4", "Sibunag = 5"
@@ -2805,8 +2809,9 @@ void guimaras() {
 }
 
 void iloilo() {
-    std::cout << "\n====================     (Province) ====================\n";
-
+    std::cout << "\n==================== Ilo-ilo (Province) ====================\n";
+    std::cout << "Description: A dynamic mix of heritage architecture, cuisine, \nand festivals, Iloilo is a cultural and economic hub in Western Visayas.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Passi City = 1", "Ajuy = 2", "Alimodian = 3", "Anilao = 4", "Badiangan = 5", 
         "Banate = 6", "Barotac Nuevo = 7", "Barotac Viejo = 8", "Cabatuan = 9", "Calinog = 10", 
@@ -2886,7 +2891,8 @@ void iloilo() {
 
 void negros_occidental() {
     std::cout << "\n==================== Negros Occidental (Province) ====================\n";
-
+    std::cout << "Description: Known for its sugar plantations, ancestral houses, \nand the vibrant MassKara Festival of Bacolod City.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Bacolod City (Capital) = 1", "Bago City = 2", "Cadiz City = 3", "Escalante City = 4", "Himamaylan City = 5",
         "Kabankalan City = 6", "La Carlota City = 7", "Sagay City = 8", "San Carlos City = 9", "Silay City = 10",
@@ -2994,7 +3000,8 @@ void negros_occidental() {
 
 void bohol() {
     std::cout << "\n==================== Bohol (Province) ====================\n";
-
+    std::cout << "Description: A top tourist destination known for the Chocolate \nHills, tarsiers, centuries-old churches, and pristine beaches.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Tagbilaran City = 1", "Alburquerque = 2", "Alicia = 3", "Anda = 4", "Antequera = 5",
         "Baclayon = 6", "Balilihan = 7", "Batuan = 8", "Bilar = 9", "Buenavista = 10",
@@ -3074,7 +3081,8 @@ void bohol() {
 
 void cebu() {
     std::cout << "\n==================== Cebu (Province) ====================\n";
-
+    std::cout << "Description: A major economic and cultural center, Cebu \ncombines history, urban life, and stunning island destinations.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Bogo City = 1", "Carcar City = 2", "Danao City = 3", 
         "Naga City = 4", "Talisay City = 5", "Toledo City = 6",
@@ -3163,7 +3171,8 @@ void cebu() {
 }
 void negros_oriental() {
     std::cout << "\n==================== Negros Oriental (Province) ====================\n";
-
+    std::cout << "Description: Famous for marine sanctuaries, waterfalls, and diving \nspots, this province also hosts the city of Dumaguete.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Bais City = 1", "Bayawan City = 2", "Canlaon City = 3", "Dumaguete City (Capital) = 4", "Guihulngan City = 5",
         "Tanjay City = 6", "Amlan = 7", "Ayungon = 8", "Bacong = 9", "Basay = 10",
@@ -3244,7 +3253,8 @@ void negros_oriental() {
 }
 void siquijor() {
     std::cout << "\n==================== Siquijor (Province) ====================\n";
-
+    std::cout << "Description: A mystical island known for its healing traditions, \nwhite beaches, waterfalls, and laid-back charm.";
+    std::cout << "\n=============================================================\n";
     std::string cities[] = {
         "Enrique Villanueva = 1", "Larena = 2", "Lazi = 3", 
         "Maria = 4", "San Juan = 5", "Siquijor (Capital) = 6"
