@@ -28,7 +28,7 @@ void travel() {
     std::cout << "CGY == Laguindingan Int'l Airport\n" << std::endl;
 
     while (true) {
-        std::cout << "\n[Type] Back - to go to Home page\n"
+        std::cout << "\n[Type] Back - to go to Home page\n";
         std::cout << "[From]: ";
         std::getline(std::cin >> std::ws, frm);
         std::cout << "[To]: ";
