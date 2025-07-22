@@ -867,7 +867,7 @@ void etivc(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b24.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b1.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -903,7 +903,7 @@ void baccr(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b25.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b2.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -939,7 +939,7 @@ void dasmrns(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b26.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b3.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -975,7 +975,7 @@ void ims(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b27.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b4.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1011,7 +1011,7 @@ void gntrs(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b28.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b5.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1047,7 +1047,7 @@ void trcmrtrs(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b29.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b6.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1083,7 +1083,7 @@ void tagty(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b30.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b7.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1119,7 +1119,7 @@ void tnza(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b31.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b8.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1157,7 +1157,7 @@ void calmba(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b32.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b9.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1193,7 +1193,7 @@ void bnan(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b33.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b10.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1229,7 +1229,7 @@ void strsa(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b34.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b11.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1265,7 +1265,7 @@ void cbyao(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b35.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b12.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1301,7 +1301,7 @@ void snpdro(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b36.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b13.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1337,7 +1337,7 @@ void sanpblo(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b37.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b14.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1375,7 +1375,7 @@ void batngsu(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b38.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b15.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1411,7 +1411,7 @@ void lipa(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b39.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b16.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1447,7 +1447,7 @@ void tuan(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b40.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b17.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1483,7 +1483,7 @@ void sntmas(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b41.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b18.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1521,7 +1521,7 @@ void antplo(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b42.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b19.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1557,7 +1557,7 @@ void mrong(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b43.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b20.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1593,7 +1593,7 @@ void sanmteo(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b44.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b21.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1629,7 +1629,7 @@ void jlajla(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b45.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b22.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1665,7 +1665,7 @@ void bars(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b46.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b23.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1701,7 +1701,7 @@ void cardna(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b47.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b24.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1738,7 +1738,7 @@ void markna(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b48.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b25.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1774,7 +1774,7 @@ void rizal(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b48.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b26.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1810,7 +1810,7 @@ void bingnan(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b49.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b27.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1846,7 +1846,7 @@ void ango(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b50.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b28.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1882,7 +1882,7 @@ void rodquez(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b51.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b29.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1918,7 +1918,7 @@ void tersa(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b52.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b30.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1954,7 +1954,7 @@ void pasg(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b53.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b31.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -1990,7 +1990,7 @@ void cinta(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b54.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b32.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2026,7 +2026,7 @@ void tytay(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b55.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b33.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2062,7 +2062,7 @@ void tany(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b56.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b34.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2098,7 +2098,7 @@ void pilla(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b57.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b35.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2135,7 +2135,7 @@ void burds(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b59.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b36.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2171,7 +2171,7 @@ void genralnakr(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b60.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b37.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2207,7 +2207,7 @@ void infta(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b61.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b38.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2243,7 +2243,7 @@ void jomlig(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b62.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b39.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2279,7 +2279,7 @@ void lucbn(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b63.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b40.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2315,7 +2315,7 @@ void mban(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b64.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b41.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2351,7 +2351,7 @@ void pagblo(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b65.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b42.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2387,7 +2387,7 @@ void pankln(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b66.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\43.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2423,7 +2423,7 @@ void patngan(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b67.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b44.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2459,7 +2459,7 @@ void polio(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b68.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b45.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2495,7 +2495,7 @@ void smpalc(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b69.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b46.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2531,7 +2531,7 @@ void tybs(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b70.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b47.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2567,7 +2567,7 @@ void candlra(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b71.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b48.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2603,7 +2603,7 @@ void dlres(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b72.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b49.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2639,7 +2639,7 @@ void lcna(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b73.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b50.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2675,7 +2675,7 @@ void snantno(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b74.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b51.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2711,7 +2711,7 @@ void srya(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b75.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b52.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2747,7 +2747,7 @@ void taong(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b76.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b53.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2783,7 +2783,7 @@ void agdnan(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b77.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b54.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2819,7 +2819,7 @@ void buenvsta(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b78.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b55.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2855,7 +2855,7 @@ void cantnuan(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b79.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b56.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2891,7 +2891,7 @@ void genlna(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b80.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b57.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
@@ -2927,7 +2927,7 @@ void maclon(){
         
         if (act == "barangays") {
             std::fstream Barangay;
-            Barangay.open("Barangay\\Region 4a Barangay\\b81.txt", std::ios::in);
+            Barangay.open("Barangay\\Region 4a Barangay\\b58.txt", std::ios::in);
 
             if (Barangay.is_open()){
             std::string line;
